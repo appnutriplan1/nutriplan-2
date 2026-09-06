@@ -1,0 +1,787 @@
+{
+  "modulo": "rutinas-ejercicio",
+  "bloque": "plantillas-split",
+  "version": "1.0-borrador",
+  "propuestoPor": "Claude (borrador para revision de Joel)",
+  "fecha": "2026-08-30",
+  "splitsDefinidos": [
+    "Weider",
+    "Torso-pierna",
+    "Cuerpo completo"
+  ],
+  "gatePorNivel": {
+    "PRINCIPIANTE": [
+      "cuerpo_completo"
+    ],
+    "MEDIO": [
+      "cuerpo_completo",
+      "torso_pierna"
+    ],
+    "AVANZADO": [
+      "torso_pierna",
+      "weider"
+    ]
+  },
+  "reglasEnsamblaje": [
+    "Cada slot se llena consultando la biblioteca: zona(s) del slot + equipo del usuario (con herencia) + nivel_minimo <= nivel del usuario.",
+    "La DOSIS (series/reps/descanso) se aplica desde la Matriz de dosis segun el nivel, no desde el slot.",
+    "Rotacion: en estructuras repetidas o dias A/B, elegir ejercicios DISTINTOS para no repetir; 'Regenerar' rota sin repetir de inmediato.",
+    "Enfasis (Weider): si el usuario elige un musculo, se agrega 1 slot de esa zona en su dia; nunca se omiten otros grupos.",
+    "Si un slot no tiene ejercicio disponible para el equipo elegido, se sustituye por un compuesto de la misma zona o se informa; NO se rellena con algo incoherente.",
+    "Gate por nivel: PRINCIPIANTE solo ve Cuerpo completo; Torso-pierna desde MEDIO; Weider solo AVANZADO."
+  ],
+  "plantillas": [
+    {
+      "split": "cuerpo_completo",
+      "split_nombre": "Cuerpo completo",
+      "nivel": "PRINCIPIANTE",
+      "dias_semana": 3,
+      "estructura_repetida": true,
+      "dias": [
+        {
+          "nombre": "Sesion full body (x3, rotar ejercicios)",
+          "slots": [
+            {
+              "objetivo": "Cuadriceps",
+              "zonas": [
+                "Cuadriceps"
+              ],
+              "patron": "dominante_rodilla"
+            },
+            {
+              "objetivo": "Femoral/Gluteo",
+              "zonas": [
+                "Femoral",
+                "Gluteos"
+              ],
+              "patron": "dominante_cadera"
+            },
+            {
+              "objetivo": "Pecho",
+              "zonas": [
+                "Pecho"
+              ],
+              "patron": "empuje_horizontal"
+            },
+            {
+              "objetivo": "Espalda",
+              "zonas": [
+                "Espalda"
+              ],
+              "patron": null
+            },
+            {
+              "objetivo": "Hombros",
+              "zonas": [
+                "Hombros"
+              ],
+              "patron": "empuje_vertical"
+            },
+            {
+              "objetivo": "Core",
+              "zonas": [
+                "Core"
+              ],
+              "patron": null
+            }
+          ]
+        }
+      ],
+      "nota": "Cada musculo 3 veces/semana. Rotar los ejercicios entre las 3 sesiones para variar."
+    },
+    {
+      "split": "cuerpo_completo",
+      "split_nombre": "Cuerpo completo",
+      "nivel": "MEDIO",
+      "dias_semana": 3,
+      "estructura_repetida": true,
+      "dias": [
+        {
+          "nombre": "Sesion full body (x3, rotar ejercicios)",
+          "slots": [
+            {
+              "objetivo": "Cuadriceps",
+              "zonas": [
+                "Cuadriceps"
+              ],
+              "patron": "dominante_rodilla"
+            },
+            {
+              "objetivo": "Femoral/Gluteo",
+              "zonas": [
+                "Femoral",
+                "Gluteos"
+              ],
+              "patron": "dominante_cadera"
+            },
+            {
+              "objetivo": "Pecho",
+              "zonas": [
+                "Pecho"
+              ],
+              "patron": "empuje_horizontal"
+            },
+            {
+              "objetivo": "Espalda",
+              "zonas": [
+                "Espalda"
+              ],
+              "patron": null
+            },
+            {
+              "objetivo": "Hombros",
+              "zonas": [
+                "Hombros"
+              ],
+              "patron": "empuje_vertical"
+            },
+            {
+              "objetivo": "Core",
+              "zonas": [
+                "Core"
+              ],
+              "patron": null
+            },
+            {
+              "objetivo": "Brazos (alternar biceps/triceps por dia)",
+              "zonas": [
+                "Biceps",
+                "Triceps"
+              ],
+              "patron": "aislamiento"
+            }
+          ]
+        }
+      ],
+      "nota": "Alternar biceps/triceps entre sesiones. Progresion de carga semanal."
+    },
+    {
+      "split": "torso_pierna",
+      "split_nombre": "Torso-pierna",
+      "nivel": "MEDIO",
+      "dias_semana": 4,
+      "estructura_repetida": false,
+      "dias": [
+        {
+          "nombre": "Torso A",
+          "slots": [
+            {
+              "objetivo": "Pecho",
+              "zonas": [
+                "Pecho"
+              ],
+              "patron": "empuje_horizontal"
+            },
+            {
+              "objetivo": "Espalda (horizontal)",
+              "zonas": [
+                "Espalda"
+              ],
+              "patron": "traccion_horizontal"
+            },
+            {
+              "objetivo": "Hombros",
+              "zonas": [
+                "Hombros"
+              ],
+              "patron": "empuje_vertical"
+            },
+            {
+              "objetivo": "Espalda (vertical)",
+              "zonas": [
+                "Espalda"
+              ],
+              "patron": "traccion_vertical"
+            },
+            {
+              "objetivo": "Biceps",
+              "zonas": [
+                "Biceps"
+              ],
+              "patron": "aislamiento"
+            },
+            {
+              "objetivo": "Triceps",
+              "zonas": [
+                "Triceps"
+              ],
+              "patron": "aislamiento"
+            }
+          ]
+        },
+        {
+          "nombre": "Pierna A",
+          "slots": [
+            {
+              "objetivo": "Cuadriceps",
+              "zonas": [
+                "Cuadriceps"
+              ],
+              "patron": "dominante_rodilla"
+            },
+            {
+              "objetivo": "Femoral",
+              "zonas": [
+                "Femoral"
+              ],
+              "patron": "dominante_cadera"
+            },
+            {
+              "objetivo": "Gluteos",
+              "zonas": [
+                "Gluteos"
+              ],
+              "patron": null
+            },
+            {
+              "objetivo": "Core",
+              "zonas": [
+                "Core"
+              ],
+              "patron": null
+            },
+            {
+              "objetivo": "Pantorrilla",
+              "zonas": [
+                "Pantorrilla"
+              ],
+              "patron": null
+            }
+          ]
+        },
+        {
+          "nombre": "Torso B (variar ejercicios)",
+          "slots": [
+            {
+              "objetivo": "Pecho",
+              "zonas": [
+                "Pecho"
+              ],
+              "patron": "empuje_horizontal"
+            },
+            {
+              "objetivo": "Espalda (horizontal)",
+              "zonas": [
+                "Espalda"
+              ],
+              "patron": "traccion_horizontal"
+            },
+            {
+              "objetivo": "Hombros",
+              "zonas": [
+                "Hombros"
+              ],
+              "patron": "empuje_vertical"
+            },
+            {
+              "objetivo": "Espalda (vertical)",
+              "zonas": [
+                "Espalda"
+              ],
+              "patron": "traccion_vertical"
+            },
+            {
+              "objetivo": "Biceps",
+              "zonas": [
+                "Biceps"
+              ],
+              "patron": "aislamiento"
+            },
+            {
+              "objetivo": "Triceps",
+              "zonas": [
+                "Triceps"
+              ],
+              "patron": "aislamiento"
+            }
+          ]
+        },
+        {
+          "nombre": "Pierna B (variar ejercicios)",
+          "slots": [
+            {
+              "objetivo": "Cuadriceps",
+              "zonas": [
+                "Cuadriceps"
+              ],
+              "patron": "dominante_rodilla"
+            },
+            {
+              "objetivo": "Femoral",
+              "zonas": [
+                "Femoral"
+              ],
+              "patron": "dominante_cadera"
+            },
+            {
+              "objetivo": "Gluteos",
+              "zonas": [
+                "Gluteos"
+              ],
+              "patron": null
+            },
+            {
+              "objetivo": "Core",
+              "zonas": [
+                "Core"
+              ],
+              "patron": null
+            },
+            {
+              "objetivo": "Pantorrilla",
+              "zonas": [
+                "Pantorrilla"
+              ],
+              "patron": null
+            }
+          ]
+        }
+      ],
+      "nota": "Torso y pierna 2 veces/semana cada uno. B usa variantes distintas de A."
+    },
+    {
+      "split": "torso_pierna",
+      "split_nombre": "Torso-pierna",
+      "nivel": "AVANZADO",
+      "dias_semana": 4,
+      "estructura_repetida": false,
+      "dias": [
+        {
+          "nombre": "Torso A",
+          "slots": [
+            {
+              "objetivo": "Pecho",
+              "zonas": [
+                "Pecho"
+              ],
+              "patron": "empuje_horizontal"
+            },
+            {
+              "objetivo": "Pecho (2do)",
+              "zonas": [
+                "Pecho"
+              ],
+              "patron": null
+            },
+            {
+              "objetivo": "Espalda (vertical)",
+              "zonas": [
+                "Espalda"
+              ],
+              "patron": "traccion_vertical"
+            },
+            {
+              "objetivo": "Espalda (horizontal)",
+              "zonas": [
+                "Espalda"
+              ],
+              "patron": "traccion_horizontal"
+            },
+            {
+              "objetivo": "Hombros",
+              "zonas": [
+                "Hombros"
+              ],
+              "patron": "empuje_vertical"
+            },
+            {
+              "objetivo": "Biceps",
+              "zonas": [
+                "Biceps"
+              ],
+              "patron": "aislamiento"
+            },
+            {
+              "objetivo": "Triceps",
+              "zonas": [
+                "Triceps"
+              ],
+              "patron": "aislamiento"
+            }
+          ]
+        },
+        {
+          "nombre": "Pierna A",
+          "slots": [
+            {
+              "objetivo": "Cuadriceps",
+              "zonas": [
+                "Cuadriceps"
+              ],
+              "patron": "dominante_rodilla"
+            },
+            {
+              "objetivo": "Cuadriceps (2do)",
+              "zonas": [
+                "Cuadriceps"
+              ],
+              "patron": "dominante_rodilla"
+            },
+            {
+              "objetivo": "Femoral",
+              "zonas": [
+                "Femoral"
+              ],
+              "patron": "dominante_cadera"
+            },
+            {
+              "objetivo": "Gluteos",
+              "zonas": [
+                "Gluteos"
+              ],
+              "patron": null
+            },
+            {
+              "objetivo": "Pantorrilla",
+              "zonas": [
+                "Pantorrilla"
+              ],
+              "patron": null
+            },
+            {
+              "objetivo": "Core",
+              "zonas": [
+                "Core"
+              ],
+              "patron": null
+            }
+          ]
+        },
+        {
+          "nombre": "Torso B (variar ejercicios)",
+          "slots": [
+            {
+              "objetivo": "Pecho",
+              "zonas": [
+                "Pecho"
+              ],
+              "patron": "empuje_horizontal"
+            },
+            {
+              "objetivo": "Pecho (2do)",
+              "zonas": [
+                "Pecho"
+              ],
+              "patron": null
+            },
+            {
+              "objetivo": "Espalda (vertical)",
+              "zonas": [
+                "Espalda"
+              ],
+              "patron": "traccion_vertical"
+            },
+            {
+              "objetivo": "Espalda (horizontal)",
+              "zonas": [
+                "Espalda"
+              ],
+              "patron": "traccion_horizontal"
+            },
+            {
+              "objetivo": "Hombros",
+              "zonas": [
+                "Hombros"
+              ],
+              "patron": "empuje_vertical"
+            },
+            {
+              "objetivo": "Biceps",
+              "zonas": [
+                "Biceps"
+              ],
+              "patron": "aislamiento"
+            },
+            {
+              "objetivo": "Triceps",
+              "zonas": [
+                "Triceps"
+              ],
+              "patron": "aislamiento"
+            }
+          ]
+        },
+        {
+          "nombre": "Pierna B (variar ejercicios)",
+          "slots": [
+            {
+              "objetivo": "Cuadriceps",
+              "zonas": [
+                "Cuadriceps"
+              ],
+              "patron": "dominante_rodilla"
+            },
+            {
+              "objetivo": "Cuadriceps (2do)",
+              "zonas": [
+                "Cuadriceps"
+              ],
+              "patron": "dominante_rodilla"
+            },
+            {
+              "objetivo": "Femoral",
+              "zonas": [
+                "Femoral"
+              ],
+              "patron": "dominante_cadera"
+            },
+            {
+              "objetivo": "Gluteos",
+              "zonas": [
+                "Gluteos"
+              ],
+              "patron": null
+            },
+            {
+              "objetivo": "Pantorrilla",
+              "zonas": [
+                "Pantorrilla"
+              ],
+              "patron": null
+            },
+            {
+              "objetivo": "Core",
+              "zonas": [
+                "Core"
+              ],
+              "patron": null
+            }
+          ]
+        }
+      ],
+      "nota": "Mayor volumen (~10 series/musculo/semana). B con variantes."
+    },
+    {
+      "split": "weider",
+      "split_nombre": "Weider",
+      "nivel": "AVANZADO",
+      "dias_semana": 5,
+      "estructura_repetida": false,
+      "dias": [
+        {
+          "nombre": "Dia 1 - Pecho",
+          "slots": [
+            {
+              "objetivo": "Pecho",
+              "zonas": [
+                "Pecho"
+              ],
+              "patron": "empuje_horizontal"
+            },
+            {
+              "objetivo": "Pecho inclinado/variante",
+              "zonas": [
+                "Pecho"
+              ],
+              "patron": null
+            },
+            {
+              "objetivo": "Pecho aislamiento",
+              "zonas": [
+                "Pecho"
+              ],
+              "patron": "aislamiento"
+            },
+            {
+              "objetivo": "Triceps (sinergista)",
+              "zonas": [
+                "Triceps"
+              ],
+              "patron": "aislamiento"
+            }
+          ]
+        },
+        {
+          "nombre": "Dia 2 - Espalda",
+          "slots": [
+            {
+              "objetivo": "Espalda (vertical)",
+              "zonas": [
+                "Espalda"
+              ],
+              "patron": "traccion_vertical"
+            },
+            {
+              "objetivo": "Espalda (horizontal)",
+              "zonas": [
+                "Espalda"
+              ],
+              "patron": "traccion_horizontal"
+            },
+            {
+              "objetivo": "Espalda (2da vertical)",
+              "zonas": [
+                "Espalda"
+              ],
+              "patron": "traccion_vertical"
+            },
+            {
+              "objetivo": "Biceps (sinergista)",
+              "zonas": [
+                "Biceps"
+              ],
+              "patron": "aislamiento"
+            }
+          ]
+        },
+        {
+          "nombre": "Dia 3 - Pierna",
+          "slots": [
+            {
+              "objetivo": "Cuadriceps",
+              "zonas": [
+                "Cuadriceps"
+              ],
+              "patron": "dominante_rodilla"
+            },
+            {
+              "objetivo": "Cuadriceps (2do)",
+              "zonas": [
+                "Cuadriceps"
+              ],
+              "patron": "dominante_rodilla"
+            },
+            {
+              "objetivo": "Femoral",
+              "zonas": [
+                "Femoral"
+              ],
+              "patron": "dominante_cadera"
+            },
+            {
+              "objetivo": "Gluteos",
+              "zonas": [
+                "Gluteos"
+              ],
+              "patron": null
+            },
+            {
+              "objetivo": "Pantorrilla",
+              "zonas": [
+                "Pantorrilla"
+              ],
+              "patron": null
+            }
+          ]
+        },
+        {
+          "nombre": "Dia 4 - Hombros",
+          "slots": [
+            {
+              "objetivo": "Hombros (press)",
+              "zonas": [
+                "Hombros"
+              ],
+              "patron": "empuje_vertical"
+            },
+            {
+              "objetivo": "Hombros (lateral)",
+              "zonas": [
+                "Hombros"
+              ],
+              "patron": "aislamiento"
+            },
+            {
+              "objetivo": "Hombros (posterior/lateral)",
+              "zonas": [
+                "Hombros"
+              ],
+              "patron": "aislamiento"
+            },
+            {
+              "objetivo": "Core",
+              "zonas": [
+                "Core"
+              ],
+              "patron": null
+            }
+          ]
+        },
+        {
+          "nombre": "Dia 5 - Brazos",
+          "slots": [
+            {
+              "objetivo": "Biceps",
+              "zonas": [
+                "Biceps"
+              ],
+              "patron": "aislamiento"
+            },
+            {
+              "objetivo": "Biceps (2do)",
+              "zonas": [
+                "Biceps"
+              ],
+              "patron": "aislamiento"
+            },
+            {
+              "objetivo": "Triceps",
+              "zonas": [
+                "Triceps"
+              ],
+              "patron": "aislamiento"
+            },
+            {
+              "objetivo": "Triceps (2do)",
+              "zonas": [
+                "Triceps"
+              ],
+              "patron": "aislamiento"
+            },
+            {
+              "objetivo": "Core",
+              "zonas": [
+                "Core"
+              ],
+              "patron": null
+            }
+          ]
+        }
+      ],
+      "nota": "Solo AVANZADO. La pierna incluye cuadriceps+femoral+gluteo (balanceada). El enfasis del usuario suma 1 ejercicio en su dia, no quita de los demas. Recomendado con equipo gimnasio o mancuernas."
+    }
+  ],
+  "demandaLote2": [
+    {
+      "split": "Cuerpo completo",
+      "nivel": "PRINCIPIANTE",
+      "equipo": "peso_corporal",
+      "dia": "Sesion full body (x3, rotar ejercicios)",
+      "slot": "Hombros",
+      "zonas": "Hombros"
+    },
+    {
+      "split": "Torso-pierna",
+      "nivel": "MEDIO",
+      "equipo": "peso_corporal",
+      "dia": "Pierna A",
+      "slot": "Femoral",
+      "zonas": "Femoral"
+    },
+    {
+      "split": "Torso-pierna",
+      "nivel": "MEDIO",
+      "equipo": "peso_corporal",
+      "dia": "Pierna B (variar ejercicios)",
+      "slot": "Femoral",
+      "zonas": "Femoral"
+    },
+    {
+      "split": "Torso-pierna",
+      "nivel": "MEDIO",
+      "equipo": "bandas",
+      "dia": "Pierna A",
+      "slot": "Femoral",
+      "zonas": "Femoral"
+    },
+    {
+      "split": "Torso-pierna",
+      "nivel": "MEDIO",
+      "equipo": "bandas",
+      "dia": "Pierna B (variar ejercicios)",
+      "slot": "Femoral",
+      "zonas": "Femoral"
+    }
+  ],
+  "dependeDe": "datos/biblioteca-editorial/rutinas_lote1_ejercicios.json"
+}

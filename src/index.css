@@ -1,0 +1,128 @@
+@import 'tailwindcss';
+
+@import '@fontsource-variable/manrope';
+
+@theme {
+  /* Colores — paleta de marca (Moodboard/NutriCook-DesignLibrary.html) */
+  --color-crema: #F3ECE1;
+  --color-papel: #EADFC9;
+  --color-tinta: #1E3547;
+  --color-verde: #5D91B5;
+  --color-sage: #8FAFC1;
+  --color-coral: #D95C06;
+  --color-mandarina: #D7A536;
+  --color-linea: #D8CFC2;
+  --color-muted: #66747D;
+
+  /* Tipografía */
+  --font-display: 'Manrope Variable', 'Avenir Next', Avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-reading: 'Manrope Variable', 'Avenir Next', Avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-sans: 'Manrope Variable', 'Avenir Next', Avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Radios */
+  --radius-card: 20px;
+  --radius-card-sm: 16px;
+  --radius-control: 12px;
+  --radius-pill: 999px;
+
+  /* Sombra suave tintada de verde */
+  --shadow-soft: 0 10px 28px rgba(30, 53, 71, 0.07);
+  --shadow-soft-lg: 0 18px 48px rgba(30, 53, 71, 0.12);
+  /* Sombra 3D marcada para portadas de plan (héroe) */
+  --shadow-cover: 0 28px 56px -12px rgba(30, 53, 71, 0.24), 0 8px 20px rgba(30, 53, 71, 0.10);
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    overscroll-behavior: none;
+    touch-action: pan-x pan-y;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--color-crema);
+    color: var(--color-tinta);
+    font-family: var(--font-sans);
+    line-height: 1.55;
+  }
+
+  #root {
+    min-height: 100svh;
+  }
+}
+
+@utility kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 10px;
+  font-weight: 800;
+  color: var(--color-sage);
+}
+
+@utility skeleton {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-linea);
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    transform: translateX(-100%);
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.65), transparent);
+    animation: shimmer 1.6s ease-in-out infinite;
+  }
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@utility scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 16mm;
+  }
+
+  body {
+    background: white;
+  }
+
+  body * {
+    visibility: hidden;
+  }
+
+  .print-report,
+  .print-report * {
+    visibility: visible;
+  }
+
+  .print-report {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    color: #1a1a17;
+  }
+
+  .print-report .bg-verde {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}
+// rebuilt at Sun Aug  2 16:59:42 HPS 2026

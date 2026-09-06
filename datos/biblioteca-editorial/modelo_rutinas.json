@@ -1,0 +1,296 @@
+{
+  "musculos": [
+    {
+      "id": "Pecho",
+      "label": "Pecho",
+      "tamano": "grande",
+      "tren": "superior"
+    },
+    {
+      "id": "Espalda",
+      "label": "Espalda",
+      "tamano": "grande",
+      "tren": "superior"
+    },
+    {
+      "id": "Trapecios",
+      "label": "Trapecios",
+      "tamano": "medio",
+      "tren": "superior"
+    },
+    {
+      "id": "Hombros",
+      "label": "Hombros",
+      "tamano": "medio",
+      "tren": "superior"
+    },
+    {
+      "id": "Biceps",
+      "label": "Bíceps",
+      "tamano": "chico",
+      "tren": "superior"
+    },
+    {
+      "id": "Triceps",
+      "label": "Tríceps",
+      "tamano": "chico",
+      "tren": "superior"
+    },
+    {
+      "id": "Antebrazo",
+      "label": "Antebrazo",
+      "tamano": "chico",
+      "tren": "superior"
+    },
+    {
+      "id": "Cuadriceps",
+      "label": "Cuádriceps",
+      "tamano": "grande",
+      "tren": "inferior"
+    },
+    {
+      "id": "Femorales",
+      "label": "Femorales",
+      "tamano": "grande",
+      "tren": "inferior"
+    },
+    {
+      "id": "Gluteos",
+      "label": "Glúteos",
+      "tamano": "grande",
+      "tren": "inferior"
+    },
+    {
+      "id": "Aductores",
+      "label": "Aductores",
+      "tamano": "chico",
+      "tren": "inferior"
+    },
+    {
+      "id": "Abductores",
+      "label": "Abductores",
+      "tamano": "chico",
+      "tren": "inferior"
+    },
+    {
+      "id": "Pantorrillas",
+      "label": "Pantorrillas",
+      "tamano": "chico",
+      "tren": "inferior"
+    },
+    {
+      "id": "Abdomen",
+      "label": "Abdomen",
+      "tamano": "medio",
+      "tren": "core"
+    }
+  ],
+  "diasPorNivel": {
+    "PRINCIPIANTE": [
+      1,
+      3
+    ],
+    "MEDIO": [
+      1,
+      3,
+      5
+    ],
+    "AVANZADO": [
+      1,
+      3,
+      5,
+      6
+    ]
+  },
+  "distribuciones": {
+    "3": {
+      "PRINCIPIANTE": [
+        {
+          "nombre": "Día 1 · Cuerpo completo",
+          "musculos": [
+            "Cuadriceps",
+            "Pecho",
+            "Espalda",
+            "Hombros",
+            "Abdomen"
+          ]
+        },
+        {
+          "nombre": "Día 2 · Cuerpo completo",
+          "musculos": [
+            "Femorales",
+            "Gluteos",
+            "Espalda",
+            "Pecho",
+            "Abdomen"
+          ]
+        },
+        {
+          "nombre": "Día 3 · Cuerpo completo",
+          "musculos": [
+            "Cuadriceps",
+            "Hombros",
+            "Espalda",
+            "Pecho",
+            "Pantorrillas"
+          ]
+        }
+      ],
+      "DEFAULT": [
+        {
+          "nombre": "Día 1 · Empuje",
+          "musculos": [
+            "Pecho",
+            "Hombros",
+            "Triceps"
+          ]
+        },
+        {
+          "nombre": "Día 2 · Tirón",
+          "musculos": [
+            "Espalda",
+            "Trapecios",
+            "Biceps",
+            "Antebrazo"
+          ]
+        },
+        {
+          "nombre": "Día 3 · Pierna",
+          "musculos": [
+            "Cuadriceps",
+            "Femorales",
+            "Gluteos",
+            "Aductores",
+            "Abductores",
+            "Pantorrillas"
+          ]
+        }
+      ]
+    },
+    "5": {
+      "DEFAULT": [
+        {
+          "nombre": "Día 1 · Pecho",
+          "musculos": [
+            "Pecho"
+          ]
+        },
+        {
+          "nombre": "Día 2 · Espalda",
+          "musculos": [
+            "Espalda",
+            "Trapecios"
+          ]
+        },
+        {
+          "nombre": "Día 3 · Pierna",
+          "musculos": [
+            "Cuadriceps",
+            "Femorales",
+            "Gluteos",
+            "Aductores",
+            "Abductores",
+            "Pantorrillas"
+          ]
+        },
+        {
+          "nombre": "Día 4 · Hombros",
+          "musculos": [
+            "Hombros",
+            "Abdomen"
+          ]
+        },
+        {
+          "nombre": "Día 5 · Brazos",
+          "musculos": [
+            "Biceps",
+            "Triceps",
+            "Antebrazo"
+          ]
+        }
+      ]
+    },
+    "6": {
+      "DEFAULT": [
+        {
+          "nombre": "Día 1 · Empuje",
+          "musculos": [
+            "Pecho",
+            "Hombros",
+            "Triceps"
+          ]
+        },
+        {
+          "nombre": "Día 2 · Tirón",
+          "musculos": [
+            "Espalda",
+            "Trapecios",
+            "Biceps",
+            "Antebrazo"
+          ]
+        },
+        {
+          "nombre": "Día 3 · Pierna",
+          "musculos": [
+            "Cuadriceps",
+            "Femorales",
+            "Gluteos",
+            "Pantorrillas"
+          ]
+        },
+        {
+          "nombre": "Día 4 · Empuje",
+          "musculos": [
+            "Pecho",
+            "Hombros",
+            "Triceps",
+            "Abdomen"
+          ]
+        },
+        {
+          "nombre": "Día 5 · Tirón",
+          "musculos": [
+            "Espalda",
+            "Trapecios",
+            "Biceps",
+            "Antebrazo"
+          ]
+        },
+        {
+          "nombre": "Día 6 · Pierna",
+          "musculos": [
+            "Cuadriceps",
+            "Femorales",
+            "Gluteos",
+            "Aductores",
+            "Abductores"
+          ]
+        }
+      ]
+    }
+  },
+  "ejerciciosPorMusculo": {
+    "PRINCIPIANTE": {
+      "grande": 2,
+      "medio": 1,
+      "chico": 1
+    },
+    "MEDIO": {
+      "grande": 3,
+      "medio": 2,
+      "chico": 2
+    },
+    "AVANZADO": {
+      "grande": 4,
+      "medio": 3,
+      "chico": 3
+    }
+  },
+  "bonoDiaFocalizado": 1,
+  "capSesion": {
+    "PRINCIPIANTE": 6,
+    "MEDIO": 8,
+    "AVANZADO": 10
+  },
+  "gateNivel": true
+}

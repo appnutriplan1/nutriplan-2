@@ -1,0 +1,1777 @@
+{
+  "lote": 1,
+  "version": "1.0-aprobado",
+  "aprobadoPor": "Joel Flores",
+  "fechaAprobacion": "2026-08-30",
+  "fuenteNutricional": "INS/CENAN - Tablas Peruanas de Composicion de Alimentos 2023",
+  "archivoFuenteCenan": "datos/tabla_peruana_alimentos_2023_completa.csv",
+  "nota": "kcal y macros NO se almacenan aqui: Codex los deriva de CENAN (valores por 100 g x gramos de cada porcion). formatosPermitidos se completara junto con la biblioteca de preparaciones (Paso E).",
+  "decisionesPendientes": [
+    {
+      "id": 1,
+      "tema": "Convencion crudo vs cocido para gramos",
+      "estado": "PENDIENTE",
+      "afecta": [
+        "F26",
+        "F25",
+        "F35",
+        "E22",
+        "U18",
+        "U3",
+        "A34",
+        "B21",
+        "B84",
+        "B87",
+        "U31"
+      ],
+      "detalle": "Codex NO debe fijar la convencion de gramos de estos componentes hasta que Joel decida (Opcion A estado del codigo / Opcion B factor crudo->cocido)."
+    },
+    {
+      "id": 2,
+      "tema": "No existe codigo CENAN para wrap/tortilla de trigo",
+      "estado": "PENDIENTE",
+      "detalle": "Las preparaciones tipo 'wrap' del plan no se pueden construir con CENAN 2023. Sustituir por pan integral (A129/A186) o agregar un producto de wrap con fuente propia."
+    },
+    {
+      "id": 3,
+      "tema": "Aceite de coccion (oliva) no esta en CENAN",
+      "estado": "PENDIENTE",
+      "afecta": [
+        "J4",
+        "B21",
+        "B84",
+        "B87"
+      ],
+      "detalle": "Definir como se cuenta la grasa de coccion del huevo revuelto y verduras salteadas."
+    }
+  ],
+  "totalComponentes": 50,
+  "componentes": [
+    {
+      "id": "PRO-01",
+      "cenanId": "J3",
+      "nombreVisible": "Huevo entero sancochado",
+      "preparacion": "Sancochado en agua",
+      "estadoServicio": "sancochado",
+      "rol": "proteina",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde",
+        "cena"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 100,
+          "medidaCasera": "2 unidades",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 50,
+          "medidaCasera": "1 unidad",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Pan",
+        "palta",
+        "tomate",
+        "camote",
+        "verduras"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "En almuerzo solo como complemento, no como principal.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "PRO-02",
+      "cenanId": "J4",
+      "nombreVisible": "Huevo entero revuelto con poco aceite",
+      "preparacion": "Revuelto con poco aceite",
+      "estadoServicio": "otro_aprobado",
+      "rol": "proteina",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde",
+        "cena"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 100,
+          "medidaCasera": "2 unidades",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 50,
+          "medidaCasera": "1 unidad",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Pan",
+        "tomate",
+        "espinaca",
+        "palta"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "El aceite (~3-5 g) se cuenta como componente GRASA aparte (Decision 3).",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "PRO-03",
+      "cenanId": "J2",
+      "nombreVisible": "Clara de huevo cocida",
+      "preparacion": "Claras cocidas",
+      "estadoServicio": "cocido",
+      "rol": "proteina",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde",
+        "cena"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 100,
+          "medidaCasera": "3 claras",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 66,
+          "medidaCasera": "2 claras",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Avena",
+        "pan",
+        "verduras"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "Opcion alta proteina/baja grasa. Combinar con 1 yema para saciedad.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "PRO-04",
+      "cenanId": "F26",
+      "nombreVisible": "Pechuga de pollo cocida y deshilachada",
+      "preparacion": "Cocida y deshilachada",
+      "estadoServicio": "cocido",
+      "rol": "proteina",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde",
+        "almuerzo",
+        "cena"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 100,
+          "medidaCasera": "porcion mediana",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 80,
+          "medidaCasera": "porcion pequena",
+          "esPredeterminada": false
+        },
+        {
+          "gramos": 120,
+          "medidaCasera": "porcion grande",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Arroz",
+        "papa",
+        "camote",
+        "verduras",
+        "palta",
+        "pan"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "Decision 1: codigo F26 es CRUDO (carne pulpa).",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "PRO-05",
+      "cenanId": "F25",
+      "nombreVisible": "Pavo, carne cocida",
+      "preparacion": "Cocida a la plancha/horno",
+      "estadoServicio": "plancha",
+      "rol": "proteina",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde",
+        "almuerzo",
+        "cena"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 90,
+          "medidaCasera": "porcion mediana",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 70,
+          "medidaCasera": "porcion pequena",
+          "esPredeterminada": false
+        },
+        {
+          "gramos": 110,
+          "medidaCasera": "porcion grande",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Arroz",
+        "papa",
+        "verduras",
+        "pan"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "Decision 1: F25 es CRUDO.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "PRO-06",
+      "cenanId": "F35",
+      "nombreVisible": "Res, pulpa magra cocida",
+      "preparacion": "Sancochada/plancha",
+      "estadoServicio": "cocido",
+      "rol": "proteina",
+      "momentosPermitidos": [
+        "almuerzo",
+        "cena",
+        "desayuno"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "porciones": [
+        {
+          "gramos": 100,
+          "medidaCasera": "porcion mediana",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 120,
+          "medidaCasera": "porcion grande",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Arroz",
+        "papa",
+        "yuca",
+        "verduras"
+      ],
+      "exclusiones": [
+        "Colacion con guarnicion completa"
+      ],
+      "notasEditoriales": "Decision 1: F35 es CRUDO. En desayuno solo wrap pequeno (<=60 g).",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "PRO-07",
+      "cenanId": "E20",
+      "nombreVisible": "Atun enlatado en agua, escurrido",
+      "preparacion": "Escurrido",
+      "estadoServicio": "listo",
+      "rol": "proteina",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde",
+        "almuerzo",
+        "cena"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 60,
+          "medidaCasera": "media lata",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 120,
+          "medidaCasera": "1 lata",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Pan",
+        "palta",
+        "tomate",
+        "lechuga",
+        "arroz"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "Producto listo. Escurrir el liquido.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "PRO-08",
+      "cenanId": "E22",
+      "nombreVisible": "Atun fresco a la plancha",
+      "preparacion": "A la plancha",
+      "estadoServicio": "plancha",
+      "rol": "proteina",
+      "momentosPermitidos": [
+        "almuerzo",
+        "cena",
+        "desayuno"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 100,
+          "medidaCasera": "porcion mediana",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Arroz",
+        "verduras",
+        "ensalada"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "Decision 1: E22 es FRESCO/crudo.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "PRO-09",
+      "cenanId": "E31",
+      "nombreVisible": "Pescado bonito asado o a la plancha",
+      "preparacion": "Asado / plancha",
+      "estadoServicio": "asado",
+      "rol": "proteina",
+      "momentosPermitidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "porciones": [
+        {
+          "gramos": 100,
+          "medidaCasera": "porcion mediana",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 120,
+          "medidaCasera": "porcion grande",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Arroz",
+        "papa",
+        "verduras",
+        "ensalada"
+      ],
+      "exclusiones": [
+        "Colacion"
+      ],
+      "notasEditoriales": "E31 es codigo YA COCIDO (pulpa asada). Preferido para pescado.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "PRO-10",
+      "cenanId": "E49",
+      "nombreVisible": "Jurel en conserva, escurrido",
+      "preparacion": "Escurrido",
+      "estadoServicio": "listo",
+      "rol": "proteina",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde",
+        "almuerzo",
+        "cena"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 60,
+          "medidaCasera": "media lata",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 120,
+          "medidaCasera": "1 lata",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Pan",
+        "tomate",
+        "arroz",
+        "ensalada"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "Producto listo economico.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "CHO-01",
+      "cenanId": "A2",
+      "nombreVisible": "Arroz blanco cocido",
+      "preparacion": "Cocido",
+      "estadoServicio": "cocido",
+      "rol": "carbohidrato",
+      "momentosPermitidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "momentosProhibidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde"
+      ],
+      "porciones": [
+        {
+          "gramos": 150,
+          "medidaCasera": "3/4 taza aprox.",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 100,
+          "medidaCasera": "1/2 taza",
+          "esPredeterminada": false
+        },
+        {
+          "gramos": 200,
+          "medidaCasera": "1 taza",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Pollo",
+        "res",
+        "pescado",
+        "menestra",
+        "verduras"
+      ],
+      "exclusiones": [
+        "Desayuno y colaciones"
+      ],
+      "notasEditoriales": "A2 codigo cocido.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "CHO-02",
+      "cenanId": "A53",
+      "nombreVisible": "Quinua cocida",
+      "preparacion": "Cocida",
+      "estadoServicio": "cocido",
+      "rol": "carbohidrato",
+      "momentosPermitidos": [
+        "desayuno",
+        "almuerzo",
+        "cena"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 120,
+          "medidaCasera": "3/4 taza aprox.",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 150,
+          "medidaCasera": "1 taza",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Leche o yogur (desayuno)",
+        "proteina y verdura (almuerzo)"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "Junto con avena, unica fuente energetica permitida en desayuno.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "CHO-03",
+      "cenanId": "A7",
+      "nombreVisible": "Avena en hojuela (medida en seco)",
+      "preparacion": "Cocida en agua/leche o remojada",
+      "estadoServicio": "otro_aprobado",
+      "rol": "carbohidrato",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "porciones": [
+        {
+          "gramos": 40,
+          "medidaCasera": "4 cucharadas en seco",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 30,
+          "medidaCasera": "3 cucharadas en seco",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Leche",
+        "yogur",
+        "fruta",
+        "chia",
+        "mani"
+      ],
+      "exclusiones": [
+        "Almuerzo y cena"
+      ],
+      "notasEditoriales": "Se mide EN SECO (A7 hojuela cruda). Al cocer absorbe liquido.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "CHO-04",
+      "cenanId": "U18",
+      "nombreVisible": "Papa amarilla sancochada",
+      "preparacion": "Sancochada",
+      "estadoServicio": "sancochado",
+      "rol": "carbohidrato",
+      "momentosPermitidos": [
+        "almuerzo",
+        "cena",
+        "desayuno"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "porciones": [
+        {
+          "gramos": 150,
+          "medidaCasera": "1 unidad mediana",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 100,
+          "medidaCasera": "1 unidad pequena",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Proteina",
+        "verduras",
+        "huevo"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "Decision 1: U18 es CRUDO pelado (no existe codigo de papa cocida).",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "CHO-05",
+      "cenanId": "U3",
+      "nombreVisible": "Camote amarillo sancochado",
+      "preparacion": "Sancochado",
+      "estadoServicio": "sancochado",
+      "rol": "carbohidrato",
+      "momentosPermitidos": [
+        "desayuno",
+        "almuerzo",
+        "media_tarde",
+        "cena"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 130,
+          "medidaCasera": "1 unidad pequena",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 100,
+          "medidaCasera": "porcion pequena",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Huevo",
+        "pollo",
+        "atun",
+        "palta"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "Decision 1: U3 es CRUDO pelado. Camote SI permitido en desayuno.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "CHO-06",
+      "cenanId": "U37",
+      "nombreVisible": "Yuca blanca sancochada",
+      "preparacion": "Sancochada",
+      "estadoServicio": "sancochado",
+      "rol": "carbohidrato",
+      "momentosPermitidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "porciones": [
+        {
+          "gramos": 120,
+          "medidaCasera": "1 trozo mediano",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 100,
+          "medidaCasera": "porcion pequena",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Proteina",
+        "verduras",
+        "salsa criolla"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "U37 codigo cocido (ideal).",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "CHO-07",
+      "cenanId": "A34",
+      "nombreVisible": "Choclo sancochado, desgranado",
+      "preparacion": "Sancochado",
+      "estadoServicio": "sancochado",
+      "rol": "carbohidrato",
+      "momentosPermitidos": [
+        "almuerzo",
+        "cena",
+        "desayuno"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 120,
+          "medidaCasera": "1 taza desgranado",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 100,
+          "medidaCasera": "porcion pequena",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Queso (desayuno)",
+        "proteina y verdura"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "A34 grano fresco (no hay codigo cocido).",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "CHO-08",
+      "cenanId": "A49",
+      "nombreVisible": "Pan frances",
+      "preparacion": "Tostado o en sandwich",
+      "estadoServicio": "listo",
+      "rol": "carbohidrato",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "porciones": [
+        {
+          "gramos": 55,
+          "medidaCasera": "1 unidad",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Huevo",
+        "pollo",
+        "atun",
+        "palta",
+        "queso"
+      ],
+      "exclusiones": [
+        "Guarnicion automatica de almuerzo"
+      ],
+      "notasEditoriales": "Regla del pan: solo dentro de un sandwich definido como almuerzo.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "CHO-09",
+      "cenanId": "A129",
+      "nombreVisible": "Pan integral",
+      "preparacion": "Tostado o en sandwich",
+      "estadoServicio": "listo",
+      "rol": "carbohidrato",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "porciones": [
+        {
+          "gramos": 30,
+          "medidaCasera": "1 rebanada",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 60,
+          "medidaCasera": "2 rebanadas",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Huevo",
+        "palta",
+        "queso",
+        "pollo"
+      ],
+      "exclusiones": [
+        "Guarnicion de almuerzo"
+      ],
+      "notasEditoriales": "Regla del pan, igual que pan frances.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "CHO-10",
+      "cenanId": "T53",
+      "nombreVisible": "Lenteja cocida",
+      "preparacion": "Cocida / guisada",
+      "estadoServicio": "cocido",
+      "rol": "carbohidrato",
+      "momentosPermitidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "momentosProhibidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde"
+      ],
+      "porciones": [
+        {
+          "gramos": 150,
+          "medidaCasera": "1 cucharon",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 120,
+          "medidaCasera": "porcion pequena",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Arroz",
+        "proteina",
+        "verduras"
+      ],
+      "exclusiones": [
+        "Desayuno y colaciones"
+      ],
+      "notasEditoriales": "T53 codigo cocido. Aporta proteina vegetal.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "VER-01",
+      "cenanId": "B79",
+      "nombreVisible": "Tomate fresco",
+      "preparacion": "Crudo o en ensalada",
+      "estadoServicio": "listo",
+      "rol": "verdura",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde",
+        "almuerzo",
+        "cena"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 80,
+          "medidaCasera": "1/2 unidad",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Casi todo"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "Crudo en ensalada o preparacion.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "VER-02",
+      "cenanId": "B55",
+      "nombreVisible": "Lechuga",
+      "preparacion": "Cruda",
+      "estadoServicio": "listo",
+      "rol": "verdura",
+      "momentosPermitidos": [
+        "almuerzo",
+        "cena",
+        "desayuno"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 40,
+          "medidaCasera": "1 taza de hojas",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Proteinas",
+        "ensaladas"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "VER-03",
+      "cenanId": "B85",
+      "nombreVisible": "Zanahoria",
+      "preparacion": "Cruda rallada o cocida",
+      "estadoServicio": "otro_aprobado",
+      "rol": "verdura",
+      "momentosPermitidos": [
+        "almuerzo",
+        "cena",
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 60,
+          "medidaCasera": "1/2 unidad",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Proteinas",
+        "guisos",
+        "ensaladas"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "B85 crudo; cruda o cocida.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "VER-04",
+      "cenanId": "B21",
+      "nombreVisible": "Brocoli",
+      "preparacion": "Al vapor o sancochado",
+      "estadoServicio": "cocido",
+      "rol": "verdura",
+      "momentosPermitidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "porciones": [
+        {
+          "gramos": 80,
+          "medidaCasera": "1 taza",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Proteina",
+        "arroz",
+        "papa"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "B21 crudo en CENAN; se sirve cocido.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "VER-05",
+      "cenanId": "B84",
+      "nombreVisible": "Vainita",
+      "preparacion": "Sancochada",
+      "estadoServicio": "cocido",
+      "rol": "verdura",
+      "momentosPermitidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 80,
+          "medidaCasera": "1 taza",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Proteina",
+        "guisos"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "B84 crudo; se sirve cocida.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "VER-06",
+      "cenanId": "B108",
+      "nombreVisible": "Espinaca",
+      "preparacion": "Cruda o cocida",
+      "estadoServicio": "otro_aprobado",
+      "rol": "verdura",
+      "momentosPermitidos": [
+        "desayuno",
+        "almuerzo",
+        "cena"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 60,
+          "medidaCasera": "1 taza",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Huevo",
+        "proteinas"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "VER-07",
+      "cenanId": "B87",
+      "nombreVisible": "Zapallo italiano",
+      "preparacion": "Salteado o al vapor",
+      "estadoServicio": "cocido",
+      "rol": "verdura",
+      "momentosPermitidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 100,
+          "medidaCasera": "1 taza",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Proteina",
+        "guisos"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "VER-08",
+      "cenanId": "U31",
+      "nombreVisible": "Betarraga",
+      "preparacion": "Sancochada",
+      "estadoServicio": "cocido",
+      "rol": "verdura",
+      "momentosPermitidos": [
+        "almuerzo",
+        "cena",
+        "media_mañana"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 60,
+          "medidaCasera": "1/2 unidad",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Ensaladas",
+        "proteina"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "U31 cruda; se sirve cocida.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "FRU-01",
+      "cenanId": "C71",
+      "nombreVisible": "Platano de seda",
+      "preparacion": "Fresco",
+      "estadoServicio": "listo",
+      "rol": "fruta",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "porciones": [
+        {
+          "gramos": 100,
+          "medidaCasera": "1 unidad",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Yogur",
+        "avena",
+        "mani"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "FRU-02",
+      "cenanId": "C42",
+      "nombreVisible": "Manzana",
+      "preparacion": "Fresca",
+      "estadoServicio": "listo",
+      "rol": "fruta",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "porciones": [
+        {
+          "gramos": 130,
+          "medidaCasera": "1 unidad",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Yogur",
+        "mani",
+        "almendras"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "FRU-03",
+      "cenanId": "C59",
+      "nombreVisible": "Papaya",
+      "preparacion": "Fresca",
+      "estadoServicio": "listo",
+      "rol": "fruta",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "porciones": [
+        {
+          "gramos": 150,
+          "medidaCasera": "1 tajada",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Yogur",
+        "avena"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "FRU-04",
+      "cenanId": "C69",
+      "nombreVisible": "Pina",
+      "preparacion": "Fresca",
+      "estadoServicio": "listo",
+      "rol": "fruta",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "porciones": [
+        {
+          "gramos": 120,
+          "medidaCasera": "1 rodaja",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Yogur",
+        "queso fresco"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "FRU-05",
+      "cenanId": "C41",
+      "nombreVisible": "Mango",
+      "preparacion": "Fresco",
+      "estadoServicio": "listo",
+      "rol": "fruta",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "porciones": [
+        {
+          "gramos": 120,
+          "medidaCasera": "1/2 unidad",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Yogur",
+        "avena"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "FRU-06",
+      "cenanId": "C18",
+      "nombreVisible": "Fresa",
+      "preparacion": "Fresca",
+      "estadoServicio": "listo",
+      "rol": "fruta",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "porciones": [
+        {
+          "gramos": 100,
+          "medidaCasera": "1 taza",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Yogur",
+        "avena",
+        "chia"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "FRU-07",
+      "cenanId": "C48",
+      "nombreVisible": "Naranja",
+      "preparacion": "Fresca (entera)",
+      "estadoServicio": "listo",
+      "rol": "fruta",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "porciones": [
+        {
+          "gramos": 130,
+          "medidaCasera": "1 unidad",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [],
+      "exclusiones": [
+        "En jugo (se pierde fibra)"
+      ],
+      "notasEditoriales": "Preferir entera, no en jugo.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "FRU-08",
+      "cenanId": "C40",
+      "nombreVisible": "Mandarina",
+      "preparacion": "Fresca",
+      "estadoServicio": "listo",
+      "rol": "fruta",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "porciones": [
+        {
+          "gramos": 100,
+          "medidaCasera": "1-2 unidades",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [],
+      "exclusiones": [],
+      "notasEditoriales": "",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "LAC-01",
+      "cenanId": "G20",
+      "nombreVisible": "Yogurt natural descremado",
+      "preparacion": "Listo",
+      "estadoServicio": "listo",
+      "rol": "lacteo",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 200,
+          "medidaCasera": "1 vaso",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 120,
+          "medidaCasera": "porcion pequena",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Fruta",
+        "avena",
+        "granola",
+        "chia"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "LAC-02",
+      "cenanId": "G38",
+      "nombreVisible": "Yogurt griego natural sin azucar",
+      "preparacion": "Listo",
+      "estadoServicio": "listo",
+      "rol": "lacteo",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 150,
+          "medidaCasera": "1 pote",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Fruta",
+        "granola",
+        "chia"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "Mas proteina y grasa; alta saciedad.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "LAC-03",
+      "cenanId": "G31",
+      "nombreVisible": "Queso fresco parcialmente descremado",
+      "preparacion": "Listo",
+      "estadoServicio": "listo",
+      "rol": "lacteo",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde",
+        "cena"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 40,
+          "medidaCasera": "1 tajada",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 60,
+          "medidaCasera": "2 tajadas",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Pan",
+        "tomate",
+        "palta",
+        "choclo"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "Puede cumplir rol proteico secundario.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "LAC-04",
+      "cenanId": "G14",
+      "nombreVisible": "Queso fresco de vaca",
+      "preparacion": "Listo",
+      "estadoServicio": "listo",
+      "rol": "lacteo",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde",
+        "cena"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 40,
+          "medidaCasera": "1 tajada",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Pan",
+        "tomate",
+        "choclo"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "Mas grasa que el parcialmente descremado (G31).",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "LAC-05",
+      "cenanId": "G21",
+      "nombreVisible": "Leche fresca descremada",
+      "preparacion": "Listo",
+      "estadoServicio": "listo",
+      "rol": "lacteo",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 200,
+          "medidaCasera": "1 vaso",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Avena",
+        "quinua",
+        "cafe"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "LAC-06",
+      "cenanId": "G7",
+      "nombreVisible": "Leche evaporada entera",
+      "preparacion": "Para preparacion o cafe",
+      "estadoServicio": "listo",
+      "rol": "lacteo",
+      "momentosPermitidos": [
+        "desayuno"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 30,
+          "medidaCasera": "2 cucharadas",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Cafe",
+        "avena",
+        "preparaciones"
+      ],
+      "exclusiones": [
+        "Como bebida principal"
+      ],
+      "notasEditoriales": "Uso en preparacion, no como bebida principal.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "GRA-01",
+      "cenanId": "C55",
+      "nombreVisible": "Palta",
+      "preparacion": "Fresca",
+      "estadoServicio": "listo",
+      "rol": "grasa",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde",
+        "almuerzo",
+        "cena"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 50,
+          "medidaCasera": "1/4 unidad",
+          "esPredeterminada": true
+        },
+        {
+          "gramos": 30,
+          "medidaCasera": "porcion pequena",
+          "esPredeterminada": false
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Pan",
+        "huevo",
+        "tomate",
+        "ensaladas"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "Fruta grasa; cumple rol de GRASA.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "GRA-02",
+      "cenanId": "D16",
+      "nombreVisible": "Mani tostado sin sal",
+      "preparacion": "Tostado",
+      "estadoServicio": "listo",
+      "rol": "grasa",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 15,
+          "medidaCasera": "1 punado pequeno",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Yogur",
+        "avena",
+        "fruta"
+      ],
+      "exclusiones": [
+        "Porcion grande"
+      ],
+      "notasEditoriales": "Porcion discreta pequena por densidad calorica.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "GRA-03",
+      "cenanId": "D10",
+      "nombreVisible": "Almendras",
+      "preparacion": "Naturales",
+      "estadoServicio": "listo",
+      "rol": "grasa",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 15,
+          "medidaCasera": "~12 unidades",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Yogur",
+        "avena",
+        "fruta"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "GRA-04",
+      "cenanId": "D24",
+      "nombreVisible": "Semilla de chia",
+      "preparacion": "Hidratada",
+      "estadoServicio": "listo",
+      "rol": "grasa",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 15,
+          "medidaCasera": "1 cucharada",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Yogur",
+        "avena",
+        "agua"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "GRA-05",
+      "cenanId": "C2",
+      "nombreVisible": "Aceitunas de botija",
+      "preparacion": "Listas",
+      "estadoServicio": "listo",
+      "rol": "grasa",
+      "momentosPermitidos": [
+        "desayuno",
+        "almuerzo",
+        "cena",
+        "media_mañana"
+      ],
+      "momentosProhibidos": [],
+      "porciones": [
+        {
+          "gramos": 20,
+          "medidaCasera": "~4 unidades",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Pan",
+        "ensaladas",
+        "huevo"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "ESP-01",
+      "cenanId": "A167",
+      "nombreVisible": "Avena con quinua, hojuela precocida (medida en seco)",
+      "preparacion": "Cocida en agua/leche",
+      "estadoServicio": "otro_aprobado",
+      "rol": "carbohidrato",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "porciones": [
+        {
+          "gramos": 40,
+          "medidaCasera": "4 cucharadas en seco",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Leche",
+        "yogur",
+        "fruta",
+        "chia"
+      ],
+      "exclusiones": [],
+      "notasEditoriales": "ESPECIAL: producto compuesto listo. Base de desayuno dulce. Medir en seco.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "ESP-02",
+      "cenanId": "A186",
+      "nombreVisible": "Pan de molde integral",
+      "preparacion": "Tostado o en sandwich",
+      "estadoServicio": "listo",
+      "rol": "carbohidrato",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "porciones": [
+        {
+          "gramos": 50,
+          "medidaCasera": "2 rebanadas",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Huevo",
+        "palta",
+        "queso",
+        "pollo",
+        "atun"
+      ],
+      "exclusiones": [
+        "Guarnicion de almuerzo"
+      ],
+      "notasEditoriales": "ESPECIAL: base de tostadas o sandwich pequeno. Aplica regla del pan.",
+      "estadoRevision": "APROBADO"
+    },
+    {
+      "id": "ESP-03",
+      "cenanId": "A173",
+      "nombreVisible": "Granola de avena con mani y almendras",
+      "preparacion": "Lista (topping)",
+      "estadoServicio": "listo",
+      "rol": "carbohidrato",
+      "momentosPermitidos": [
+        "desayuno",
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "porciones": [
+        {
+          "gramos": 30,
+          "medidaCasera": "3 cucharadas",
+          "esPredeterminada": true
+        }
+      ],
+      "formatosPermitidos": [],
+      "compatibilidades": [
+        "Yogur",
+        "fruta",
+        "leche"
+      ],
+      "exclusiones": [
+        "Porcion grande"
+      ],
+      "notasEditoriales": "ESPECIAL: densa; porcion pequena. Topping de yogur o fruta.",
+      "estadoRevision": "APROBADO"
+    }
+  ]
+}

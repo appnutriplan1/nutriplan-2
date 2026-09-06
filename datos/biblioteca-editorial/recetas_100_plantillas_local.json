@@ -1,0 +1,5220 @@
+{
+  "version": "1.0-local",
+  "nota": "100 recetas reales seleccionadas del respaldo Supabase. Se escala la porcion completa conservando proporciones; el usuario puede añadir alimentos manualmente.",
+  "counts": {
+    "desayuno": 20,
+    "almuerzo": 20,
+    "cena": 20,
+    "media_manana": 20,
+    "media_tarde": 20
+  },
+  "templates": [
+    {
+      "id": "REC-desayunos-16-mezcla-caliente",
+      "recipeId": "desayunos-16-mezcla-caliente",
+      "nombre": "Sándwich de pollo, queso fresco y tomate",
+      "descripcion": "Sándwich con pan de avena hecho en casa, pollo deshilachado, queso y vegetales.",
+      "momento": "desayuno",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 410,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 408,
+        "proteina": 40.7,
+        "carbohidratos": 40.8,
+        "grasas": 11.7
+      },
+      "ingredientes": [
+        {
+          "texto": "40 g — Avena (½ taza molida)",
+          "gramos": 40
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo)",
+          "gramos": 50
+        },
+        {
+          "texto": "50 g — Clara (aprox. 2 claras pequeñas)",
+          "gramos": 50
+        },
+        {
+          "texto": "50 g — Yogur (3 cucharadas)",
+          "gramos": 50
+        },
+        {
+          "texto": "70 g — Pollo (½ taza deshilachada)",
+          "gramos": 70
+        },
+        {
+          "texto": "20 g — Queso (1 tajada pequeña)",
+          "gramos": 20
+        },
+        {
+          "texto": "100 g — Tomate (1 tomate pequeño)",
+          "gramos": 100
+        },
+        {
+          "texto": "30 g — Espinaca (1 taza)",
+          "gramos": 30
+        }
+      ],
+      "pasos": [
+        "Cocina una base de avena, huevo, clara y yogur en recipiente rectangular.",
+        "Corta en dos y tuesta ligeramente.",
+        "Rellena con pollo, queso, tomate y espinaca."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-desayunos-30-tortita-de-naranja-con-ricotta",
+      "recipeId": "desayunos-30-tortita-de-naranja-con-ricotta",
+      "nombre": "Tortita de naranja, avena y ricotta",
+      "descripcion": "Tortita horneada de ricotta y avena perfumada con naranja fresca.",
+      "momento": "desayuno",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 420,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 447,
+        "proteina": 37.6,
+        "carbohidratos": 51.8,
+        "grasas": 11.7
+      },
+      "ingredientes": [
+        {
+          "texto": "Ricotta: ½ taza · 100 g",
+          "gramos": 100
+        },
+        {
+          "texto": "Avena: ½ taza · 40 g",
+          "gramos": 40
+        },
+        {
+          "texto": "Huevo: 1 huevo · 50 g",
+          "gramos": 50
+        },
+        {
+          "texto": "Clara: aprox. 3 claras pequeñas · 80 g",
+          "gramos": 80
+        },
+        {
+          "texto": "Naranja: 1 naranja pequeña · 100 g",
+          "gramos": 100
+        },
+        {
+          "texto": "Yogur: 3 cucharadas · 50 g",
+          "gramos": 50
+        }
+      ],
+      "pasos": [
+        "Lava la naranja, ralla únicamente la capa naranja de la cáscara y exprime 1 cucharada de jugo; reserva el resto en gajos.",
+        "Mezcla la ricotta, la avena, el huevo, las claras, la ralladura y el jugo; vierte en un molde individual.",
+        "Hornea durante 22 minutos a 180 °C, deja reposar 5 minutos y sirve con el yogur y los gajos reservados."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-desayunos-4-pan-01",
+      "recipeId": "desayunos-4-pan-01",
+      "nombre": "Pan de avena, ricotta y queso ligero",
+      "descripcion": "Panecillo salado de avena y ricotta con queso fresco, pimiento y zanahoria.",
+      "momento": "desayuno",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 352,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 423,
+        "proteina": 34.6,
+        "carbohidratos": 48.3,
+        "grasas": 12.2
+      },
+      "ingredientes": [
+        {
+          "texto": "45 g — Avena (½ taza)",
+          "gramos": 45
+        },
+        {
+          "texto": "80 g — Ricotta (⅓ taza)",
+          "gramos": 80
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo)",
+          "gramos": 50
+        },
+        {
+          "texto": "50 g — Clara (aprox. 2 claras pequeñas)",
+          "gramos": 50
+        },
+        {
+          "texto": "50 g — Yogur (3 cucharadas)",
+          "gramos": 50
+        },
+        {
+          "texto": "15 g — Queso (1 cucharada)",
+          "gramos": 15
+        },
+        {
+          "texto": "60 g — Zanahoria (½ taza rallada)",
+          "gramos": 60
+        },
+        {
+          "texto": "2 g — Polvo de hornear (½ cucharadita)",
+          "gramos": 2
+        }
+      ],
+      "pasos": [
+        "Mezcla avena, ricotta, huevo, clara y yogur.",
+        "Añade zanahoria, queso y polvo de hornear.",
+        "Hornea en molde pequeño 25 minutos a 180 °C."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-desayunos-28-galletas",
+      "recipeId": "desayunos-28-galletas",
+      "nombre": "Bowl salado de quinua, huevo y ricotta",
+      "descripcion": "Bowl salado de quinua con huevo, claras, ricotta, espinaca y tomate.",
+      "momento": "desayuno",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 580,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 397,
+        "proteina": 34.6,
+        "carbohidratos": 43.1,
+        "grasas": 11.8
+      },
+      "ingredientes": [
+        {
+          "texto": "180 g — Quinua (1 taza cocida)",
+          "gramos": 180
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo)",
+          "gramos": 50
+        },
+        {
+          "texto": "100 g — Clara (3 claras)",
+          "gramos": 100
+        },
+        {
+          "texto": "50 g — Ricotta (¼ taza)",
+          "gramos": 50
+        },
+        {
+          "texto": "100 g — Espinaca (3 tazas)",
+          "gramos": 100
+        },
+        {
+          "texto": "100 g — Tomate (1 tomate pequeño)",
+          "gramos": 100
+        }
+      ],
+      "pasos": [
+        "Calienta la quinua y saltea la espinaca en sartén antiadherente.",
+        "Cocina el huevo y las claras hasta cuajar completamente.",
+        "Sirve en bowl con ricotta y tomate."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-masa-muscular-1105-bowl-de-yogur-con-avena-platano-y-mani",
+      "recipeId": "masa-muscular-1105-bowl-de-yogur-con-avena-platano-y-mani",
+      "nombre": "Bowl de yogur con avena, plátano y maní",
+      "descripcion": "Bowl frío de yogur natural con avena, plátano, maní sin sal y canela.",
+      "momento": "desayuno",
+      "familiaProteica": "lacteo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 386,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 440,
+        "proteina": 32.5,
+        "carbohidratos": 65,
+        "grasas": 10
+      },
+      "ingredientes": [
+        {
+          "texto": "240 g (1 taza) — Yogur griego natural sin azúcar",
+          "gramos": 240
+        },
+        {
+          "texto": "30 g (⅓ taza) — Avena en hojuelas",
+          "gramos": 30
+        },
+        {
+          "texto": "100 g (1 unidad pequeña) — Plátano de seda",
+          "gramos": 100
+        },
+        {
+          "texto": "15 g (1 cucharada) — Maní natural sin sal",
+          "gramos": 15
+        },
+        {
+          "texto": "1 g (¼ cucharadita) — Canela molida",
+          "gramos": 1
+        }
+      ],
+      "pasos": [
+        "Coloca el yogur frío en un bol.",
+        "Distribuye encima la avena, el plátano y el maní.",
+        "Termina con canela y sirve de inmediato."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-desayunos-22-crepe-americano",
+      "recipeId": "desayunos-22-crepe-americano",
+      "nombre": "Panqueques americanos de avena y yogur",
+      "descripcion": "Panqueques americanos gruesos de avena, servidos con yogur y plátano.",
+      "momento": "desayuno",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 457,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 437,
+        "proteina": 31,
+        "carbohidratos": 66,
+        "grasas": 8.2
+      },
+      "ingredientes": [
+        {
+          "texto": "45 g — Avena (½ taza colmada)",
+          "gramos": 45
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo)",
+          "gramos": 50
+        },
+        {
+          "texto": "80 g — Clara (aprox. 3 claras pequeñas)",
+          "gramos": 80
+        },
+        {
+          "texto": "100 g — Leche (½ taza)",
+          "gramos": 100
+        },
+        {
+          "texto": "100 g — Yogur (½ taza)",
+          "gramos": 100
+        },
+        {
+          "texto": "80 g — Platano (¾ plátano)",
+          "gramos": 80
+        },
+        {
+          "texto": "2 g — Polvo de hornear (½ cucharadita)",
+          "gramos": 2
+        }
+      ],
+      "pasos": [
+        "Mezcla avena, huevo, claras, leche y polvo de hornear.",
+        "Cocina panqueques pequeños y gruesos a fuego medio-bajo.",
+        "Sirve con yogur y plátano."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-masa-muscular-1107-revuelto-de-claras-con-atun-camote-y-espinaca",
+      "recipeId": "masa-muscular-1107-revuelto-de-claras-con-atun-camote-y-espinaca",
+      "nombre": "Revuelto de claras con atún, camote y espinaca",
+      "descripcion": "Revuelto de claras con atún, espinaca y tomate, servido con camote sancochado.",
+      "momento": "desayuno",
+      "familiaProteica": "pescado_marisco",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 451,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 320,
+        "proteina": 39.2,
+        "carbohidratos": 39.4,
+        "grasas": 1.1
+      },
+      "ingredientes": [
+        {
+          "texto": "130 g (½ taza) — Claras de huevo pasteurizadas",
+          "gramos": 130
+        },
+        {
+          "texto": "80 g (½ taza) — Atún al agua",
+          "gramos": 80
+        },
+        {
+          "texto": "30 g (1 taza) — Espinaca",
+          "gramos": 30
+        },
+        {
+          "texto": "150 g (1 unidad mediana) — Camote amarillo",
+          "gramos": 150
+        },
+        {
+          "texto": "60 g (½ unidad mediana) — Tomate",
+          "gramos": 60
+        },
+        {
+          "texto": "1 g (al gusto) — Pimienta y ajo en polvo",
+          "gramos": 1
+        }
+      ],
+      "pasos": [
+        "Sancocha el camote hasta que esté tierno y mantenlo caliente.",
+        "Cocina la espinaca y el tomate en una sartén antiadherente durante 2 minutos.",
+        "Añade el atún y las claras; remueve a fuego medio-bajo hasta que no quede líquido de huevo.",
+        "Sirve el revuelto con el camote."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-desayunos-2-crepe-clasico",
+      "recipeId": "desayunos-2-crepe-clasico",
+      "nombre": "Crepe de avena con ricotta y fresas",
+      "descripcion": "Crepes finos de avena rellenos con ricotta cremosa y fresas frescas.",
+      "momento": "desayuno",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 410,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 386,
+        "proteina": 31.9,
+        "carbohidratos": 45.8,
+        "grasas": 10.3
+      },
+      "ingredientes": [
+        {
+          "texto": "40 g — Avena (½ taza molida)",
+          "gramos": 40
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo)",
+          "gramos": 50
+        },
+        {
+          "texto": "80 g — Clara (aprox. 3 claras pequeñas)",
+          "gramos": 80
+        },
+        {
+          "texto": "80 g — Leche (⅓ taza)",
+          "gramos": 80
+        },
+        {
+          "texto": "60 g — Ricotta (¼ taza)",
+          "gramos": 60
+        },
+        {
+          "texto": "100 g — Fresa (1 taza)",
+          "gramos": 100
+        }
+      ],
+      "pasos": [
+        "Licúa avena, huevo, claras y leche.",
+        "Cuaja dos crepes finos en sartén antiadherente.",
+        "Rellena con ricotta y fresas."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-desayunos-21-crepe-de-coco",
+      "recipeId": "desayunos-21-crepe-de-coco",
+      "nombre": "Crepe de avena y coco con yogur y naranja",
+      "descripcion": "Dos crepes de avena con aroma de coco, yogur y naranja fresca.",
+      "momento": "desayuno",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 455,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 418,
+        "proteina": 28.6,
+        "carbohidratos": 56.4,
+        "grasas": 11
+      },
+      "ingredientes": [
+        {
+          "texto": "40 g — Avena (½ taza molida)",
+          "gramos": 40
+        },
+        {
+          "texto": "5 g — Coco (1 cucharada rasa)",
+          "gramos": 5
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo)",
+          "gramos": 50
+        },
+        {
+          "texto": "60 g — Clara (2 claras)",
+          "gramos": 60
+        },
+        {
+          "texto": "100 g — Leche (½ taza)",
+          "gramos": 100
+        },
+        {
+          "texto": "100 g — Yogur (½ taza)",
+          "gramos": 100
+        },
+        {
+          "texto": "100 g — Naranja (1 naranja pequeña)",
+          "gramos": 100
+        }
+      ],
+      "pasos": [
+        "Licúa avena, coco, huevo, claras y leche.",
+        "Cuaja dos crepes finos.",
+        "Sirve con yogur y gajos de naranja sin semillas."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-desayunos-3-pan-casero-sin-gluten",
+      "recipeId": "desayunos-3-pan-casero-sin-gluten",
+      "nombre": "Panecillos de avena y quinua sin gluten",
+      "descripcion": "Dos panecillos tiernos de avena y quinua, acompañados con ricotta.",
+      "momento": "desayuno",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 422,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 450,
+        "proteina": 29.8,
+        "carbohidratos": 62.5,
+        "grasas": 10.7
+      },
+      "ingredientes": [
+        {
+          "texto": "40 g — Avena (½ taza certificada sin gluten)",
+          "gramos": 40
+        },
+        {
+          "texto": "120 g — Quinua (¾ taza cocida)",
+          "gramos": 120
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo)",
+          "gramos": 50
+        },
+        {
+          "texto": "50 g — Clara (aprox. 2 claras pequeñas)",
+          "gramos": 50
+        },
+        {
+          "texto": "60 g — Yogur (¼ taza)",
+          "gramos": 60
+        },
+        {
+          "texto": "60 g — Zanahoria (½ taza rallada)",
+          "gramos": 60
+        },
+        {
+          "texto": "40 g — Ricotta (3 cucharadas)",
+          "gramos": 40
+        },
+        {
+          "texto": "2 g — Polvo de hornear (½ cucharadita)",
+          "gramos": 2
+        }
+      ],
+      "pasos": [
+        "Procesa avena, quinua, huevo, clara y yogur.",
+        "Integra la zanahoria y polvo de hornear.",
+        "Hornea dos panecillos 22 minutos a 180 °C y sirve con ricotta."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-masa-muscular-1106-sandwich-integral-de-pavita-huevo-y-palta",
+      "recipeId": "masa-muscular-1106-sandwich-integral-de-pavita-huevo-y-palta",
+      "nombre": "Sándwich integral de pavita, huevo y palta",
+      "descripcion": "Sándwich integral con pavita cocida, huevo, palta, tomate y lechuga.",
+      "momento": "desayuno",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 310,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 430,
+        "proteina": 27.7,
+        "carbohidratos": 41.1,
+        "grasas": 17.6
+      },
+      "ingredientes": [
+        {
+          "texto": "60 g (2 rebanadas) — Pan integral",
+          "gramos": 60
+        },
+        {
+          "texto": "80 g (½ taza en láminas) — Pechuga de pavita cocida",
+          "gramos": 80
+        },
+        {
+          "texto": "50 g (1 unidad) — Huevo",
+          "gramos": 50
+        },
+        {
+          "texto": "50 g (¼ unidad pequeña) — Palta",
+          "gramos": 50
+        },
+        {
+          "texto": "50 g (4 rodajas) — Tomate",
+          "gramos": 50
+        },
+        {
+          "texto": "20 g (2 hojas) — Lechuga",
+          "gramos": 20
+        }
+      ],
+      "pasos": [
+        "Tuesta ligeramente el pan sin añadir aceite.",
+        "Cocina el huevo por completo en una sartén antiadherente o en agua.",
+        "Arma el sándwich con la pavita, el huevo, la palta, el tomate y la lechuga bien secos.",
+        "Sirve de inmediato."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-masa-muscular-waffle-03-salado-papa-ricotta",
+      "recipeId": "masa-muscular-waffle-03-salado-papa-ricotta",
+      "nombre": "Waffles salados de papa, ricotta y huevo",
+      "descripcion": "Waffles salados de papa rallada, ricotta y huevo, con una superficie dorada y un centro tierno completamente cocido.",
+      "momento": "desayuno",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 350,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 448,
+        "proteina": 29.4,
+        "carbohidratos": 56.3,
+        "grasas": 14.2
+      },
+      "ingredientes": [
+        {
+          "texto": "150 g (1 unidad mediana) — Papa blanca",
+          "gramos": 150
+        },
+        {
+          "texto": "75 g (⅓ taza) — Queso ricotta o requesón",
+          "gramos": 75
+        },
+        {
+          "texto": "100 g (2 unidades) — Huevo",
+          "gramos": 100
+        },
+        {
+          "texto": "25 g (¼ taza + 1 cucharada) — Harina de avena",
+          "gramos": 25
+        }
+      ],
+      "pasos": [
+        "Precalienta la wafflera. Ralla la papa y exprímela firmemente con un paño limpio para retirar el líquido.",
+        "Mezcla la papa con el requesón, los huevos y la harina de avena.",
+        "Extiende la mezcla en una capa uniforme y cocina 8–10 minutos, hasta que la papa esté completamente cocida y la superficie dorada."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-desayunos-17-panqueques-con-frutos-rojos",
+      "recipeId": "desayunos-17-panqueques-con-frutos-rojos",
+      "nombre": "Panqueques de avena con fresas",
+      "descripcion": "Tres panqueques de avena ricos en proteína, servidos con yogur y fresas frescas.",
+      "momento": "desayuno",
+      "familiaProteica": "carne_roja",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 430,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 372,
+        "proteina": 31.3,
+        "carbohidratos": 48.1,
+        "grasas": 8
+      },
+      "ingredientes": [
+        {
+          "texto": "Avena: ½ taza · 40 g",
+          "gramos": 40
+        },
+        {
+          "texto": "Clara: 4 claras · 120 g",
+          "gramos": 120
+        },
+        {
+          "texto": "Huevo: 1 huevo · 50 g",
+          "gramos": 50
+        },
+        {
+          "texto": "Yogur: ½ taza · 100 g",
+          "gramos": 100
+        },
+        {
+          "texto": "Fresa: 1¼ tazas · 120 g",
+          "gramos": 120
+        }
+      ],
+      "pasos": [
+        "Licúa avena, claras, huevo y la mitad del yogur.",
+        "Cocina tres panqueques pequeños.",
+        "Sirve con yogur y fresas frescas."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-masa-muscular-1109-tortilla-enrollada-de-claras-pavita-y-espinaca",
+      "recipeId": "masa-muscular-1109-tortilla-enrollada-de-claras-pavita-y-espinaca",
+      "nombre": "Tortilla enrollada de claras, pavita y espinaca",
+      "descripcion": "Tortilla fina de claras rellena con pavita, espinaca, tomate, palta y camote.",
+      "momento": "desayuno",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 461,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 326,
+        "proteina": 35.8,
+        "carbohidratos": 29.1,
+        "grasas": 7.7
+      },
+      "ingredientes": [
+        {
+          "texto": "165 g (⅔ taza) — Claras de huevo pasteurizadas",
+          "gramos": 165
+        },
+        {
+          "texto": "80 g (½ taza en tiras) — Pechuga de pavita cocida",
+          "gramos": 80
+        },
+        {
+          "texto": "25 g (1 taza suelta) — Espinaca",
+          "gramos": 25
+        },
+        {
+          "texto": "50 g (⅓ taza) — Tomate",
+          "gramos": 50
+        },
+        {
+          "texto": "100 g (½ unidad mediana) — Camote amarillo",
+          "gramos": 100
+        },
+        {
+          "texto": "40 g (3 cucharadas) — Palta",
+          "gramos": 40
+        },
+        {
+          "texto": "1 g (al gusto) — Pimienta y orégano",
+          "gramos": 1
+        }
+      ],
+      "pasos": [
+        "Aplasta el camote hasta obtener un puré firme y mezcla la palta con el orégano.",
+        "Cocina las claras en una sartén antiadherente de 22 cm, a fuego medio-bajo, hasta formar una tortilla fina completamente cuajada.",
+        "Extiende una capa fina de palta, añade la pavita, la espinaca, el tomate y parte del camote.",
+        "Enrolla con firmeza y sirve el camote restante al lado."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-masa-muscular-1110-tostadas-integrales-con-requeson-huevo-y-tomate",
+      "recipeId": "masa-muscular-1110-tostadas-integrales-con-requeson-huevo-y-tomate",
+      "nombre": "Tostadas integrales con requesón, huevo y tomate",
+      "descripcion": "Dos tostadas integrales con requesón cremoso, tomate, huevo cocido y orégano.",
+      "momento": "desayuno",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 281,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 410,
+        "proteina": 27,
+        "carbohidratos": 41.5,
+        "grasas": 14.8
+      },
+      "ingredientes": [
+        {
+          "texto": "60 g (2 rebanadas) — Pan integral",
+          "gramos": 60
+        },
+        {
+          "texto": "110 g (½ taza) — Queso ricotta o requesón",
+          "gramos": 110
+        },
+        {
+          "texto": "50 g (1 unidad) — Huevo",
+          "gramos": 50
+        },
+        {
+          "texto": "60 g (½ unidad mediana) — Tomate",
+          "gramos": 60
+        },
+        {
+          "texto": "1 g (al gusto) — Orégano y pimienta",
+          "gramos": 1
+        }
+      ],
+      "pasos": [
+        "Tuesta el pan sin añadir aceite.",
+        "Bate el requesón con el orégano y la pimienta hasta que quede cremoso.",
+        "Cocina el huevo por completo en una sartén antiadherente o en agua.",
+        "Unta el requesón, distribuye el tomate y coloca el huevo encima."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-masa-muscular-1108-overnight-oats-de-yogur-avena-chia-y-platano",
+      "recipeId": "masa-muscular-1108-overnight-oats-de-yogur-avena-chia-y-platano",
+      "nombre": "Overnight oats de yogur, avena, chía y plátano",
+      "descripcion": "Avena nocturna espesa con yogur, leche, chía, plátano y canela.",
+      "momento": "desayuno",
+      "familiaProteica": "lacteo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 353,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 390,
+        "proteina": 28.8,
+        "carbohidratos": 63,
+        "grasas": 6.3
+      },
+      "ingredientes": [
+        {
+          "texto": "40 g (½ taza rasa) — Avena en hojuelas",
+          "gramos": 40
+        },
+        {
+          "texto": "180 g (¾ taza) — Yogur griego natural sin azúcar",
+          "gramos": 180
+        },
+        {
+          "texto": "60 g (¼ taza) — Leche descremada",
+          "gramos": 60
+        },
+        {
+          "texto": "12 g (1 cucharada) — Chía",
+          "gramos": 12
+        },
+        {
+          "texto": "60 g (½ unidad pequeña) — Plátano de seda",
+          "gramos": 60
+        },
+        {
+          "texto": "1 g (¼ cucharadita) — Canela molida",
+          "gramos": 1
+        }
+      ],
+      "pasos": [
+        "Mezcla en un frasco la avena, el yogur, la leche, la chía y la canela.",
+        "Tapa y refrigera entre 8 y 12 horas.",
+        "Antes de servir, remueve y añade el plátano en rodajas."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-desayunos-6-pan-03",
+      "recipeId": "desayunos-6-pan-03",
+      "nombre": "Pan de plátano, avena y nueces",
+      "descripcion": "Pan de plátano de miga húmeda, terminado con yogur y una porción medida de nueces.",
+      "momento": "desayuno",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 311,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 420,
+        "proteina": 24.6,
+        "carbohidratos": 58,
+        "grasas": 13.1
+      },
+      "ingredientes": [
+        {
+          "texto": "40 g — Avena (½ taza)",
+          "gramos": 40
+        },
+        {
+          "texto": "80 g — Platano (¾ plátano mediano)",
+          "gramos": 80
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo)",
+          "gramos": 50
+        },
+        {
+          "texto": "50 g — Clara (aprox. 2 claras pequeñas)",
+          "gramos": 50
+        },
+        {
+          "texto": "80 g — Yogur (⅓ taza)",
+          "gramos": 80
+        },
+        {
+          "texto": "10 g — Nueces (1 cucharada)",
+          "gramos": 10
+        },
+        {
+          "texto": "1 g — Canela (¼ cucharadita)",
+          "gramos": 1
+        }
+      ],
+      "pasos": [
+        "Aplasta el plátano y mezcla con huevo, clara y yogur.",
+        "Añade avena, nueces, canela y polvo de hornear.",
+        "Hornea 22 minutos a 180 °C."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-desayunos-19-panqueque-dulce-con-banana",
+      "recipeId": "desayunos-19-panqueque-dulce-con-banana",
+      "nombre": "Panqueques de plátano, avena y nueces",
+      "descripcion": "Panqueques de plátano y avena con nueces picadas y yogur natural.",
+      "momento": "desayuno",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 340,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 436,
+        "proteina": 25.7,
+        "carbohidratos": 62.8,
+        "grasas": 12.1
+      },
+      "ingredientes": [
+        {
+          "texto": "42 g — Avena (½ taza)",
+          "gramos": 42
+        },
+        {
+          "texto": "100 g — Platano (1 plátano pequeño)",
+          "gramos": 100
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo)",
+          "gramos": 50
+        },
+        {
+          "texto": "60 g — Clara (2 claras)",
+          "gramos": 60
+        },
+        {
+          "texto": "8 g — Nueces (2 cucharaditas)",
+          "gramos": 8
+        },
+        {
+          "texto": "80 g — Yogur (⅓ taza)",
+          "gramos": 80
+        }
+      ],
+      "pasos": [
+        "Licúa avena, plátano, huevo y claras.",
+        "Cocina tres panqueques en sartén antiadherente.",
+        "Sirve con yogur y nueces picadas."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-desayunos-7-crepioca",
+      "recipeId": "desayunos-7-crepioca",
+      "nombre": "Crepioca de espinaca, tomate y queso fresco",
+      "descripcion": "Crepioca flexible rellena de espinaca, tomate y queso fresco, acompañada con yogur.",
+      "momento": "desayuno",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 465,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 359,
+        "proteina": 29.7,
+        "carbohidratos": 44.4,
+        "grasas": 9.4
+      },
+      "ingredientes": [
+        {
+          "texto": "30 g — Tapioca (2 cucharadas)",
+          "gramos": 30
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo)",
+          "gramos": 50
+        },
+        {
+          "texto": "80 g — Clara (aprox. 3 claras pequeñas)",
+          "gramos": 80
+        },
+        {
+          "texto": "25 g — Queso (1 tajada delgada)",
+          "gramos": 25
+        },
+        {
+          "texto": "100 g — Espinaca (3 tazas)",
+          "gramos": 100
+        },
+        {
+          "texto": "100 g — Tomate (1 tomate pequeño)",
+          "gramos": 100
+        },
+        {
+          "texto": "80 g — Yogur (⅓ taza)",
+          "gramos": 80
+        }
+      ],
+      "pasos": [
+        "Mezcla tapioca, huevo y claras.",
+        "Cuaja en sartén antiadherente.",
+        "Rellena con espinaca, tomate y queso; sirve con yogur."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-desayunos-24-crepe-con-kefir",
+      "recipeId": "desayunos-24-crepe-con-kefir",
+      "nombre": "Crepes de avena y kéfir con fresas",
+      "descripcion": "Crepes de avena y kéfir con fresas frescas, de sabor ligeramente ácido.",
+      "momento": "desayuno",
+      "familiaProteica": "carne_roja",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 425,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 370,
+        "proteina": 27.5,
+        "carbohidratos": 49.4,
+        "grasas": 9.3
+      },
+      "ingredientes": [
+        {
+          "texto": "45 g — Avena (½ taza colmada)",
+          "gramos": 45
+        },
+        {
+          "texto": "150 g — Kefir (⅔ taza)",
+          "gramos": 150
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo)",
+          "gramos": 50
+        },
+        {
+          "texto": "80 g — Clara (aprox. 3 claras pequeñas)",
+          "gramos": 80
+        },
+        {
+          "texto": "100 g — Fresa (1 taza)",
+          "gramos": 100
+        }
+      ],
+      "pasos": [
+        "Licúa avena, kéfir, huevo y claras.",
+        "Deja reposar 5 minutos.",
+        "Cuaja dos crepes y sirve con fresas."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-almuerzos-4-tarta-de-harina-de-almendra",
+      "recipeId": "almuerzos-4-tarta-de-harina-de-almendra",
+      "nombre": "Tarta integral de atún y verduras",
+      "descripcion": "Tarta de masa integral fina con atún, tomate y cebolla, terminada con queso reducido en grasa.",
+      "momento": "almuerzo",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 425,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 524,
+        "proteina": 51.9,
+        "carbohidratos": 50.3,
+        "grasas": 14.6
+      },
+      "ingredientes": [
+        {
+          "texto": "80 g — Harina Integral (⅔ taza)",
+          "gramos": 80
+        },
+        {
+          "texto": "30 g — Avena (⅓ taza molida)",
+          "gramos": 30
+        },
+        {
+          "texto": "10 g — Aceite (2 cucharaditas)",
+          "gramos": 10
+        },
+        {
+          "texto": "80 g — Leche (⅓ taza)",
+          "gramos": 80
+        },
+        {
+          "texto": "260 g — Atun (2 latas escurridas)",
+          "gramos": 260
+        },
+        {
+          "texto": "100 g — Huevo (2 huevos)",
+          "gramos": 100
+        },
+        {
+          "texto": "180 g — Tomate (2 tomates)",
+          "gramos": 180
+        },
+        {
+          "texto": "80 g — Cebolla (⅔ taza)",
+          "gramos": 80
+        },
+        {
+          "texto": "30 g — Queso (2 cucharadas)",
+          "gramos": 30
+        }
+      ],
+      "pasos": [
+        "Mezcla harina, avena, aceite y leche hasta obtener una masa; extiéndela en una tartera.",
+        "Hornea la base 10 minutos a 180 °C.",
+        "Combina atún, huevo, tomate y cebolla; distribuye sobre la base.",
+        "Añade queso y hornea 25 minutos."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-almuerzos-11-tarta-de-atun",
+      "recipeId": "almuerzos-11-tarta-de-atun",
+      "nombre": "Tarta de atún sin crema con choclo y tomate",
+      "descripcion": "Tarta sin masa de atún, choclo, tomate y zanahoria, ligada con huevo, claras y yogur.",
+      "momento": "almuerzo",
+      "familiaProteica": "pescado_marisco",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 600,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 453,
+        "proteina": 56.5,
+        "carbohidratos": 38.2,
+        "grasas": 9.7
+      },
+      "ingredientes": [
+        {
+          "texto": "260 g — Atun (2 latas escurridas)",
+          "gramos": 260
+        },
+        {
+          "texto": "100 g — Huevo (2 huevos)",
+          "gramos": 100
+        },
+        {
+          "texto": "100 g — Clara (3 claras)",
+          "gramos": 100
+        },
+        {
+          "texto": "150 g — Yogur (¾ taza)",
+          "gramos": 150
+        },
+        {
+          "texto": "180 g — Maiz (1½ tazas de choclo cocido)",
+          "gramos": 180
+        },
+        {
+          "texto": "200 g — Tomate (2 tomates)",
+          "gramos": 200
+        },
+        {
+          "texto": "100 g — Zanahoria (1 taza rallada)",
+          "gramos": 100
+        },
+        {
+          "texto": "80 g — Cebolla (⅔ taza)",
+          "gramos": 80
+        },
+        {
+          "texto": "30 g — Queso (2 cucharadas)",
+          "gramos": 30
+        }
+      ],
+      "pasos": [
+        "Precalienta el horno a 180 °C.",
+        "Bate huevos, claras y yogur.",
+        "Incorpora atún, choclo, tomate, zanahoria y cebolla; vierte en una fuente.",
+        "Añade queso y hornea 30 minutos."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-perdida-peso-1159-anticuchos-de-pollo-con-choclo-y-ensalada-fresca",
+      "recipeId": "perdida-peso-1159-anticuchos-de-pollo-con-choclo-y-ensalada-fresca",
+      "nombre": "Anticuchos de pollo con choclo y ensalada fresca",
+      "descripcion": "Brochetas de pollo con aderezo de ají panca, choclo sancochado y ensalada fresca.",
+      "momento": "almuerzo",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 510,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 508,
+        "proteina": 46.7,
+        "carbohidratos": 55.5,
+        "grasas": 13.9
+      },
+      "ingredientes": [
+        {
+          "texto": "180 g — Pechuga de pollo (180 g de pechuga de pollo en cubos (≈ 180 g))",
+          "gramos": 180
+        },
+        {
+          "texto": "25 g — Ají panca (2 cdas de pasta de ají panca (≈ 25 g))",
+          "gramos": 25
+        },
+        {
+          "texto": "5 g — Aceite de oliva (1 cdta de aceite (≈ 5 g))",
+          "gramos": 5
+        },
+        {
+          "texto": "120 g — Choclo (1 choclo sancochado (≈ 120 g))",
+          "gramos": 120
+        },
+        {
+          "texto": "40 g — Lechuga (Lechuga (≈ 40 g))",
+          "gramos": 40
+        },
+        {
+          "texto": "60 g — Tomate (tomate (≈ 60 g))",
+          "gramos": 60
+        },
+        {
+          "texto": "80 g — Verduras mixtas (cebolla para la ensalada (≈ 80 g))",
+          "gramos": 80
+        }
+      ],
+      "pasos": [
+        "Mezcla ají panca, ajo, vinagre, comino, pimienta y aceite; marina el pollo al menos 2 horas en refrigeración.",
+        "Ensarta el pollo en palitos previamente remojados.",
+        "Cocina a la parrilla o plancha, volteando, hasta que el centro esté completamente cocido.",
+        "Sirve con choclo sancochado y ensalada de lechuga, tomate y cebolla."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-almuerzos-9-rollo-de-carne-molida",
+      "recipeId": "almuerzos-9-rollo-de-carne-molida",
+      "nombre": "Rollo de carne magra con verduras",
+      "descripcion": "Rollo de carne magra relleno de espinaca, zanahoria y pimiento, servido con papa.",
+      "momento": "almuerzo",
+      "familiaProteica": "carne_roja",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 545,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 529,
+        "proteina": 44.6,
+        "carbohidratos": 54.7,
+        "grasas": 17.5
+      },
+      "ingredientes": [
+        {
+          "texto": "300 g — Res (2 tazas de carne molida magra)",
+          "gramos": 300
+        },
+        {
+          "texto": "40 g — Avena (½ taza escasa)",
+          "gramos": 40
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo)",
+          "gramos": 50
+        },
+        {
+          "texto": "120 g — Zanahoria (1 taza rallada)",
+          "gramos": 120
+        },
+        {
+          "texto": "150 g — Espinaca (5 tazas frescas)",
+          "gramos": 150
+        },
+        {
+          "texto": "80 g — Cebolla (⅔ taza)",
+          "gramos": 80
+        },
+        {
+          "texto": "100 g — Pimiento (¾ taza)",
+          "gramos": 100
+        },
+        {
+          "texto": "250 g — Papa (2 papas pequeñas cocidas)",
+          "gramos": 250
+        }
+      ],
+      "pasos": [
+        "Mezcla carne, avena, huevo, cebolla y condimentos.",
+        "Extiende sobre papel de horno, cubre con zanahoria, espinaca y pimiento, y enrolla.",
+        "Hornea 35 minutos a 190 °C y deja reposar 8 minutos.",
+        "Sirve con papa cocida."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-almuerzos-5-pastel-de-brocoli",
+      "recipeId": "almuerzos-5-pastel-de-brocoli",
+      "nombre": "Pastel de brócoli, pollo y papa",
+      "descripcion": "Pastel de papa con relleno de pollo, brócoli y zanahoria ligado con yogur natural.",
+      "momento": "almuerzo",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 630,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 454,
+        "proteina": 47.7,
+        "carbohidratos": 47.4,
+        "grasas": 9.9
+      },
+      "ingredientes": [
+        {
+          "texto": "300 g — Brocoli (3 tazas)",
+          "gramos": 300
+        },
+        {
+          "texto": "260 g — Pollo (2 tazas deshilachadas)",
+          "gramos": 260
+        },
+        {
+          "texto": "300 g — Papa (2 papas medianas cocidas)",
+          "gramos": 300
+        },
+        {
+          "texto": "100 g — Zanahoria (1 taza rallada)",
+          "gramos": 100
+        },
+        {
+          "texto": "100 g — Clara (3 claras)",
+          "gramos": 100
+        },
+        {
+          "texto": "100 g — Yogur (½ taza)",
+          "gramos": 100
+        },
+        {
+          "texto": "70 g — Cebolla (½ taza)",
+          "gramos": 70
+        },
+        {
+          "texto": "25 g — Queso (2 cucharadas)",
+          "gramos": 25
+        },
+        {
+          "texto": "5 g — Aceite (1 cucharadita)",
+          "gramos": 5
+        }
+      ],
+      "pasos": [
+        "Precalienta el horno a 180 °C.",
+        "Aplasta la papa y mezcla con las claras; extiende como base.",
+        "Combina brócoli, zanahoria, pollo, cebolla y yogur; coloca sobre la papa.",
+        "Termina con queso y hornea 25 minutos."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-perdida-peso-1157-chupe-de-pescado-aligerado-con-leche-descremada-y-verduras",
+      "recipeId": "perdida-peso-1157-chupe-de-pescado-aligerado-con-leche-descremada-y-verduras",
+      "nombre": "Chupe de pescado aligerado con leche descremada y verduras",
+      "descripcion": "Chupe cremoso sin crema, preparado con pescado, leche descremada, papa y abundantes verduras.",
+      "momento": "almuerzo",
+      "familiaProteica": "pescado_marisco",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 1078,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 472,
+        "proteina": 44.9,
+        "carbohidratos": 70,
+        "grasas": 3.8
+      },
+      "ingredientes": [
+        {
+          "texto": "150 g — Pescado blanco (perico/merluza) (1 filete de pescado (≈ 150 g))",
+          "gramos": 150
+        },
+        {
+          "texto": "480 g — Caldo desgrasado (2 tazas de caldo de pescado (≈ 480 g))",
+          "gramos": 480
+        },
+        {
+          "texto": "120 g — Leche descremada (½ taza de leche descremada (≈ 120 g))",
+          "gramos": 120
+        },
+        {
+          "texto": "40 g — Choclo (¼ taza de choclo desgranado (≈ 40 g))",
+          "gramos": 40
+        },
+        {
+          "texto": "30 g — Arvejas (¼ taza de habas o arvejas (≈ 30 g))",
+          "gramos": 30
+        },
+        {
+          "texto": "70 g — Zanahoria (1 zanahoria pequeña en cubos (≈ 70 g))",
+          "gramos": 70
+        },
+        {
+          "texto": "150 g — Papa (1 papa chica en cubos (≈ 150 g))",
+          "gramos": 150
+        },
+        {
+          "texto": "8 g — Ají panca (½ cdta de ají panca (≈ 8 g))",
+          "gramos": 8
+        },
+        {
+          "texto": "30 g — Cebolla (cebolla (≈ 30 g))",
+          "gramos": 30
+        }
+      ],
+      "pasos": [
+        "Cocina cebolla, ajo y ají panca en una olla durante 3 minutos.",
+        "Agrega caldo, papa, zanahoria, choclo y arvejas; cocina 12–15 minutos.",
+        "Incorpora el pescado y cocina 5 minutos más.",
+        "Baja el fuego, añade la leche y calienta sin hervir; termina con huacatay y pimienta."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-almuerzos-15-quiche-de-camarones",
+      "recipeId": "almuerzos-15-quiche-de-camarones",
+      "nombre": "Quiche ligero de camarones y zapallito",
+      "descripcion": "Quiche sin masa pesada de camarones y zapallito, ligado con avena, huevo y leche descremada.",
+      "momento": "almuerzo",
+      "familiaProteica": "pescado_marisco",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 537.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 445,
+        "proteina": 47.5,
+        "carbohidratos": 41.5,
+        "grasas": 11.4
+      },
+      "ingredientes": [
+        {
+          "texto": "260 g — Camaron (18 a 22 camarones medianos)",
+          "gramos": 260
+        },
+        {
+          "texto": "250 g — Zapallito (1½ zapallitos)",
+          "gramos": 250
+        },
+        {
+          "texto": "70 g — Avena (¾ taza molida)",
+          "gramos": 70
+        },
+        {
+          "texto": "100 g — Huevo (2 huevos)",
+          "gramos": 100
+        },
+        {
+          "texto": "120 g — Clara (4 claras)",
+          "gramos": 120
+        },
+        {
+          "texto": "160 g — Leche (⅔ taza)",
+          "gramos": 160
+        },
+        {
+          "texto": "80 g — Cebolla (⅔ taza)",
+          "gramos": 80
+        },
+        {
+          "texto": "30 g — Queso (2 cucharadas)",
+          "gramos": 30
+        },
+        {
+          "texto": "5 g — Aceite (1 cucharadita)",
+          "gramos": 5
+        }
+      ],
+      "pasos": [
+        "Precalienta el horno a 180 °C.",
+        "Saltea cebolla y camarones con aceite durante 3 minutos.",
+        "Mezcla avena, huevos, claras y leche; incorpora zapallito y camarones.",
+        "Vierte en una fuente, añade queso y hornea 30 minutos."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-almuerzos-21-pasta-de-chayote-con-salsa-de-queso",
+      "recipeId": "almuerzos-21-pasta-de-chayote-con-salsa-de-queso",
+      "nombre": "Tallarines de chayote con pollo y ricotta",
+      "descripcion": "Tallarines de chayote con pollo, espinaca y salsa ligera de ricotta, servidos con quinua.",
+      "momento": "almuerzo",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 702.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 451,
+        "proteina": 46.8,
+        "carbohidratos": 43,
+        "grasas": 11.9
+      },
+      "ingredientes": [
+        {
+          "texto": "450 g — Chayote (3 chayotes grandes)",
+          "gramos": 450
+        },
+        {
+          "texto": "260 g — Pollo (2 tazas en tiras)",
+          "gramos": 260
+        },
+        {
+          "texto": "120 g — Ricotta (½ taza)",
+          "gramos": 120
+        },
+        {
+          "texto": "120 g — Leche (½ taza)",
+          "gramos": 120
+        },
+        {
+          "texto": "80 g — Cebolla (⅔ taza)",
+          "gramos": 80
+        },
+        {
+          "texto": "150 g — Espinaca (5 tazas frescas)",
+          "gramos": 150
+        },
+        {
+          "texto": "220 g — Quinua (1⅓ tazas cocidas)",
+          "gramos": 220
+        },
+        {
+          "texto": "5 g — Aceite (1 cucharadita)",
+          "gramos": 5
+        }
+      ],
+      "pasos": [
+        "Corta el chayote en tiras y cocínalo al vapor hasta quedar al dente.",
+        "Saltea cebolla y pollo con aceite; verifica que el pollo quede completamente cocido.",
+        "Añade espinaca, ricotta y leche; integra a fuego bajo.",
+        "Incorpora el chayote y sirve con quinua."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-almuerzos-10-pizzaiolo-de-carne-molida",
+      "recipeId": "almuerzos-10-pizzaiolo-de-carne-molida",
+      "nombre": "Pizza de pollo, avena y verduras",
+      "descripcion": "Pizza con base horneada de pollo y avena, cubierta con tomate, pimiento, cebolla y queso medido.",
+      "momento": "almuerzo",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 452.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 446,
+        "proteina": 47,
+        "carbohidratos": 38.1,
+        "grasas": 14.1
+      },
+      "ingredientes": [
+        {
+          "texto": "300 g — Pollo (2¼ tazas de pollo molido)",
+          "gramos": 300
+        },
+        {
+          "texto": "70 g — Avena (¾ taza molida)",
+          "gramos": 70
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo)",
+          "gramos": 50
+        },
+        {
+          "texto": "220 g — Tomate (1 taza de tomate triturado)",
+          "gramos": 220
+        },
+        {
+          "texto": "120 g — Pimiento (1 pimiento)",
+          "gramos": 120
+        },
+        {
+          "texto": "80 g — Cebolla (⅔ taza)",
+          "gramos": 80
+        },
+        {
+          "texto": "60 g — Queso (½ taza rallada)",
+          "gramos": 60
+        },
+        {
+          "texto": "5 g — Aceite (1 cucharadita)",
+          "gramos": 5
+        }
+      ],
+      "pasos": [
+        "Mezcla pollo, avena y huevo; extiende en una bandeja formando la base.",
+        "Hornea 15 minutos a 200 °C.",
+        "Cubre con tomate, cebolla, pimiento y queso.",
+        "Hornea 12 minutos adicionales hasta gratinar ligeramente."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-perdida-peso-1154-tacu-tacu-ligero-de-frejol-con-pollo-a-la-plancha-y-salsa-cr",
+      "recipeId": "perdida-peso-1154-tacu-tacu-ligero-de-frejol-con-pollo-a-la-plancha-y-salsa-cr",
+      "nombre": "Tacu tacu ligero de frejol con pollo a la plancha y salsa criolla",
+      "descripcion": "Tacu tacu dorado de frejol y arroz integral, acompañado de pollo y salsa criolla fresca.",
+      "momento": "almuerzo",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 498,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 457,
+        "proteina": 44.5,
+        "carbohidratos": 49.6,
+        "grasas": 11.3
+      },
+      "ingredientes": [
+        {
+          "texto": "90 g — Frejol canario cocido (½ taza de frejol canario cocido (≈ 90 g))",
+          "gramos": 90
+        },
+        {
+          "texto": "75 g — Arroz integral cocido (½ taza de arroz integral cocido (≈ 75 g))",
+          "gramos": 75
+        },
+        {
+          "texto": "150 g — Pechuga de pollo (1 filete de pechuga de pollo (≈ 150 g))",
+          "gramos": 150
+        },
+        {
+          "texto": "30 g — Cebolla (¼ de cebolla roja (≈ 30 g))",
+          "gramos": 30
+        },
+        {
+          "texto": "60 g — Tomate (½ tomate (≈ 60 g))",
+          "gramos": 60
+        },
+        {
+          "texto": "80 g — Verduras mixtas (culantro (≈ 80 g))",
+          "gramos": 80
+        },
+        {
+          "texto": "8 g — Ají amarillo (1 cdta de ají amarillo (≈ 8 g))",
+          "gramos": 8
+        },
+        {
+          "texto": "5 g — Aceite de oliva (1 cdta de aceite (≈ 5 g))",
+          "gramos": 5
+        }
+      ],
+      "pasos": [
+        "Aplasta ligeramente el frejol y mézclalo con el arroz, ají amarillo, ajo, comino y pimienta.",
+        "Forma el tacu tacu y dóralo por ambos lados en una sartén antiadherente con parte del aceite.",
+        "Cocina el pollo a la plancha hasta que el centro esté completamente cocido.",
+        "Mezcla cebolla, tomate, culantro y limón para la salsa criolla; sirve junto al pollo y el tacu tacu."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-almuerzos-23-apios-rellenos-de-pollo",
+      "recipeId": "almuerzos-23-apios-rellenos-de-pollo",
+      "nombre": "Ensalada completa de pollo, apio, papa y yogur",
+      "descripcion": "Ensalada fría de pollo, apio, papa, zanahoria y choclo con aderezo de yogur.",
+      "momento": "almuerzo",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 632.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 491,
+        "proteina": 39.9,
+        "carbohidratos": 69.4,
+        "grasas": 8.2
+      },
+      "ingredientes": [
+        {
+          "texto": "260 g — Pollo (2 tazas deshilachadas)",
+          "gramos": 260
+        },
+        {
+          "texto": "180 g — Apio (6 tallos)",
+          "gramos": 180
+        },
+        {
+          "texto": "400 g — Papa (3 papas medianas)",
+          "gramos": 400
+        },
+        {
+          "texto": "160 g — Yogur (⅔ taza)",
+          "gramos": 160
+        },
+        {
+          "texto": "120 g — Zanahoria (1 taza)",
+          "gramos": 120
+        },
+        {
+          "texto": "140 g — Maiz (1 taza de choclo)",
+          "gramos": 140
+        },
+        {
+          "texto": "5 g — Aceite (1 cucharadita)",
+          "gramos": 5
+        }
+      ],
+      "pasos": [
+        "Cocina papa, zanahoria y choclo; enfría completamente.",
+        "Mezcla yogur con limón, pimienta y el aceite.",
+        "Integra pollo, apio y vegetales con el aderezo.",
+        "Refrigera 20 minutos antes de servir."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-perdida-peso-1153-sudado-de-pescado-a-la-olla-con-yuca-y-verduras",
+      "recipeId": "perdida-peso-1153-sudado-de-pescado-a-la-olla-con-yuca-y-verduras",
+      "nombre": "Sudado de pescado a la olla con yuca y verduras",
+      "descripcion": "Pescado cocido suavemente en tomate y ají amarillo, servido con yuca sancochada.",
+      "momento": "almuerzo",
+      "familiaProteica": "pescado_marisco",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 645,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 487,
+        "proteina": 40.2,
+        "carbohidratos": 66.1,
+        "grasas": 8
+      },
+      "ingredientes": [
+        {
+          "texto": "180 g — Pescado blanco (perico/merluza) (1 filete de pescado blanco (≈ 180 g))",
+          "gramos": 180
+        },
+        {
+          "texto": "120 g — Tomate (1 tomate en rodajas (≈ 120 g))",
+          "gramos": 120
+        },
+        {
+          "texto": "55 g — Cebolla (½ cebolla roja en plumas (≈ 55 g))",
+          "gramos": 55
+        },
+        {
+          "texto": "15 g — Ají amarillo (½ ají amarillo en tiras (≈ 15 g))",
+          "gramos": 15
+        },
+        {
+          "texto": "120 g — Caldo desgrasado (½ taza de caldo de pescado o agua (≈ 120 g))",
+          "gramos": 120
+        },
+        {
+          "texto": "150 g — Yuca (1 trozo de yuca sancochada (≈ 150 g))",
+          "gramos": 150
+        },
+        {
+          "texto": "5 g — Aceite de oliva (1 cdta de aceite (≈ 5 g))",
+          "gramos": 5
+        }
+      ],
+      "pasos": [
+        "Condimenta el pescado con limón y pimienta.",
+        "Sofríe cebolla y ají amarillo con el aceite durante 3 minutos; agrega el tomate.",
+        "Coloca el pescado, vierte el caldo y cocina tapado 10–12 minutos a fuego medio.",
+        "Termina con culantro y sirve con la yuca sancochada."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-almuerzos-13-tarta-de-queso-y-palma",
+      "recipeId": "almuerzos-13-tarta-de-queso-y-palma",
+      "nombre": "Tarta integral de palmitos y espinaca",
+      "descripcion": "Tarta integral rellena de palmitos, espinaca y ricotta, sin mantequilla ni exceso de queso.",
+      "momento": "almuerzo",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 515,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 531,
+        "proteina": 37.1,
+        "carbohidratos": 69.6,
+        "grasas": 17
+      },
+      "ingredientes": [
+        {
+          "texto": "100 g — Harina Integral (¾ taza)",
+          "gramos": 100
+        },
+        {
+          "texto": "40 g — Avena (½ taza molida)",
+          "gramos": 40
+        },
+        {
+          "texto": "10 g — Aceite (2 cucharaditas)",
+          "gramos": 10
+        },
+        {
+          "texto": "80 g — Leche (⅓ taza)",
+          "gramos": 80
+        },
+        {
+          "texto": "220 g — Palmito (1½ tazas en rodajas)",
+          "gramos": 220
+        },
+        {
+          "texto": "200 g — Espinaca (6 tazas frescas)",
+          "gramos": 200
+        },
+        {
+          "texto": "100 g — Huevo (2 huevos)",
+          "gramos": 100
+        },
+        {
+          "texto": "100 g — Clara (3 claras)",
+          "gramos": 100
+        },
+        {
+          "texto": "100 g — Ricotta (½ taza)",
+          "gramos": 100
+        },
+        {
+          "texto": "80 g — Cebolla (⅔ taza)",
+          "gramos": 80
+        }
+      ],
+      "pasos": [
+        "Forma una masa con harina, avena, aceite y leche; cubre una tartera.",
+        "Precocina 10 minutos a 180 °C.",
+        "Mezcla palmito, espinaca salteada, huevos, claras, ricotta y cebolla.",
+        "Rellena y hornea 30 minutos."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-almuerzos-22-cremoso-de-pollo-con-col-blanca",
+      "recipeId": "almuerzos-22-cremoso-de-pollo-con-col-blanca",
+      "nombre": "Pollo cremoso ligero con col blanca y papa",
+      "descripcion": "Pollo y col blanca en salsa de yogur, acompañados con papa y zanahoria.",
+      "momento": "almuerzo",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 752.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 453,
+        "proteina": 42.2,
+        "carbohidratos": 61.8,
+        "grasas": 8.1
+      },
+      "ingredientes": [
+        {
+          "texto": "500 g — Repollo (½ col mediana)",
+          "gramos": 500
+        },
+        {
+          "texto": "280 g — Pollo (2 tazas en cubos)",
+          "gramos": 280
+        },
+        {
+          "texto": "350 g — Papa (3 papas pequeñas)",
+          "gramos": 350
+        },
+        {
+          "texto": "150 g — Yogur (¾ taza)",
+          "gramos": 150
+        },
+        {
+          "texto": "100 g — Cebolla (1 cebolla pequeña)",
+          "gramos": 100
+        },
+        {
+          "texto": "120 g — Zanahoria (1 taza)",
+          "gramos": 120
+        },
+        {
+          "texto": "5 g — Aceite (1 cucharadita)",
+          "gramos": 5
+        }
+      ],
+      "pasos": [
+        "Cocina las papas y reserva.",
+        "Sofríe cebolla y pollo con aceite hasta cocinar completamente.",
+        "Añade col y zanahoria; tapa y cocina 12 minutos.",
+        "Retira del fuego, incorpora yogur y sirve con papa."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-masa-muscular-1116-bowl-de-pollo-arroz-y-verduras-al-vapor-con-alino-de-yogur-y-limon",
+      "recipeId": "masa-muscular-1116-bowl-de-pollo-arroz-y-verduras-al-vapor-con-alino-de-yogur-y-limon",
+      "nombre": "Bowl de pollo, arroz y verduras al vapor con aliño de yogur y limón",
+      "descripcion": "Bowl completo de pollo, arroz y verduras al vapor con aliño de yogur y limón, servido en una porción individual y equilibrada.",
+      "momento": "almuerzo",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 590,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 470,
+        "proteina": 50,
+        "carbohidratos": 56.7,
+        "grasas": 6.3
+      },
+      "ingredientes": [
+        {
+          "texto": "170 g (170 g de pechuga de pollo) — Pechuga de pollo",
+          "gramos": 170
+        },
+        {
+          "texto": "150 g (1 taza de arroz cocido) — Arroz cocido",
+          "gramos": 150
+        },
+        {
+          "texto": "90 g (Brócoli) — Brócoli",
+          "gramos": 90
+        },
+        {
+          "texto": "60 g (zanahoria al vapor) — Zanahoria",
+          "gramos": 60
+        },
+        {
+          "texto": "60 g (¼ taza de yogur griego) — Yogur griego natural",
+          "gramos": 60
+        },
+        {
+          "texto": "60 g (½ taza adicional) — Verduras mixtas",
+          "gramos": 60
+        }
+      ],
+      "pasos": [
+        "Cocina el pollo a la plancha y córtalo en tiras.",
+        "Cuece las verduras al vapor.",
+        "Arma el bowl con el arroz, el pollo y las verduras.",
+        "Aliña con el yogur mezclado con limón, ajo, y pimienta.",
+        "Prepara y sirve verduras mixtas en la cantidad indicada como parte de la porción."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-masa-muscular-1118-filete-de-bonito-a-la-plancha-con-papa-amarilla-y-brocoli",
+      "recipeId": "masa-muscular-1118-filete-de-bonito-a-la-plancha-con-papa-amarilla-y-brocoli",
+      "nombre": "Filete de bonito a la plancha con papa amarilla y brócoli",
+      "descripcion": "Filete de bonito a la plancha con papa amarilla y brócoli, con cocción sencilla y una guarnición de vegetales y carbohidrato en cantidades definidas.",
+      "momento": "almuerzo",
+      "familiaProteica": "vegetal",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 510,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 468,
+        "proteina": 49,
+        "carbohidratos": 53.5,
+        "grasas": 8.3
+      },
+      "ingredientes": [
+        {
+          "texto": "175 g (180 g de bonito) — Bonito",
+          "gramos": 175
+        },
+        {
+          "texto": "200 g (2 papas amarillas (≈200 g)) — Papa",
+          "gramos": 200
+        },
+        {
+          "texto": "135 g (1½ taza de brócoli) — Brócoli",
+          "gramos": 135
+        }
+      ],
+      "pasos": [
+        "Sazona el bonito con ajo, limón, y pimienta.",
+        "Cocínalo a la plancha por ambos lados.",
+        "Sancocha la papa y cuece el brócoli al vapor.",
+        "Sirve todo junto."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-masa-muscular-1111-pechuga-a-la-plancha-con-brocoli-al-vapor-alino-de-yogur-griego-y-camote",
+      "recipeId": "masa-muscular-1111-pechuga-a-la-plancha-con-brocoli-al-vapor-alino-de-yogur-griego-y-camote",
+      "nombre": "Pechuga a la plancha con brócoli al vapor, aliño de yogur griego y camote",
+      "descripcion": "Pechuga a la plancha con brócoli al vapor, aliño de yogur griego y camote, con cocción sencilla y una guarnición de vegetales y carbohidrato en cantidades definidas.",
+      "momento": "almuerzo",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 565,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 467,
+        "proteina": 49,
+        "carbohidratos": 57.9,
+        "grasas": 6.4
+      },
+      "ingredientes": [
+        {
+          "texto": "170 g (180 g de pechuga de pollo) — Pechuga de pollo",
+          "gramos": 170
+        },
+        {
+          "texto": "135 g (1½ taza de brócoli) — Brócoli",
+          "gramos": 135
+        },
+        {
+          "texto": "60 g (¼ taza de yogur griego natural) — Yogur griego natural",
+          "gramos": 60
+        },
+        {
+          "texto": "200 g (1 camote grande sancochado (≈200 g)) — Camote",
+          "gramos": 200
+        }
+      ],
+      "pasos": [
+        "Sazona la pechuga y cocínala a la plancha por ambos lados hasta dorar.",
+        "Cuece el brócoli al vapor 4–5 min.",
+        "Mezcla el yogur con ajo rallado, limón, y pimienta para el aliño.",
+        "Sirve la pechuga con el brócoli (con el aliño encima) y el camote."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-almuerzos-19-tarta-de-brocoli",
+      "recipeId": "almuerzos-19-tarta-de-brocoli",
+      "nombre": "Tilapia al limón con brócoli y camote",
+      "descripcion": "Tilapia al limón con brócoli cremoso de yogur y camote cocido.",
+      "momento": "almuerzo",
+      "familiaProteica": "pescado_marisco",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 597.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 430,
+        "proteina": 42.1,
+        "carbohidratos": 49.9,
+        "grasas": 9
+      },
+      "ingredientes": [
+        {
+          "texto": "300 g — Tilapia (2 filetes medianos)",
+          "gramos": 300
+        },
+        {
+          "texto": "350 g — Brocoli (3½ tazas)",
+          "gramos": 350
+        },
+        {
+          "texto": "350 g — Camote (2 camotes medianos)",
+          "gramos": 350
+        },
+        {
+          "texto": "100 g — Yogur (½ taza)",
+          "gramos": 100
+        },
+        {
+          "texto": "70 g — Cebolla (½ taza)",
+          "gramos": 70
+        },
+        {
+          "texto": "20 g — Queso (1½ cucharadas)",
+          "gramos": 20
+        },
+        {
+          "texto": "5 g — Aceite (1 cucharadita)",
+          "gramos": 5
+        }
+      ],
+      "pasos": [
+        "Cocina el camote y el brócoli hasta que estén tiernos.",
+        "Coloca la tilapia en una fuente con cebolla, limón y aceite; hornea 15 minutos.",
+        "Tritura parte del brócoli con yogur, cubre el pescado y añade queso.",
+        "Gratina 5 minutos y sirve con camote y el brócoli restante."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-masa-muscular-1114-meal-prep-de-pollo-arroz-huevo-sancochado-y-verduras-al-vapor",
+      "recipeId": "masa-muscular-1114-meal-prep-de-pollo-arroz-huevo-sancochado-y-verduras-al-vapor",
+      "nombre": "Meal prep de pollo, arroz, huevo sancochado y verduras al vapor",
+      "descripcion": "Comida organizada en un solo recipiente con pollo, arroz, huevo y verduras al vapor.",
+      "momento": "almuerzo",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 580,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 483,
+        "proteina": 46.8,
+        "carbohidratos": 54.8,
+        "grasas": 10.1
+      },
+      "ingredientes": [
+        {
+          "texto": "150 g (150 g de pechuga de pollo) — Pechuga de pollo",
+          "gramos": 150
+        },
+        {
+          "texto": "150 g (1 taza de arroz cocido) — Arroz cocido",
+          "gramos": 150
+        },
+        {
+          "texto": "50 g (1 huevo sancochado) — Huevo",
+          "gramos": 50
+        },
+        {
+          "texto": "90 g (Brócoli) — Brócoli",
+          "gramos": 90
+        },
+        {
+          "texto": "60 g (zanahoria) — Zanahoria",
+          "gramos": 60
+        },
+        {
+          "texto": "80 g (vainita al vapor) — Vainitas",
+          "gramos": 80
+        }
+      ],
+      "pasos": [
+        "Cocina la pechuga a la plancha.",
+        "Cuece las verduras al vapor.",
+        "Arma el táper con el arroz, el pollo, el huevo y las verduras.",
+        "Sazona con limón, y pimienta."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-almuerzos-12-kibe-de-atun",
+      "recipeId": "almuerzos-12-kibe-de-atun",
+      "nombre": "Kibe de atún, coliflor y quinua",
+      "descripcion": "Kibe horneado de atún, coliflor y quinua con tomate y cebolla.",
+      "momento": "almuerzo",
+      "familiaProteica": "pescado_marisco",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 582.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 409,
+        "proteina": 44,
+        "carbohidratos": 50.5,
+        "grasas": 7.2
+      },
+      "ingredientes": [
+        {
+          "texto": "260 g — Atun (2 latas escurridas)",
+          "gramos": 260
+        },
+        {
+          "texto": "300 g — Coliflor (3 tazas cocidas)",
+          "gramos": 300
+        },
+        {
+          "texto": "260 g — Quinua (1⅔ tazas cocidas)",
+          "gramos": 260
+        },
+        {
+          "texto": "120 g — Cebolla (1 cebolla mediana)",
+          "gramos": 120
+        },
+        {
+          "texto": "180 g — Tomate (2 tomates)",
+          "gramos": 180
+        },
+        {
+          "texto": "40 g — Avena (½ taza molida)",
+          "gramos": 40
+        },
+        {
+          "texto": "5 g — Aceite (1 cucharadita)",
+          "gramos": 5
+        }
+      ],
+      "pasos": [
+        "Tritura la coliflor y elimina el exceso de agua.",
+        "Mezcla con quinua, avena, atún, cebolla y tomate.",
+        "Extiende en una fuente pincelada con aceite y marca porciones.",
+        "Hornea 30 minutos a 190 °C."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-cenas-16-pizza",
+      "recipeId": "cenas-16-pizza",
+      "nombre": "Pizza de huevo y avena con pollo",
+      "descripcion": "Pizza de huevo y avena con pollo reúne pollo, tomate y avena. El plato se prepara mediante horno y combina una proteína protagonista, vegetales con textura y un acompañamiento medido para formar un plato completo.",
+      "momento": "cena",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 507.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 473,
+        "proteina": 55.4,
+        "carbohidratos": 36.6,
+        "grasas": 13.2
+      },
+      "ingredientes": [
+        {
+          "texto": "100 g — Huevo (2 huevos)",
+          "gramos": 100
+        },
+        {
+          "texto": "180 g — Clara (5 claras)",
+          "gramos": 180
+        },
+        {
+          "texto": "70 g — Avena (¾ taza molida)",
+          "gramos": 70
+        },
+        {
+          "texto": "280 g — Pollo (2 filetes medianos)",
+          "gramos": 280
+        },
+        {
+          "texto": "200 g — Tomate (¾ taza de salsa casera)",
+          "gramos": 200
+        },
+        {
+          "texto": "150 g — Pimiento (1¼ pimientos)",
+          "gramos": 150
+        },
+        {
+          "texto": "35 g — Queso (¼ taza)",
+          "gramos": 35
+        }
+      ],
+      "pasos": [
+        "Bate huevos, claras y avena; extiende en dos moldes.",
+        "Hornea 12 minutos a 190 °C.",
+        "Cubre con pollo cocido, tomate, pimiento y queso.",
+        "Hornea 10 minutos más."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-cenas-5-crepe-de-pollo",
+      "recipeId": "cenas-5-crepe-de-pollo",
+      "nombre": "Crepes de avena rellenos de pollo y espinaca",
+      "descripcion": "Crepes de avena rellenos de pollo y espinaca reúne pollo, espinaca y avena. El plato se prepara mediante sartén y combina una proteína protagonista, vegetales con textura y un acompañamiento medido para formar un plato completo.",
+      "momento": "cena",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 467.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 466,
+        "proteina": 53.2,
+        "carbohidratos": 41.3,
+        "grasas": 12.8
+      },
+      "ingredientes": [
+        {
+          "texto": "Avena: ¾ taza molida · 80 g",
+          "gramos": 80
+        },
+        {
+          "texto": "Huevo: 1 huevo · 50 g",
+          "gramos": 50
+        },
+        {
+          "texto": "Clara: 3 claras · 100 g",
+          "gramos": 100
+        },
+        {
+          "texto": "Leche: ⅔ taza · 160 g",
+          "gramos": 160
+        },
+        {
+          "texto": "Pollo: 280 g de pollo crudo · 280 g",
+          "gramos": 280
+        },
+        {
+          "texto": "Espinaca: 6 tazas frescas · 180 g",
+          "gramos": 180
+        },
+        {
+          "texto": "Yogur: ⅓ taza · 80 g",
+          "gramos": 80
+        },
+        {
+          "texto": "Aceite: 1 cucharadita · 5 g",
+          "gramos": 5
+        }
+      ],
+      "pasos": [
+        "Licúa avena, huevo, claras y leche.",
+        "Cuaja cuatro crepes finos en sartén antiadherente usando el aceite medido.",
+        "Cocina completamente el pollo, añade la espinaca y, fuera del fuego, incorpora el yogur para que no se corte.",
+        "Rellena dos crepes por porción y sirve."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-cenas-6-pizza-con-masa-de-coliflor",
+      "recipeId": "cenas-6-pizza-con-masa-de-coliflor",
+      "nombre": "Pizza de coliflor con pollo y verduras",
+      "descripcion": "Pizza de coliflor con pollo y verduras reúne pollo, coliflor y avena. El plato se prepara mediante horno y combina una proteína protagonista, vegetales con textura y un acompañamiento medido para formar un plato completo.",
+      "momento": "cena",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 595,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 408,
+        "proteina": 50.7,
+        "carbohidratos": 35.2,
+        "grasas": 11.2
+      },
+      "ingredientes": [
+        {
+          "texto": "350 g — Coliflor (3½ tazas)",
+          "gramos": 350
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo)",
+          "gramos": 50
+        },
+        {
+          "texto": "100 g — Clara (3 claras)",
+          "gramos": 100
+        },
+        {
+          "texto": "50 g — Avena (½ taza molida)",
+          "gramos": 50
+        },
+        {
+          "texto": "280 g — Pollo (2 filetes medianos)",
+          "gramos": 280
+        },
+        {
+          "texto": "200 g — Tomate (¾ taza de salsa casera)",
+          "gramos": 200
+        },
+        {
+          "texto": "120 g — Pimiento (1 pimiento)",
+          "gramos": 120
+        },
+        {
+          "texto": "40 g — Queso (⅓ taza rallada)",
+          "gramos": 40
+        }
+      ],
+      "pasos": [
+        "Cocina la coliflor, tritúrala y exprímela con un paño limpio.",
+        "Mézclala con huevo, claras y avena; forma dos bases finas y hornéalas 18 minutos a 200 °C.",
+        "Cocina el pollo y distribúyelo sobre las bases con tomate y pimiento.",
+        "Añade el queso medido y hornea 10 minutos más."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-cenas-15-tortilla-al-horno-sin-aceite",
+      "recipeId": "cenas-15-tortilla-al-horno-sin-aceite",
+      "nombre": "Tortilla al horno de pavita y queso fresco",
+      "descripcion": "Tortilla al horno de pavita y queso fresco reúne pavita, espinaca y papa. El plato se prepara mediante horno y combina una proteína protagonista, vegetales con textura y un acompañamiento medido para formar un plato completo.",
+      "momento": "cena",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 512.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 447,
+        "proteina": 47.9,
+        "carbohidratos": 39.1,
+        "grasas": 12.7
+      },
+      "ingredientes": [
+        {
+          "texto": "100 g — Huevo (2 huevos)",
+          "gramos": 100
+        },
+        {
+          "texto": "200 g — Clara (6 claras)",
+          "gramos": 200
+        },
+        {
+          "texto": "180 g — Pavita (1¼ tazas cocidas en cubos)",
+          "gramos": 180
+        },
+        {
+          "texto": "180 g — Espinaca (6 tazas frescas)",
+          "gramos": 180
+        },
+        {
+          "texto": "40 g — Queso (⅓ taza)",
+          "gramos": 40
+        },
+        {
+          "texto": "320 g — Papa (2 papas medianas)",
+          "gramos": 320
+        },
+        {
+          "texto": "5 g — Aceite (1 cucharadita)",
+          "gramos": 5
+        }
+      ],
+      "pasos": [
+        "Precalienta el horno a 180 °C.",
+        "Bate huevos y claras; incorpora pavita, espinaca y queso.",
+        "Vierte en una fuente pincelada con el aceite y hornea 25 minutos.",
+        "Sirve con la papa cocida."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-cenas-57-tortilla-con-pollo-desmenuzado",
+      "recipeId": "cenas-57-tortilla-con-pollo-desmenuzado",
+      "nombre": "Tortilla de pollo desmenuzado y verduras",
+      "descripcion": "Tortilla de pollo desmenuzado y verduras reúne pollo, pimiento y papa. El plato se prepara mediante sartén y combina una proteína protagonista, vegetales con textura y un acompañamiento medido para formar un plato completo.",
+      "momento": "cena",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 602.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 477,
+        "proteina": 49,
+        "carbohidratos": 43.9,
+        "grasas": 13.3
+      },
+      "ingredientes": [
+        {
+          "texto": "Huevo: 2 huevos · 100 g",
+          "gramos": 100
+        },
+        {
+          "texto": "Clara: 6 claras · 200 g",
+          "gramos": 200
+        },
+        {
+          "texto": "Pollo: 220 g de pollo cocido y desmenuzado · 220 g",
+          "gramos": 220
+        },
+        {
+          "texto": "Pimiento: 1½ pimientos · 180 g",
+          "gramos": 180
+        },
+        {
+          "texto": "Espinaca: 6 tazas frescas · 180 g",
+          "gramos": 180
+        },
+        {
+          "texto": "Papa: 2 papas medianas · 320 g",
+          "gramos": 320
+        },
+        {
+          "texto": "Aceite: 1 cucharadita · 5 g",
+          "gramos": 5
+        }
+      ],
+      "pasos": [
+        "Cocina la papa y reserva.",
+        "Saltea pimiento y espinaca con el aceite medido.",
+        "Añade pollo y la mezcla de huevos y claras; cuaja a fuego bajo.",
+        "Divide en dos porciones y sirve con papa."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-cenas-58-salsa-blanca-con-parmesano",
+      "recipeId": "cenas-58-salsa-blanca-con-parmesano",
+      "nombre": "Pescado con salsa blanca ligera de parmesano y brócoli",
+      "descripcion": "Pescado con salsa blanca ligera de parmesano y brócoli reúne pescado, brócoli y papa. El plato se prepara mediante horno y combina una proteína protagonista, vegetales con textura y un acompañamiento medido para formar un plato completo.",
+      "momento": "cena",
+      "familiaProteica": "pescado_marisco",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 615,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 430,
+        "proteina": 44,
+        "carbohidratos": 47.1,
+        "grasas": 9.2
+      },
+      "ingredientes": [
+        {
+          "texto": "320 g — Pescado (2 filetes medianos)",
+          "gramos": 320
+        },
+        {
+          "texto": "320 g — Papa (2 papas medianas)",
+          "gramos": 320
+        },
+        {
+          "texto": "300 g — Brocoli (3 tazas)",
+          "gramos": 300
+        },
+        {
+          "texto": "80 g — Cebolla (⅔ taza picada)",
+          "gramos": 80
+        },
+        {
+          "texto": "5 g — Aceite (1 cucharadita)",
+          "gramos": 5
+        },
+        {
+          "texto": "180 g — Leche (¾ taza)",
+          "gramos": 180
+        },
+        {
+          "texto": "25 g — Queso (2 cucharadas)",
+          "gramos": 25
+        }
+      ],
+      "pasos": [
+        "Cocina la papa y el brócoli; reserva.",
+        "Coloca el pescado en una fuente y hornéalo 12 minutos a 190 °C.",
+        "Calienta la leche con ajo y pimienta, añade el queso medido y remueve hasta integrar.",
+        "Cubre el pescado con la salsa, hornea 5 minutos más y sirve con los vegetales."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-cenas-13-torta-de-atun",
+      "recipeId": "cenas-13-torta-de-atun",
+      "nombre": "Pastel ligero de atún, papa y tomate",
+      "descripcion": "Pastel ligero de atún, papa y tomate reúne atun, tomate y papa. El plato se prepara mediante horno y combina una proteína protagonista, vegetales con textura y un acompañamiento medido para formar un plato completo.",
+      "momento": "cena",
+      "familiaProteica": "pescado_marisco",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 557.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 394,
+        "proteina": 45.9,
+        "carbohidratos": 44.7,
+        "grasas": 4.2
+      },
+      "ingredientes": [
+        {
+          "texto": "260 g — Atun (2 latas pequeñas escurridas)",
+          "gramos": 260
+        },
+        {
+          "texto": "320 g — Papa (2 papas medianas)",
+          "gramos": 320
+        },
+        {
+          "texto": "250 g — Tomate (2 tomates grandes)",
+          "gramos": 250
+        },
+        {
+          "texto": "80 g — Cebolla (⅔ taza picada)",
+          "gramos": 80
+        },
+        {
+          "texto": "5 g — Aceite (1 cucharadita)",
+          "gramos": 5
+        },
+        {
+          "texto": "100 g — Clara (3 claras)",
+          "gramos": 100
+        },
+        {
+          "texto": "100 g — Yogur (½ taza)",
+          "gramos": 100
+        }
+      ],
+      "pasos": [
+        "Cocina la papa y aplástala; reserva.",
+        "Mezcla atún escurrido, tomate, cebolla, claras y yogur.",
+        "Extiende la mezcla en una fuente y cubre con la papa.",
+        "Hornea 25 minutos a 190 °C; divide en dos porciones."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-cenas-59-salsa-blanca-con-brocoli-y-pollo",
+      "recipeId": "cenas-59-salsa-blanca-con-brocoli-y-pollo",
+      "nombre": "Pollo con brócoli en salsa blanca ligera",
+      "descripcion": "Pollo con brócoli en salsa blanca ligera reúne pollo, brócoli y papa. El plato se prepara mediante guisado y combina una proteína protagonista, vegetales con textura y un acompañamiento medido para formar un plato completo.",
+      "momento": "cena",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 591.8,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 442,
+        "proteina": 43.3,
+        "carbohidratos": 51,
+        "grasas": 9.5
+      },
+      "ingredientes": [
+        {
+          "texto": "Pollo: 280 g de pollo crudo · 280 g",
+          "gramos": 280
+        },
+        {
+          "texto": "Papa: 2 papas medianas · 320 g",
+          "gramos": 320
+        },
+        {
+          "texto": "Brocoli: 3 tazas · 300 g",
+          "gramos": 300
+        },
+        {
+          "texto": "Cebolla: ⅔ taza picada · 80 g",
+          "gramos": 80
+        },
+        {
+          "texto": "Aceite: 1 cucharadita · 5 g",
+          "gramos": 5
+        },
+        {
+          "texto": "Leche: ¾ taza · 180 g",
+          "gramos": 180
+        },
+        {
+          "texto": "Avena: 2 cucharadas · 15 g",
+          "gramos": 15
+        },
+        {
+          "texto": "Ajo: 1 diente pequeño · 3 g",
+          "gramos": 3
+        },
+        {
+          "texto": "Nuez moscada: 1 pizca · 0.5 g",
+          "gramos": 0.5
+        }
+      ],
+      "pasos": [
+        "Cocina las papas y reserva; cocina el brócoli hasta que esté tierno pero firme.",
+        "Calienta el aceite y cocina la cebolla y el ajo; añade el pollo y cocínalo completamente.",
+        "Disuelve la avena en la leche fría, incorpórala con la nuez moscada y cocina a fuego bajo hasta que espese.",
+        "Añade el brócoli a la salsa y sirve con las papas."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-cenas-29-pastel-de-calabaza-y-coliflor",
+      "recipeId": "cenas-29-pastel-de-calabaza-y-coliflor",
+      "nombre": "Pastel de zapallo y coliflor con pavita",
+      "descripcion": "Pastel de zapallo y coliflor con pavita reúne pavita, coliflor y quinua. El plato se prepara mediante horno y combina una proteína protagonista, vegetales con textura y un acompañamiento medido para formar un plato completo.",
+      "momento": "cena",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 662.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 399,
+        "proteina": 44.8,
+        "carbohidratos": 45.1,
+        "grasas": 7.6
+      },
+      "ingredientes": [
+        {
+          "texto": "280 g — Pavita (2 filetes medianos)",
+          "gramos": 280
+        },
+        {
+          "texto": "260 g — Quinua (1⅔ tazas cocidas)",
+          "gramos": 260
+        },
+        {
+          "texto": "350 g — Zapallo (2½ tazas en cubos)",
+          "gramos": 350
+        },
+        {
+          "texto": "80 g — Cebolla (⅔ taza picada)",
+          "gramos": 80
+        },
+        {
+          "texto": "5 g — Aceite (1 cucharadita)",
+          "gramos": 5
+        },
+        {
+          "texto": "250 g — Coliflor (2½ tazas)",
+          "gramos": 250
+        },
+        {
+          "texto": "100 g — Clara (3 claras)",
+          "gramos": 100
+        }
+      ],
+      "pasos": [
+        "Cocina zapallo y coliflor; escúrrelos y aplástalos por separado.",
+        "Cocina la pavita con cebolla y aceite; integra la quinua.",
+        "Coloca el relleno en una fuente y cubre con los purés mezclados con claras.",
+        "Hornea 25 minutos a 190 °C hasta que la cubierta esté firme."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-cenas-68-pescado-empanado",
+      "recipeId": "cenas-68-pescado-empanado",
+      "nombre": "Pescado empanizado con avena, camote y brócoli",
+      "descripcion": "Filetes de pescado empanizados con avena y horneados, servidos con camote y brócoli.",
+      "momento": "cena",
+      "familiaProteica": "pescado_marisco",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 522.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 435,
+        "proteina": 40.7,
+        "carbohidratos": 54.7,
+        "grasas": 8.8
+      },
+      "ingredientes": [
+        {
+          "texto": "Pescado: 2 filetes medianos · 320 g",
+          "gramos": 320
+        },
+        {
+          "texto": "Camote: 2 camotes pequeños · 300 g",
+          "gramos": 300
+        },
+        {
+          "texto": "Brocoli: 3 tazas · 300 g",
+          "gramos": 300
+        },
+        {
+          "texto": "Cebolla: ⅔ taza picada · 80 g",
+          "gramos": 80
+        },
+        {
+          "texto": "Aceite: 1 cucharadita · 5 g",
+          "gramos": 5
+        },
+        {
+          "texto": "Avena: ½ taza molida · 40 g",
+          "gramos": 40
+        }
+      ],
+      "pasos": [
+        "Cocina el camote y el brócoli; reserva.",
+        "Condimenta el pescado y presiónalo sobre la avena molida para cubrir ambos lados.",
+        "Colócalo en una bandeja pincelada con el aceite medido y hornea 18 minutos a 200 °C.",
+        "Comprueba que se desmenuce fácilmente y sirve con camote y brócoli."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-cenas-61-salsa-blanca-con-gorgonzola",
+      "recipeId": "cenas-61-salsa-blanca-con-gorgonzola",
+      "nombre": "Pollo con salsa ligera de gorgonzola y vainitas",
+      "descripcion": "Pollo con salsa ligera de gorgonzola y vainitas reúne pollo, vainita y papa. El plato se prepara mediante sartén y combina una proteína protagonista, vegetales con textura y un acompañamiento medido para formar un plato completo.",
+      "momento": "cena",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 525,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 436,
+        "proteina": 40.2,
+        "carbohidratos": 49,
+        "grasas": 9.7
+      },
+      "ingredientes": [
+        {
+          "texto": "280 g — Pollo (2 filetes medianos)",
+          "gramos": 280
+        },
+        {
+          "texto": "320 g — Papa (2 papas medianas)",
+          "gramos": 320
+        },
+        {
+          "texto": "250 g — Vainita (2½ tazas)",
+          "gramos": 250
+        },
+        {
+          "texto": "80 g — Cebolla (⅔ taza picada)",
+          "gramos": 80
+        },
+        {
+          "texto": "5 g — Aceite (1 cucharadita)",
+          "gramos": 5
+        },
+        {
+          "texto": "15 g — Gorgonzola (1 cucharada)",
+          "gramos": 15
+        },
+        {
+          "texto": "100 g — Yogur (½ taza)",
+          "gramos": 100
+        }
+      ],
+      "pasos": [
+        "Cocina papa sin sal añadida y reserva.",
+        "Corta y cocina vainita hasta que quede tierna pero firme.",
+        "Calienta el aceite medido y cocina la cebolla; añade pollo y ajo y pimienta hasta alcanzar cocción completa.",
+        "Integra los vegetales, ajusta la textura con agua si hace falta y sirve con el acompañamiento reservado."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-cenas-4-espaguetis-de-calabacin-02",
+      "recipeId": "cenas-4-espaguetis-de-calabacin-02",
+      "nombre": "Tallarines frescos de zapallito con atún y salsa napolitana",
+      "descripcion": "Tallarines frescos de zapallito con atún y salsa napolitana reúne atun, zapallito italiano y garbanzo. El plato se prepara mediante sartén y combina una proteína protagonista, vegetales con textura y un acompañamiento medido para formar un plato completo.",
+      "momento": "cena",
+      "familiaProteica": "pescado_marisco",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 587.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 377,
+        "proteina": 44.3,
+        "carbohidratos": 38.8,
+        "grasas": 6.6
+      },
+      "ingredientes": [
+        {
+          "texto": "260 g — Atun (2 latas pequeñas escurridas)",
+          "gramos": 260
+        },
+        {
+          "texto": "180 g — Garbanzo (1 taza cocida)",
+          "gramos": 180
+        },
+        {
+          "texto": "400 g — Zapallito (2 zapallitos medianos)",
+          "gramos": 400
+        },
+        {
+          "texto": "80 g — Cebolla (⅔ taza picada)",
+          "gramos": 80
+        },
+        {
+          "texto": "5 g — Aceite (1 cucharadita)",
+          "gramos": 5
+        },
+        {
+          "texto": "250 g — Tomate (2 tomates grandes)",
+          "gramos": 250
+        }
+      ],
+      "pasos": [
+        "Cocina garbanzo sin sal añadida y reserva.",
+        "Corta y cocina zapallito hasta que quede tierna pero firme.",
+        "Calienta el aceite medido y cocina la cebolla; añade atun y ajo y orégano hasta alcanzar cocción completa.",
+        "Integra los vegetales, ajusta la textura con agua si hace falta y sirve con el acompañamiento reservado."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-cenas-52-ballotina-de-pollo",
+      "recipeId": "cenas-52-ballotina-de-pollo",
+      "nombre": "Ballotina de pollo rellena de espinaca y ricotta",
+      "descripcion": "Ballotina de pollo rellena de espinaca y ricotta reúne pollo, espinaca y papa. El plato se prepara mediante horno y combina una proteína protagonista, vegetales con textura y un acompañamiento medido para formar un plato completo.",
+      "momento": "cena",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 462.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 399,
+        "proteina": 41.7,
+        "carbohidratos": 40.9,
+        "grasas": 9.6
+      },
+      "ingredientes": [
+        {
+          "texto": "Pollo: 280 g de pollo crudo · 280 g",
+          "gramos": 280
+        },
+        {
+          "texto": "Papa: 2 papas medianas · 320 g",
+          "gramos": 320
+        },
+        {
+          "texto": "Espinaca: 6 tazas frescas · 180 g",
+          "gramos": 180
+        },
+        {
+          "texto": "Cebolla: ⅔ taza picada · 80 g",
+          "gramos": 80
+        },
+        {
+          "texto": "Aceite: 1 cucharadita · 5 g",
+          "gramos": 5
+        },
+        {
+          "texto": "Ricotta: ¼ taza · 60 g",
+          "gramos": 60
+        }
+      ],
+      "pasos": [
+        "Abre los filetes de pollo y aplánalos hasta obtener rectángulos uniformes.",
+        "Distribuye la espinaca y la ricotta, enrolla firmemente, asegura con hilo de cocina y envuelve cada rollo en papel para horno.",
+        "Hornea 28 minutos a 190 °C, retira el papel y dora 5 minutos.",
+        "Deja reposar, corta y sirve con papa."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-cenas-11-torta-de-pollo",
+      "recipeId": "cenas-11-torta-de-pollo",
+      "nombre": "Pastel ligero de pollo, papa y verduras",
+      "descripcion": "Pastel ligero de pollo, papa y verduras reúne pollo, espinaca y papa. El plato se prepara mediante horno y combina una proteína protagonista, vegetales con textura y un acompañamiento medido para formar un plato completo.",
+      "momento": "cena",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 492.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 398,
+        "proteina": 41.1,
+        "carbohidratos": 44,
+        "grasas": 8.4
+      },
+      "ingredientes": [
+        {
+          "texto": "280 g — Pollo (2 filetes medianos)",
+          "gramos": 280
+        },
+        {
+          "texto": "320 g — Papa (2 papas medianas)",
+          "gramos": 320
+        },
+        {
+          "texto": "180 g — Espinaca (6 tazas frescas)",
+          "gramos": 180
+        },
+        {
+          "texto": "80 g — Cebolla (⅔ taza picada)",
+          "gramos": 80
+        },
+        {
+          "texto": "5 g — Aceite (1 cucharadita)",
+          "gramos": 5
+        },
+        {
+          "texto": "120 g — Yogur (½ taza)",
+          "gramos": 120
+        }
+      ],
+      "pasos": [
+        "Cocina la papa, aplástala y distribuye la mitad en una fuente pequeña.",
+        "Cocina el pollo con cebolla y aceite; incorpora espinaca y yogur fuera del fuego.",
+        "Cubre la base con el relleno y termina con la papa restante.",
+        "Hornea 20 minutos a 190 °C hasta que la superficie esté firme."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-cenas-10-tacos-mexicanos",
+      "recipeId": "cenas-10-tacos-mexicanos",
+      "nombre": "Tacos integrales de pollo y verduras",
+      "descripcion": "Tacos integrales de pollo y verduras reúne pollo, tomate y acompañamiento medido. El plato se prepara mediante sartén y combina una proteína protagonista, vegetales con textura y un acompañamiento medido para formar un plato completo.",
+      "momento": "cena",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 462.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 408,
+        "proteina": 38.8,
+        "carbohidratos": 41.1,
+        "grasas": 10.4
+      },
+      "ingredientes": [
+        {
+          "texto": "280 g — Pollo (2 filetes medianos)",
+          "gramos": 280
+        },
+        {
+          "texto": "100 g — Tortilla (4 tortillas pequeñas)",
+          "gramos": 100
+        },
+        {
+          "texto": "180 g — Pimiento (1½ pimientos)",
+          "gramos": 180
+        },
+        {
+          "texto": "180 g — Tomate (2 tomates)",
+          "gramos": 180
+        },
+        {
+          "texto": "80 g — Cebolla (⅔ taza)",
+          "gramos": 80
+        },
+        {
+          "texto": "100 g — Yogur (½ taza)",
+          "gramos": 100
+        },
+        {
+          "texto": "5 g — Aceite (1 cucharadita)",
+          "gramos": 5
+        }
+      ],
+      "pasos": [
+        "Corta el pollo y las verduras en tiras.",
+        "Cocina el pollo con el aceite medido; añade pimiento y cebolla.",
+        "Calienta las tortillas sin aceite.",
+        "Arma dos tacos por persona con tomate y yogur."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-perdida-peso-1164-filete-de-pavita-a-la-plancha-con-pure-de-habas-y-ensalada",
+      "recipeId": "perdida-peso-1164-filete-de-pavita-a-la-plancha-con-pure-de-habas-y-ensalada",
+      "nombre": "Filete de pavita a la plancha con puré de habas y ensalada",
+      "descripcion": "Filete de pavita dorado a la plancha con puré rústico de habas y ensalada fresca.",
+      "momento": "cena",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 515,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 381,
+        "proteina": 41.5,
+        "carbohidratos": 41.4,
+        "grasas": 8
+      },
+      "ingredientes": [
+        {
+          "texto": "150 g — Pechuga de pavita (1 filete de pavita (≈ 150 g))",
+          "gramos": 150
+        },
+        {
+          "texto": "150 g — Habas (1 taza de habas frescas peladas (≈ 150 g))",
+          "gramos": 150
+        },
+        {
+          "texto": "30 g — Leche descremada (2 cdas de leche descremada (≈ 30 g))",
+          "gramos": 30
+        },
+        {
+          "texto": "40 g — Lechuga (Lechuga (≈ 40 g))",
+          "gramos": 40
+        },
+        {
+          "texto": "60 g — Tomate (tomate (≈ 60 g))",
+          "gramos": 60
+        },
+        {
+          "texto": "80 g — Verduras mixtas (pepino para la ensalada (≈ 80 g))",
+          "gramos": 80
+        },
+        {
+          "texto": "5 g — Aceite de oliva (1 cdta de aceite de oliva (≈ 5 g))",
+          "gramos": 5
+        }
+      ],
+      "pasos": [
+        "Sancocha las habas hasta que estén tiernas y escúrrelas.",
+        "Procesa las habas con leche, ajo y pimienta hasta obtener un puré rústico.",
+        "Cocina la pavita a la plancha hasta que el centro esté completamente cocido.",
+        "Mezcla lechuga, tomate y verduras con aceite y limón; sirve junto al puré y la pavita."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-cenas-17-pollo-en-salsa-champinones-y-tocino",
+      "recipeId": "cenas-17-pollo-en-salsa-champinones-y-tocino",
+      "nombre": "Pollo en salsa ligera de champiñones",
+      "descripcion": "Pollo en salsa ligera de champiñones reúne pollo, champiñón y papa. El plato se prepara mediante sartén y combina una proteína protagonista, vegetales con textura y un acompañamiento medido para formar un plato completo.",
+      "momento": "cena",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 502.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 393,
+        "proteina": 39.9,
+        "carbohidratos": 43,
+        "grasas": 7.5
+      },
+      "ingredientes": [
+        {
+          "texto": "280 g — Pollo (2 filetes medianos)",
+          "gramos": 280
+        },
+        {
+          "texto": "320 g — Papa (2 papas medianas)",
+          "gramos": 320
+        },
+        {
+          "texto": "200 g — Champinon (2½ tazas laminadas)",
+          "gramos": 200
+        },
+        {
+          "texto": "80 g — Cebolla (⅔ taza picada)",
+          "gramos": 80
+        },
+        {
+          "texto": "5 g — Aceite (1 cucharadita)",
+          "gramos": 5
+        },
+        {
+          "texto": "120 g — Yogur (½ taza)",
+          "gramos": 120
+        }
+      ],
+      "pasos": [
+        "Cocina papa sin sal añadida y reserva.",
+        "Corta y cocina champinon hasta que quede tierna pero firme.",
+        "Calienta el aceite medido y cocina la cebolla; añade pollo y ajo y tomillo hasta alcanzar cocción completa.",
+        "Integra los vegetales, ajusta la textura con agua si hace falta y sirve con el acompañamiento reservado."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-cenas-21-enrollado-de-pollo",
+      "recipeId": "cenas-21-enrollado-de-pollo",
+      "nombre": "Rollo de pollo relleno de espinaca y queso fresco",
+      "descripcion": "Rollo de pollo relleno de espinaca y queso fresco reúne pollo, espinaca y camote. El plato se prepara mediante horno y combina una proteína protagonista, vegetales con textura y un acompañamiento medido para formar un plato completo.",
+      "momento": "cena",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 442.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 385,
+        "proteina": 40.6,
+        "carbohidratos": 37.9,
+        "grasas": 9.8
+      },
+      "ingredientes": [
+        {
+          "texto": "Pollo: 280 g de pollo crudo · 280 g",
+          "gramos": 280
+        },
+        {
+          "texto": "Camote: 2 camotes pequeños · 300 g",
+          "gramos": 300
+        },
+        {
+          "texto": "Espinaca: 6 tazas frescas · 180 g",
+          "gramos": 180
+        },
+        {
+          "texto": "Cebolla: ⅔ taza picada · 80 g",
+          "gramos": 80
+        },
+        {
+          "texto": "Aceite: 1 cucharadita · 5 g",
+          "gramos": 5
+        },
+        {
+          "texto": "Queso: ⅓ taza · 40 g",
+          "gramos": 40
+        }
+      ],
+      "pasos": [
+        "Cocina el camote y reserva.",
+        "Abre los filetes de pollo, aplánalos entre dos hojas de papel y condimenta.",
+        "Distribuye espinaca y queso, enrolla y asegura con hilo de cocina.",
+        "Pincela con aceite y hornea 25 minutos a 190 °C; retira el hilo y sirve con camote."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-cenas-38-pollo-a-la-barbacoa-con-huevos",
+      "recipeId": "cenas-38-pollo-a-la-barbacoa-con-huevos",
+      "nombre": "Pollo a la barbacoa casera con huevo y camote",
+      "descripcion": "Pollo a la barbacoa casera con huevo y camote reúne pollo, tomate y camote. El plato se prepara mediante sartén y combina una proteína protagonista, vegetales con textura y un acompañamiento medido para formar un plato completo.",
+      "momento": "cena",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 556,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 422,
+        "proteina": 36.4,
+        "carbohidratos": 43.8,
+        "grasas": 12.4
+      },
+      "ingredientes": [
+        {
+          "texto": "Pollo: 240 g de pollo crudo · 240 g",
+          "gramos": 240
+        },
+        {
+          "texto": "Huevo: 2 huevos · 100 g",
+          "gramos": 100
+        },
+        {
+          "texto": "Camote: 2 camotes pequeños · 300 g",
+          "gramos": 300
+        },
+        {
+          "texto": "Tomate: ¾ taza triturada · 220 g",
+          "gramos": 220
+        },
+        {
+          "texto": "Pimiento: 1¼ pimientos · 150 g",
+          "gramos": 150
+        },
+        {
+          "texto": "Cebolla: ⅔ taza · 80 g",
+          "gramos": 80
+        },
+        {
+          "texto": "Aceite: 1 cucharadita · 5 g",
+          "gramos": 5
+        },
+        {
+          "texto": "Paprika: 1 cucharadita · 2 g",
+          "gramos": 2
+        },
+        {
+          "texto": "Vinagre: 1 cucharada · 15 g",
+          "gramos": 15
+        }
+      ],
+      "pasos": [
+        "Cocina el camote al horno.",
+        "Prepara una salsa con tomate, cebolla, pimiento, paprika y vinagre, sin azúcar añadida.",
+        "Cocina el pollo con el aceite, incorpora la salsa y verifica su cocción.",
+        "Sirve con un huevo cocido y camote por persona."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-cenas-39-bistec",
+      "recipeId": "cenas-39-bistec",
+      "nombre": "Lomo de cerdo relleno de verduras con quinua",
+      "descripcion": "Lomo de cerdo relleno de verduras con quinua reúne cerdo, pimiento y quinua. El plato se prepara mediante horno y combina una proteína protagonista, vegetales con textura y un acompañamiento medido para formar un plato completo.",
+      "momento": "cena",
+      "familiaProteica": "carne_roja",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 477.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 394,
+        "proteina": 38.5,
+        "carbohidratos": 33.1,
+        "grasas": 14.4
+      },
+      "ingredientes": [
+        {
+          "texto": "280 g — Cerdo (2 filetes medianos)",
+          "gramos": 280
+        },
+        {
+          "texto": "260 g — Quinua (1⅔ tazas cocidas)",
+          "gramos": 260
+        },
+        {
+          "texto": "180 g — Pimiento (1½ pimientos)",
+          "gramos": 180
+        },
+        {
+          "texto": "80 g — Cebolla (⅔ taza picada)",
+          "gramos": 80
+        },
+        {
+          "texto": "5 g — Aceite (1 cucharadita)",
+          "gramos": 5
+        },
+        {
+          "texto": "150 g — Espinaca (5 tazas frescas)",
+          "gramos": 150
+        }
+      ],
+      "pasos": [
+        "Abre los filetes de cerdo y aplánalos hasta obtener un grosor uniforme.",
+        "Distribuye pimiento y espinaca, enrolla y asegura con hilo de cocina.",
+        "Pincela con el aceite medido y hornea 28 minutos a 190 °C.",
+        "Retira el hilo, corta y sirve con quinua."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-bebidas-16-batido-proteico-de-cacao",
+      "recipeId": "bebidas-16-batido-proteico-de-cacao",
+      "nombre": "Batido proteico de cacao y fresa",
+      "descripcion": "Batido proteico de cacao y fresa combina cacao, proteina y bebida de soya en un vaso individual de textura y sabor definidos. La fórmula está ajustada como batido, sin azúcar añadida ni grasas concentradas innecesarias.",
+      "momento": "media_manana",
+      "familiaProteica": "carne_roja",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 395,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 207,
+        "proteina": 27.1,
+        "carbohidratos": 17.9,
+        "grasas": 6.1
+      },
+      "ingredientes": [
+        {
+          "texto": "10 g/ml — Cacao (1 cucharada)",
+          "gramos": 10
+        },
+        {
+          "texto": "25 g/ml — Proteina (¾ medida)",
+          "gramos": 25
+        },
+        {
+          "texto": "200 g/ml — Soya (¾ taza)",
+          "gramos": 200
+        },
+        {
+          "texto": "80 g/ml — Fresa (½ taza)",
+          "gramos": 80
+        },
+        {
+          "texto": "80 g/ml — Hielo (4 cubos)",
+          "gramos": 80
+        }
+      ],
+      "pasos": [
+        "Lava y prepara todos los ingredientes.",
+        "Colócalos en la licuadora con el líquido y el hielo.",
+        "Licúa 45 a 60 segundos hasta obtener una textura uniforme.",
+        "Sirve inmediatamente en un vaso de 350 a 400 ml."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-bebidas-15-batido-keto-de-aguacate-y-cacao-proteico",
+      "recipeId": "bebidas-15-batido-keto-de-aguacate-y-cacao-proteico",
+      "nombre": "Batido proteico de café y cacao",
+      "descripcion": "Batido proteico de café y cacao combina café, cacao y yogur en un vaso individual de textura y sabor definidos. La fórmula está ajustada como batido, sin azúcar añadida ni grasas concentradas innecesarias.",
+      "momento": "media_manana",
+      "familiaProteica": "vegetal",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 525,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 210,
+        "proteina": 26.4,
+        "carbohidratos": 25.4,
+        "grasas": 2.7
+      },
+      "ingredientes": [
+        {
+          "texto": "150 g/ml — Cafe (⅔ taza fría)",
+          "gramos": 150
+        },
+        {
+          "texto": "10 g/ml — Cacao (1 cucharada)",
+          "gramos": 10
+        },
+        {
+          "texto": "170 g/ml — Yogur (¾ taza)",
+          "gramos": 170
+        },
+        {
+          "texto": "15 g/ml — Proteina (½ medida)",
+          "gramos": 15
+        },
+        {
+          "texto": "100 g/ml — Leche (⅓ taza)",
+          "gramos": 100
+        },
+        {
+          "texto": "80 g/ml — Hielo (4 cubos)",
+          "gramos": 80
+        }
+      ],
+      "pasos": [
+        "Lava y prepara todos los ingredientes.",
+        "Colócalos en la licuadora con el líquido y el hielo.",
+        "Licúa 45 a 60 segundos hasta obtener una textura uniforme.",
+        "Sirve inmediatamente en un vaso de 350 a 400 ml."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-meriendas-5-cupcakes-salados",
+      "recipeId": "meriendas-5-cupcakes-salados",
+      "nombre": "Cupcakes salados de atún y aceitunas",
+      "descripcion": "Cupcakes salados de atún y aceitunas, reformulada con cantidades prácticas y grasa medida.",
+      "momento": "media_manana",
+      "familiaProteica": "pescado_marisco",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 196.7,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 228.7,
+        "proteina": 23.8,
+        "carbohidratos": 15.5,
+        "grasas": 7.9
+      },
+      "ingredientes": [
+        {
+          "texto": "Huevos 150 g",
+          "gramos": 150
+        },
+        {
+          "texto": "Yogur natural 60 g",
+          "gramos": 60
+        },
+        {
+          "texto": "Harina de avena 50 g",
+          "gramos": 50
+        },
+        {
+          "texto": "Atún al natural escurrido 160 g",
+          "gramos": 160
+        },
+        {
+          "texto": "Cebolla 40 g",
+          "gramos": 40
+        },
+        {
+          "texto": "Aceitunas 30 g",
+          "gramos": 30
+        },
+        {
+          "texto": "Tomate 100 g",
+          "gramos": 100
+        }
+      ],
+      "pasos": [
+        "Bate huevos y yogur; añade la harina.",
+        "Incorpora atún, cebolla, aceitunas y tomate.",
+        "Hornea seis unidades a 180 °C durante 18 minutos."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-masa-muscular-1141-rollitos-de-pavita-con-queso-fresco-palta-y-pan-integral",
+      "recipeId": "masa-muscular-1141-rollitos-de-pavita-con-queso-fresco-palta-y-pan-integral",
+      "nombre": "Rollitos de pavita con queso fresco, palta y pan integral",
+      "descripcion": "Rollitos de pavita con queso fresco y palta, acompañados con una rebanada de pan integral.",
+      "momento": "media_manana",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 190,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 253,
+        "proteina": 23.3,
+        "carbohidratos": 18.4,
+        "grasas": 10.8
+      },
+      "ingredientes": [
+        {
+          "texto": "80 g (80 g de pechuga de pavita en láminas) — Pechuga de pavita",
+          "gramos": 80
+        },
+        {
+          "texto": "30 g (30 g de queso fresco) — Queso fresco",
+          "gramos": 30
+        },
+        {
+          "texto": "50 g (¼ de palta) — Palta",
+          "gramos": 50
+        },
+        {
+          "texto": "30 g (1 rebanada) — Pan integral",
+          "gramos": 30
+        }
+      ],
+      "pasos": [
+        "Extiende las láminas de pavita.",
+        "Coloca el queso fresco y la palta.",
+        "Enrolla y espolvorea orégano.",
+        "Incorpora los ingredientes complementarios en las cantidades indicadas y sirve como una sola porción."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-masa-muscular-1140-yogur-griego-batido-con-avena-y-frutos-rojos",
+      "recipeId": "masa-muscular-1140-yogur-griego-batido-con-avena-y-frutos-rojos",
+      "nombre": "Yogur griego batido con avena y frutos rojos",
+      "descripcion": "Yogur griego batido con avena y frutos rojos, servido frío y con textura cremosa.",
+      "momento": "media_manana",
+      "familiaProteica": "lacteo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 285,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 211,
+        "proteina": 21.9,
+        "carbohidratos": 29.6,
+        "grasas": 1.8
+      },
+      "ingredientes": [
+        {
+          "texto": "185 g (¾ taza de yogur griego natural) — Yogur griego natural",
+          "gramos": 185
+        },
+        {
+          "texto": "20 g (¼ taza de avena) — Avena en hojuelas",
+          "gramos": 20
+        },
+        {
+          "texto": "80 g (Frutos rojos) — Frutos rojos",
+          "gramos": 80
+        }
+      ],
+      "pasos": [
+        "Mezcla el yogur con la avena y deja reposar 10 min.",
+        "Añade los frutos rojos y la canela."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-perdida-peso-1168-pudin-frio-de-chia-maracuya-y-yogur-natural",
+      "recipeId": "perdida-peso-1168-pudin-frio-de-chia-maracuya-y-yogur-natural",
+      "nombre": "Pudín frío de chía, maracuyá y yogur natural",
+      "descripcion": "Postre frío de yogur, chía y maracuyá, endulzado únicamente con plátano maduro.",
+      "momento": "media_manana",
+      "familiaProteica": "lacteo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 275,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 253,
+        "proteina": 19.3,
+        "carbohidratos": 37.2,
+        "grasas": 5.8
+      },
+      "ingredientes": [
+        {
+          "texto": "150 g — Yogur griego natural (¾ taza de yogur griego natural (≈ 150 g))",
+          "gramos": 150
+        },
+        {
+          "texto": "60 g — Pulpa de maracuyá (⅓ taza de pulpa de maracuyá (≈ 60 g))",
+          "gramos": 60
+        },
+        {
+          "texto": "15 g — Chía (1½ cucharadas de chía (≈ 15 g))",
+          "gramos": 15
+        },
+        {
+          "texto": "50 g — Plátano (½ plátano pequeño maduro (≈ 50 g))",
+          "gramos": 50
+        }
+      ],
+      "pasos": [
+        "Mezcla el yogur con la chía hasta integrarlos.",
+        "Incorpora la pulpa de maracuyá y el plátano aplastado.",
+        "Refrigera durante 15 minutos, remueve nuevamente y deja reposar al menos 1 hora 45 minutos más.",
+        "Sirve frío."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-meriendas-8-muffin-de-legumbres",
+      "recipeId": "meriendas-8-muffin-de-legumbres",
+      "nombre": "Muffins de zapallito, zanahoria y atún",
+      "descripcion": "Muffins de zapallito, zanahoria y atún, reformulada con cantidades prácticas y grasa medida.",
+      "momento": "media_manana",
+      "familiaProteica": "pescado_marisco",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 202.5,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 190.7,
+        "proteina": 21.9,
+        "carbohidratos": 6.6,
+        "grasas": 8.5
+      },
+      "ingredientes": [
+        {
+          "texto": "Huevos 150 g",
+          "gramos": 150
+        },
+        {
+          "texto": "Ricotta 120 g",
+          "gramos": 120
+        },
+        {
+          "texto": "Parmesano 30 g",
+          "gramos": 30
+        },
+        {
+          "texto": "Zapallito italiano 200 g",
+          "gramos": 200
+        },
+        {
+          "texto": "Zanahoria 150 g",
+          "gramos": 150
+        },
+        {
+          "texto": "Atún al natural escurrido 160 g",
+          "gramos": 160
+        }
+      ],
+      "pasos": [
+        "Exprime el zapallito rallado.",
+        "Mezcla todos los ingredientes.",
+        "Hornea ocho muffins a 180 °C durante 20 minutos."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-masa-muscular-1138-atun-al-agua-con-galletas-integrales-y-palta",
+      "recipeId": "masa-muscular-1138-atun-al-agua-con-galletas-integrales-y-palta",
+      "nombre": "Atún al agua con galletas integrales y palta",
+      "descripcion": "Snack salado de atún escurrido, palta y galletas integrales, montado justo antes de servir.",
+      "momento": "media_manana",
+      "familiaProteica": "pescado_marisco",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 140,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 271,
+        "proteina": 19.5,
+        "carbohidratos": 24.6,
+        "grasas": 11.5
+      },
+      "ingredientes": [
+        {
+          "texto": "40 g (½ lata de atún al agua) — Atún al agua (escurrido)",
+          "gramos": 40
+        },
+        {
+          "texto": "30 g (4 galletas integrales) — Galleta integral",
+          "gramos": 30
+        },
+        {
+          "texto": "50 g (¼ de palta) — Palta",
+          "gramos": 50
+        },
+        {
+          "texto": "20 g (2 cucharadas) — Atún al agua adicional",
+          "gramos": 20
+        }
+      ],
+      "pasos": [
+        "Escurre el atún y mézclalo con limón, pimienta y limón.",
+        "Unta la palta en las galletas.",
+        "Coloca el atún encima.",
+        "Incorpora los ingredientes complementarios en las cantidades indicadas y sirve como una sola porción."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-meriendas-3-muffin-de-atun-con-crema-de-ricotta",
+      "recipeId": "meriendas-3-muffin-de-atun-con-crema-de-ricotta",
+      "nombre": "Muffins salados de atún, zanahoria y ajo",
+      "descripcion": "Muffins salados de atún, zanahoria y ajo, reformulada con cantidades prácticas y grasa medida.",
+      "momento": "media_manana",
+      "familiaProteica": "pescado_marisco",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 162.7,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 205.3,
+        "proteina": 19.3,
+        "carbohidratos": 18.2,
+        "grasas": 6.2
+      },
+      "ingredientes": [
+        {
+          "texto": "Huevos 100 g",
+          "gramos": 100
+        },
+        {
+          "texto": "Harina de avena 60 g",
+          "gramos": 60
+        },
+        {
+          "texto": "Atún al natural escurrido 120 g",
+          "gramos": 120
+        },
+        {
+          "texto": "Zanahoria rallada 80 g",
+          "gramos": 80
+        },
+        {
+          "texto": "Tomate sin semillas 80 g",
+          "gramos": 80
+        },
+        {
+          "texto": "Ricotta 45 g",
+          "gramos": 45
+        },
+        {
+          "texto": "Ajo 3 g",
+          "gramos": 3
+        }
+      ],
+      "pasos": [
+        "Mezcla huevos, ricotta y ajo.",
+        "Incorpora avena, atún, zanahoria y tomate.",
+        "Distribuye en seis cavidades y hornea a 180 °C durante 18 a 20 minutos."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-masa-muscular-1137-requeson-con-durazno-chia-nueces-y-miel",
+      "recipeId": "masa-muscular-1137-requeson-con-durazno-chia-nueces-y-miel",
+      "nombre": "Requesón con durazno, chía, nueces y miel",
+      "descripcion": "Bowl frío de requesón con durazno, chía, nueces y un toque medido de miel.",
+      "momento": "media_manana",
+      "familiaProteica": "lacteo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 230,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 273,
+        "proteina": 17.3,
+        "carbohidratos": 22.1,
+        "grasas": 13.7
+      },
+      "ingredientes": [
+        {
+          "texto": "110 g (½ taza de requesón o queso cottage) — Queso cottage",
+          "gramos": 110
+        },
+        {
+          "texto": "100 g (Fruta (piña o durazno)) — Durazno",
+          "gramos": 100
+        },
+        {
+          "texto": "5 g (1 cdta de miel) — Miel",
+          "gramos": 5
+        },
+        {
+          "texto": "5 g (1 cucharadita) — Semillas de chía",
+          "gramos": 5
+        },
+        {
+          "texto": "10 g (2 unidades picadas) — Nueces",
+          "gramos": 10
+        }
+      ],
+      "pasos": [
+        "Coloca el requesón en un bowl.",
+        "Añade la fruta picada y la miel.",
+        "Espolvorea canela.",
+        "Incorpora los ingredientes complementarios en las cantidades indicadas y sirve como una sola porción."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-bebidas-18-batido-cremoso-de-coco",
+      "recipeId": "bebidas-18-batido-cremoso-de-coco",
+      "nombre": "Batido ligero de coco, piña y yogur",
+      "descripcion": "Batido ligero de coco, piña y yogur combina coco, piña y yogur en un vaso individual de textura y sabor definidos. La fórmula está ajustada como batido, sin azúcar añadida ni grasas concentradas innecesarias.",
+      "momento": "media_manana",
+      "familiaProteica": "lacteo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 460,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 246,
+        "proteina": 14.3,
+        "carbohidratos": 33.6,
+        "grasas": 7.1
+      },
+      "ingredientes": [
+        {
+          "texto": "10 g/ml — Coco (1 cucharada)",
+          "gramos": 10
+        },
+        {
+          "texto": "100 g/ml — Pina (⅔ taza)",
+          "gramos": 100
+        },
+        {
+          "texto": "170 g/ml — Yogur (¾ taza)",
+          "gramos": 170
+        },
+        {
+          "texto": "100 g/ml — Leche (⅓ taza)",
+          "gramos": 100
+        },
+        {
+          "texto": "80 g/ml — Hielo (4 cubos)",
+          "gramos": 80
+        }
+      ],
+      "pasos": [
+        "Lava y prepara todos los ingredientes.",
+        "Colócalos en la licuadora con el líquido y el hielo.",
+        "Licúa 45 a 60 segundos hasta obtener una textura uniforme.",
+        "Sirve inmediatamente en un vaso de 350 a 400 ml."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-masa-muscular-1143-requeson-con-pina-canela-nueces-y-chia",
+      "recipeId": "masa-muscular-1143-requeson-con-pina-canela-nueces-y-chia",
+      "nombre": "Requesón con piña, canela, nueces y chía",
+      "descripcion": "Requesón con piña, canela, nueces y chía, preparado en frío y sin cocción.",
+      "momento": "media_manana",
+      "familiaProteica": "lacteo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 215,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 328,
+        "proteina": 19.4,
+        "carbohidratos": 21.3,
+        "grasas": 19.3
+      },
+      "ingredientes": [
+        {
+          "texto": "110 g (½ taza de requesón) — Requesón (ricotta)",
+          "gramos": 110
+        },
+        {
+          "texto": "80 g (1 rodaja de piña en cubos) — Piña",
+          "gramos": 80
+        },
+        {
+          "texto": "20 g (4 nueces) — Nueces/pecanas",
+          "gramos": 20
+        },
+        {
+          "texto": "5 g (1 cucharadita) — Semillas de chía",
+          "gramos": 5
+        }
+      ],
+      "pasos": [
+        "Coloca el requesón en un bowl.",
+        "Añade la piña y las nueces.",
+        "Espolvorea canela.",
+        "Incorpora los ingredientes complementarios en las cantidades indicadas y sirve como una sola porción."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-masa-muscular-1139-huevos-sancochados-con-pan-integral-y-palta",
+      "recipeId": "masa-muscular-1139-huevos-sancochados-con-pan-integral-y-palta",
+      "nombre": "Huevos sancochados con pan integral y palta",
+      "descripcion": "Huevos sancochados con pan integral y palta en una porción práctica y de preparación sencilla.",
+      "momento": "media_manana",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 180,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 300,
+        "proteina": 16.2,
+        "carbohidratos": 20.1,
+        "grasas": 18.4
+      },
+      "ingredientes": [
+        {
+          "texto": "100 g (2 huevos) — Huevo",
+          "gramos": 100
+        },
+        {
+          "texto": "30 g (1 rebanada de pan integral) — Pan integral",
+          "gramos": 30
+        },
+        {
+          "texto": "50 g (¼ de palta) — Palta",
+          "gramos": 50
+        }
+      ],
+      "pasos": [
+        "Sancocha los huevos 8–10 min y pélalos.",
+        "Tuesta el pan y unta la palta.",
+        "Coloca el huevo en rodajas y sazona."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-snacks-4-pan-con-queso",
+      "recipeId": "snacks-4-pan-con-queso",
+      "nombre": "Panecillos individuales de ricotta",
+      "descripcion": "Panecillos individuales de ricotta, reformulada con cantidades prácticas y grasa medida.",
+      "momento": "media_manana",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 110,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 207.7,
+        "proteina": 13.2,
+        "carbohidratos": 18.9,
+        "grasas": 8.8
+      },
+      "ingredientes": [
+        {
+          "texto": "Ricotta 120 g",
+          "gramos": 120
+        },
+        {
+          "texto": "Huevo 50 g",
+          "gramos": 50
+        },
+        {
+          "texto": "Harina de avena 50 g",
+          "gramos": 50
+        }
+      ],
+      "pasos": [
+        "Mezcla todos los ingredientes.",
+        "Divide en cuatro moldes pequeños.",
+        "Hornea a 180 °C durante 15 a 18 minutos."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-bebidas-1-batido-con-kefir",
+      "recipeId": "bebidas-1-batido-con-kefir",
+      "nombre": "Batido de kéfir, fresa y linaza",
+      "descripcion": "Batido de kéfir, fresa y linaza combina kefir, fresa y leche en un vaso individual de textura y sabor definidos. La fórmula está ajustada como batido, sin azúcar añadida ni grasas concentradas innecesarias.",
+      "momento": "media_manana",
+      "familiaProteica": "carne_roja",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 485,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 216,
+        "proteina": 11.6,
+        "carbohidratos": 23.5,
+        "grasas": 9.2
+      },
+      "ingredientes": [
+        {
+          "texto": "200 g/ml — Kefir (¾ taza)",
+          "gramos": 200
+        },
+        {
+          "texto": "100 g/ml — Fresa (¾ taza)",
+          "gramos": 100
+        },
+        {
+          "texto": "100 g/ml — Leche (⅓ taza)",
+          "gramos": 100
+        },
+        {
+          "texto": "5 g/ml — Linaza (1 cucharadita)",
+          "gramos": 5
+        },
+        {
+          "texto": "80 g/ml — Hielo (4 cubos)",
+          "gramos": 80
+        }
+      ],
+      "pasos": [
+        "Lava y prepara todos los ingredientes.",
+        "Colócalos en la licuadora con el líquido y el hielo.",
+        "Licúa 45 a 60 segundos hasta obtener una textura uniforme.",
+        "Sirve inmediatamente en un vaso de 350 a 400 ml."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-meriendas-1-panini-de-queso-crema",
+      "recipeId": "meriendas-1-panini-de-queso-crema",
+      "nombre": "Pan plano individual de queso crema",
+      "descripcion": "Pan plano individual de queso crema, reformulada con cantidades prácticas y grasa medida.",
+      "momento": "media_manana",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 102,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 214.6,
+        "proteina": 11.6,
+        "carbohidratos": 17.3,
+        "grasas": 11
+      },
+      "ingredientes": [
+        {
+          "texto": "Huevo 100 g",
+          "gramos": 100
+        },
+        {
+          "texto": "Queso crema ligero 60 g",
+          "gramos": 60
+        },
+        {
+          "texto": "Harina de avena 40 g",
+          "gramos": 40
+        },
+        {
+          "texto": "Polvo de hornear 4 g",
+          "gramos": 4
+        }
+      ],
+      "pasos": [
+        "Bate el huevo con el queso crema hasta integrar.",
+        "Añade harina de avena y polvo de hornear.",
+        "Divide en dos moldes planos y hornea a 180 °C durante 12 a 15 minutos."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-postres-fit-29-torta-en-taza-de-mani-y-chocolate",
+      "recipeId": "postres-fit-29-torta-en-taza-de-mani-y-chocolate",
+      "nombre": "Torta en taza de maní y chocolate",
+      "descripcion": "Rápido, tibio y reconfortante, torta en taza de maní y chocolate reúne harina de avena, huevo, yogur griego; aprovecha sabores reconocibles del Perú sin depender de azúcar añadida.",
+      "momento": "media_manana",
+      "familiaProteica": "vegetal",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 127,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 225,
+        "proteina": 12,
+        "carbohidratos": 24,
+        "grasas": 10
+      },
+      "ingredientes": [
+        {
+          "texto": "30 g de harina de avena",
+          "gramos": 30
+        },
+        {
+          "texto": "1 huevo",
+          "gramos": null
+        },
+        {
+          "texto": "60 g de yogur griego",
+          "gramos": 60
+        },
+        {
+          "texto": "8 g de cacao",
+          "gramos": 8
+        },
+        {
+          "texto": "12 g de mantequilla de maní",
+          "gramos": 12
+        },
+        {
+          "texto": "Eritritol o estevia equivalente a 15 g de azúcar",
+          "gramos": 15
+        },
+        {
+          "texto": "2 g de polvo de hornear",
+          "gramos": 2
+        }
+      ],
+      "pasos": [
+        "Mezcla todo en una taza de 350 ml apta para microondas.",
+        "Cocina 70-90 segundos a potencia alta, hasta que los bordes estén firmes.",
+        "Reposa 2 minutos antes de comer."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-snacks-8-pan-de-ajo",
+      "recipeId": "snacks-8-pan-de-ajo",
+      "nombre": "Pan de ajo con mozzarella y parmesano",
+      "descripcion": "Pan de ajo con mozzarella y parmesano, reformulada con cantidades prácticas y grasa medida.",
+      "momento": "media_manana",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 86,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 187.4,
+        "proteina": 12.3,
+        "carbohidratos": 13.6,
+        "grasas": 9.3
+      },
+      "ingredientes": [
+        {
+          "texto": "Queso crema ligero 60 g",
+          "gramos": 60
+        },
+        {
+          "texto": "Mozzarella 120 g",
+          "gramos": 120
+        },
+        {
+          "texto": "Parmesano 30 g",
+          "gramos": 30
+        },
+        {
+          "texto": "Huevos 100 g",
+          "gramos": 100
+        },
+        {
+          "texto": "Harina de avena 100 g",
+          "gramos": 100
+        },
+        {
+          "texto": "Yogur natural 100 g",
+          "gramos": 100
+        },
+        {
+          "texto": "Ajo 6 g",
+          "gramos": 6
+        }
+      ],
+      "pasos": [
+        "Mezcla huevos, yogur, queso crema y ajo.",
+        "Añade avena y la mitad de los quesos.",
+        "Extiende en molde, cubre con el queso restante y hornea a 180 °C durante 22 minutos; corta seis porciones."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-perdida-peso-1152-revuelto-de-claras-con-pota-salteada-espinaca-y-choclo",
+      "recipeId": "perdida-peso-1152-revuelto-de-claras-con-pota-salteada-espinaca-y-choclo",
+      "nombre": "Revuelto de claras con pota salteada, espinaca y choclo",
+      "descripcion": "Revuelto sustancioso de claras y pota acompañado de camote, choclo y verduras.",
+      "momento": "media_manana",
+      "familiaProteica": "vegetal",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 465,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 339,
+        "proteina": 29.9,
+        "carbohidratos": 42.6,
+        "grasas": 7
+      },
+      "ingredientes": [
+        {
+          "texto": "100 g — Clara de huevo (3 claras de huevo (≈ 100 g))",
+          "gramos": 100
+        },
+        {
+          "texto": "80 g — Pota (calamar) (80 g de pota (≈ 80 g))",
+          "gramos": 80
+        },
+        {
+          "texto": "30 g — Espinaca (1 taza de espinaca picada (≈ 30 g))",
+          "gramos": 30
+        },
+        {
+          "texto": "40 g — Choclo (¼ taza de choclo desgranado (≈ 40 g))",
+          "gramos": 40
+        },
+        {
+          "texto": "30 g — Cebolla (¼ de cebolla en cubos (≈ 30 g))",
+          "gramos": 30
+        },
+        {
+          "texto": "5 g — Aceite de oliva (1 cdta de aceite (≈ 5 g))",
+          "gramos": 5
+        },
+        {
+          "texto": "100 g — Camote (½ camote mediano cocido (≈ 100 g))",
+          "gramos": 100
+        },
+        {
+          "texto": "80 g — Brócoli (¾ taza de brócoli (≈ 80 g))",
+          "gramos": 80
+        }
+      ],
+      "pasos": [
+        "Cocina el camote y el brócoli hasta que estén tiernos.",
+        "Calienta el aceite y saltea la cebolla durante 2 minutos.",
+        "Añade la pota y cocínala a fuego alto durante 2–3 minutos.",
+        "Agrega choclo, espinaca y claras; remueve hasta que cuajen. Sirve con el camote y el brócoli."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-meriendas-7-panini-sin-gluten",
+      "recipeId": "meriendas-7-panini-sin-gluten",
+      "nombre": "Pan plano sin gluten para sándwich",
+      "descripcion": "Pan plano sin gluten para sándwich, reformulada con cantidades prácticas y grasa medida.",
+      "momento": "media_manana",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 80,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 168.4,
+        "proteina": 10.8,
+        "carbohidratos": 14.7,
+        "grasas": 7.4
+      },
+      "ingredientes": [
+        {
+          "texto": "Huevos 100 g",
+          "gramos": 100
+        },
+        {
+          "texto": "Ricotta 100 g",
+          "gramos": 100
+        },
+        {
+          "texto": "Harina de avena certificada sin gluten 80 g",
+          "gramos": 80
+        },
+        {
+          "texto": "Mozzarella 40 g",
+          "gramos": 40
+        }
+      ],
+      "pasos": [
+        "Bate huevos y ricotta.",
+        "Añade avena y mozzarella.",
+        "Extiende en una bandeja pequeña y hornea a 180 °C durante 18 minutos; corta en cuatro porciones."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-masa-muscular-1104-tortilla-de-claras-al-horno-con-camote-y-palta",
+      "recipeId": "masa-muscular-1104-tortilla-de-claras-al-horno-con-camote-y-palta",
+      "nombre": "Tortilla de claras al horno con camote y palta",
+      "descripcion": "Tortilla horneada de claras, espinaca y tomate acompañada con camote sancochado y palta.",
+      "momento": "media_tarde",
+      "familiaProteica": "vegetal",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 486,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 325,
+        "proteina": 26.7,
+        "carbohidratos": 42.5,
+        "grasas": 6.9
+      },
+      "ingredientes": [
+        {
+          "texto": "200 g (¾ taza + 1 cucharada) — Claras de huevo pasteurizadas",
+          "gramos": 200
+        },
+        {
+          "texto": "150 g (1 unidad mediana) — Camote amarillo",
+          "gramos": 150
+        },
+        {
+          "texto": "50 g (¼ unidad pequeña) — Palta",
+          "gramos": 50
+        },
+        {
+          "texto": "25 g (1 taza suelta) — Espinaca",
+          "gramos": 25
+        },
+        {
+          "texto": "60 g (½ unidad mediana) — Tomate",
+          "gramos": 60
+        },
+        {
+          "texto": "1 g (al gusto) — Pimienta y orégano",
+          "gramos": 1
+        }
+      ],
+      "pasos": [
+        "Calienta el horno a 180 °C y forra o humedece ligeramente un molde redondo de 18 cm.",
+        "Mezcla las claras con la espinaca, el tomate, la pimienta y el orégano; vierte en el molde.",
+        "Hornea 12–15 minutos, hasta que el centro esté firme y sin líquido visible.",
+        "Sirve con el camote sancochado y la palta en láminas."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-perdida-peso-1151-avena-salada-tipo-congee-con-pollo-deshilachado-y-kion",
+      "recipeId": "perdida-peso-1151-avena-salada-tipo-congee-con-pollo-deshilachado-y-kion",
+      "nombre": "Avena salada tipo congee con pollo deshilachado y kion",
+      "descripcion": "Avena cremosa y salada con pollo, camote, brócoli y un toque de kion.",
+      "momento": "media_tarde",
+      "familiaProteica": "ave",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 761,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 296,
+        "proteina": 23.2,
+        "carbohidratos": 45.9,
+        "grasas": 3.9
+      },
+      "ingredientes": [
+        {
+          "texto": "30 g — Avena en hojuelas (⅓ taza de avena en hojuelas (≈ 30 g))",
+          "gramos": 30
+        },
+        {
+          "texto": "480 g — Caldo desgrasado (2 tazas de caldo de pollo desgrasado (≈ 480 g))",
+          "gramos": 480
+        },
+        {
+          "texto": "60 g — Pechuga de pollo (60 g de pechuga de pollo cocida (≈ 60 g))",
+          "gramos": 60
+        },
+        {
+          "texto": "25 g — Cebolla (2 cdas de cebolla china (≈ 25 g))",
+          "gramos": 25
+        },
+        {
+          "texto": "6 g — Sillao bajo en sodio (1 cdta de sillao bajo en sodio (≈ 6 g))",
+          "gramos": 6
+        },
+        {
+          "texto": "80 g — Camote (½ camote pequeño cocido (≈ 80 g))",
+          "gramos": 80
+        },
+        {
+          "texto": "80 g — Brócoli (¾ taza de brócoli (≈ 80 g))",
+          "gramos": 80
+        }
+      ],
+      "pasos": [
+        "Calienta el caldo con el kion y agrega la avena.",
+        "Cocina 8–10 minutos, removiendo hasta obtener una consistencia cremosa.",
+        "Añade camote y brócoli; cocina hasta que estén tiernos.",
+        "Incorpora el pollo y el sillao, calienta 2 minutos y termina con cebolla china."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-meriendas-4-muffin-de-tortilla-con-pimientos",
+      "recipeId": "meriendas-4-muffin-de-tortilla-con-pimientos",
+      "nombre": "Muffins de huevo y pimiento",
+      "descripcion": "Muffins de huevo y pimiento, reformulada con cantidades prácticas y grasa medida.",
+      "momento": "media_tarde",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 133.3,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 141.5,
+        "proteina": 11.8,
+        "carbohidratos": 4.5,
+        "grasas": 8.5
+      },
+      "ingredientes": [
+        {
+          "texto": "Huevos 180 g",
+          "gramos": 180
+        },
+        {
+          "texto": "Pimiento rojo 180 g",
+          "gramos": 180
+        },
+        {
+          "texto": "Parmesano 30 g",
+          "gramos": 30
+        },
+        {
+          "texto": "Albahaca 10 g",
+          "gramos": 10
+        }
+      ],
+      "pasos": [
+        "Pica el pimiento y cocínalo tres minutos en sartén antiadherente.",
+        "Bate los huevos y mezcla con pimiento, parmesano y albahaca.",
+        "Hornea seis muffins a 180 °C durante 15 minutos."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-perdida-peso-1149-bowl-salado-de-quinua-huevo-pochado-y-verduras-al-vapor",
+      "recipeId": "perdida-peso-1149-bowl-salado-de-quinua-huevo-pochado-y-verduras-al-vapor",
+      "nombre": "Bowl salado de quinua, huevo, claras y verduras al vapor",
+      "descripcion": "Bowl tibio de quinua con huevo, claras, palta y verduras, pensado para un desayuno salado completo.",
+      "momento": "media_tarde",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 375,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 289,
+        "proteina": 21.8,
+        "carbohidratos": 17.7,
+        "grasas": 16
+      },
+      "ingredientes": [
+        {
+          "texto": "50 g — Quinua cocida (¾ taza de quinua cocida (≈ 50 g))",
+          "gramos": 50
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo (≈ 50 g))",
+          "gramos": 50
+        },
+        {
+          "texto": "40 g — Palta (¼ de palta (≈ 40 g))",
+          "gramos": 40
+        },
+        {
+          "texto": "45 g — Brócoli (½ taza de brócoli en floretes (≈ 45 g))",
+          "gramos": 45
+        },
+        {
+          "texto": "25 g — Espinaca (1 puñado de espinaca (≈ 25 g))",
+          "gramos": 25
+        },
+        {
+          "texto": "60 g — Tomate (½ tomate en cubos (≈ 60 g))",
+          "gramos": 60
+        },
+        {
+          "texto": "5 g — Aceite de oliva (1 cdta de aceite de oliva (≈ 5 g))",
+          "gramos": 5
+        },
+        {
+          "texto": "100 g — Clara de huevo (3 claras pasteurizadas (≈ 100 g))",
+          "gramos": 100
+        }
+      ],
+      "pasos": [
+        "Cocina el brócoli al vapor 4–5 minutos; agrega la espinaca durante los últimos 30 segundos.",
+        "Pocha el huevo durante 3 minutos. En otra sartén, cocina las claras hasta que cuajen por completo.",
+        "Coloca la quinua tibia en un bowl y distribuye encima el brócoli, la espinaca y el tomate.",
+        "Añade la palta, el huevo y las claras. Termina con aceite, limón, pimienta y culantro."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-bebidas-10-vitamina-keto-de-aguacate-con-crema",
+      "recipeId": "bebidas-10-vitamina-keto-de-aguacate-con-crema",
+      "nombre": "Batido de piña, pepino y yogur",
+      "descripcion": "Batido de piña, pepino y yogur combina piña, pepino y yogur en un vaso individual de textura y sabor definidos. La fórmula está ajustada como batido, sin azúcar añadida ni grasas concentradas innecesarias.",
+      "momento": "media_tarde",
+      "familiaProteica": "lacteo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 530,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 159,
+        "proteina": 9.9,
+        "carbohidratos": 30.9,
+        "grasas": 0.5
+      },
+      "ingredientes": [
+        {
+          "texto": "120 g/ml — Pina (¾ taza en cubos)",
+          "gramos": 120
+        },
+        {
+          "texto": "100 g/ml — Pepino (½ pepino pequeño)",
+          "gramos": 100
+        },
+        {
+          "texto": "150 g/ml — Yogur (⅔ taza)",
+          "gramos": 150
+        },
+        {
+          "texto": "80 g/ml — Agua (⅓ taza)",
+          "gramos": 80
+        },
+        {
+          "texto": "80 g/ml — Hielo (4 cubos)",
+          "gramos": 80
+        }
+      ],
+      "pasos": [
+        "Lava y prepara todos los ingredientes.",
+        "Colócalos en la licuadora con el líquido y el hielo.",
+        "Licúa 45 a 60 segundos hasta obtener una textura uniforme.",
+        "Sirve inmediatamente en un vaso de 350 a 400 ml."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-desayunos-11-crepioca-de-linaza",
+      "recipeId": "desayunos-11-crepioca-de-linaza",
+      "nombre": "Crepioca de linaza con queso y tomate",
+      "descripcion": "Crepioca de linaza con relleno fresco de queso, tomate y espinaca.",
+      "momento": "media_tarde",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 330,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 309,
+        "proteina": 23.7,
+        "carbohidratos": 29.8,
+        "grasas": 12.4
+      },
+      "ingredientes": [
+        {
+          "texto": "10 g — Linaza (1 cucharada)",
+          "gramos": 10
+        },
+        {
+          "texto": "20 g — Tapioca (1½ cucharadas)",
+          "gramos": 20
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo)",
+          "gramos": 50
+        },
+        {
+          "texto": "80 g — Clara (aprox. 3 claras pequeñas)",
+          "gramos": 80
+        },
+        {
+          "texto": "20 g — Queso (1 tajada pequeña)",
+          "gramos": 20
+        },
+        {
+          "texto": "100 g — Tomate (1 tomate pequeño)",
+          "gramos": 100
+        },
+        {
+          "texto": "50 g — Espinaca (1½ tazas)",
+          "gramos": 50
+        }
+      ],
+      "pasos": [
+        "Mezcla linaza, tapioca, huevo y claras.",
+        "Cuaja a fuego medio-bajo.",
+        "Rellena con queso, tomate y espinaca."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-desayunos-5-pan-02",
+      "recipeId": "desayunos-5-pan-02",
+      "nombre": "Pan rápido de avena y ricotta al microondas",
+      "descripcion": "Pan rápido y esponjoso de avena y ricotta, listo en pocos minutos al microondas.",
+      "momento": "media_tarde",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 327,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 321,
+        "proteina": 23.5,
+        "carbohidratos": 40.3,
+        "grasas": 9.8
+      },
+      "ingredientes": [
+        {
+          "texto": "35 g — Avena (⅓ taza molida)",
+          "gramos": 35
+        },
+        {
+          "texto": "60 g — Ricotta (¼ taza)",
+          "gramos": 60
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo)",
+          "gramos": 50
+        },
+        {
+          "texto": "60 g — Yogur (¼ taza)",
+          "gramos": 60
+        },
+        {
+          "texto": "120 g — Tomate (1 tomate mediano)",
+          "gramos": 120
+        },
+        {
+          "texto": "2 g — Polvo de hornear (½ cucharadita)",
+          "gramos": 2
+        }
+      ],
+      "pasos": [
+        "Mezcla avena, ricotta, huevo, yogur y polvo de hornear.",
+        "Cocina en recipiente apto 2 a 3 minutos, según potencia.",
+        "Desmolda y sirve con tomate en rodajas."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-desayunos-12-pan-de-calabaza",
+      "recipeId": "desayunos-12-pan-de-calabaza",
+      "nombre": "Pan de zapallo, avena y ricotta",
+      "descripcion": "Pan individual de zapallo, avena y ricotta, de textura tierna y sabor suave.",
+      "momento": "media_tarde",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 353,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 365,
+        "proteina": 26.7,
+        "carbohidratos": 48.1,
+        "grasas": 9.9
+      },
+      "ingredientes": [
+        {
+          "texto": "Avena: ½ taza · 40 g",
+          "gramos": 40
+        },
+        {
+          "texto": "Zapallo: 1 taza de puré · 150 g",
+          "gramos": 150
+        },
+        {
+          "texto": "Ricotta: ¼ taza · 60 g",
+          "gramos": 60
+        },
+        {
+          "texto": "Huevo: 1 huevo · 50 g",
+          "gramos": 50
+        },
+        {
+          "texto": "Clara: aprox. 2 claras pequeñas · 50 g",
+          "gramos": 50
+        },
+        {
+          "texto": "Canela: ¼ cucharadita · 1 g",
+          "gramos": 1
+        },
+        {
+          "texto": "Polvo de hornear: ½ cucharadita · 2 g",
+          "gramos": 2
+        }
+      ],
+      "pasos": [
+        "Mezcla la avena, el puré de zapallo, la ricotta, el huevo, las claras, la canela y el polvo de hornear.",
+        "Vierte la mezcla en un molde individual ligeramente humedecido o forrado con papel para hornear.",
+        "Hornea durante 22 minutos a 180 °C; deja reposar 5 minutos antes de desmoldar."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-postres-fit-extra-07-cheesecake-de-lucuma-y-cacao",
+      "recipeId": "postres-fit-extra-07-cheesecake-de-lucuma-y-cacao",
+      "nombre": "Cheesecake de lúcuma y cacao",
+      "descripcion": "Peruano y aterciopelado, este postre sin azúcar añadida utiliza refrigeración para lograr una porción práctica con ingredientes disponibles en Perú.",
+      "momento": "media_tarde",
+      "familiaProteica": "vegetal",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 111.3,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 160,
+        "proteina": 10,
+        "carbohidratos": 18,
+        "grasas": 5
+      },
+      "ingredientes": [
+        {
+          "texto": "350 g de yogur griego",
+          "gramos": 350
+        },
+        {
+          "texto": "250 g de ricota",
+          "gramos": 250
+        },
+        {
+          "texto": "200 g de lúcuma",
+          "gramos": 200
+        },
+        {
+          "texto": "20 g de cacao",
+          "gramos": 20
+        },
+        {
+          "texto": "60 g de avena tostada",
+          "gramos": 60
+        },
+        {
+          "texto": "10 g de gelatina",
+          "gramos": 10
+        },
+        {
+          "texto": "Estevia opcional",
+          "gramos": null
+        }
+      ],
+      "pasos": [
+        "Mezcla avena y cacao y reparte una base fina.",
+        "Procesa yogur, ricota y lúcuma; incorpora gelatina.",
+        "Refrigera 4 horas y espolvorea cacao ligero."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-masa-muscular-1103-avena-proteica-cocida-con-claras-platano-y-canela",
+      "recipeId": "masa-muscular-1103-avena-proteica-cocida-con-claras-platano-y-canela",
+      "nombre": "Avena proteica cocida con claras, plátano y canela",
+      "descripcion": "Avena caliente y cremosa con claras completamente cocidas, plátano maduro y canela.",
+      "momento": "media_tarde",
+      "familiaProteica": "vegetal",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 391,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 350,
+        "proteina": 25,
+        "carbohidratos": 65,
+        "grasas": 3
+      },
+      "ingredientes": [
+        {
+          "texto": "40 g (½ taza rasa) — Avena en hojuelas",
+          "gramos": 40
+        },
+        {
+          "texto": "130 g (½ taza) — Claras de huevo pasteurizadas",
+          "gramos": 130
+        },
+        {
+          "texto": "120 g (½ taza) — Leche descremada",
+          "gramos": 120
+        },
+        {
+          "texto": "100 g (1 unidad pequeña) — Plátano de seda",
+          "gramos": 100
+        },
+        {
+          "texto": "1 g (¼ cucharadita) — Canela molida",
+          "gramos": 1
+        }
+      ],
+      "pasos": [
+        "Cocina la avena con la leche y 80 ml de agua durante 4–5 minutos, removiendo.",
+        "Baja el fuego e incorpora las claras en hilo, removiendo sin detenerte durante 3–4 minutos, hasta que estén completamente cocidas y la avena quede cremosa.",
+        "Sirve con el plátano en rodajas y la canela."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-postres-fit-extra-06-cheesecake-frio-de-fresa",
+      "recipeId": "postres-fit-extra-06-cheesecake-frio-de-fresa",
+      "nombre": "Cheesecake frío de fresa",
+      "descripcion": "Frío y frutal, este postre sin azúcar añadida utiliza refrigeración para lograr una porción práctica con ingredientes disponibles en Perú.",
+      "momento": "media_tarde",
+      "familiaProteica": "carne_roja",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 120.6,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 135,
+        "proteina": 9,
+        "carbohidratos": 15,
+        "grasas": 4
+      },
+      "ingredientes": [
+        {
+          "texto": "350 g de yogur griego",
+          "gramos": 350
+        },
+        {
+          "texto": "250 g de ricota",
+          "gramos": 250
+        },
+        {
+          "texto": "250 g de fresas",
+          "gramos": 250
+        },
+        {
+          "texto": "60 g de avena tostada",
+          "gramos": 60
+        },
+        {
+          "texto": "10 g de gelatina",
+          "gramos": 10
+        },
+        {
+          "texto": "Estevia equivalente a 45 g de azúcar",
+          "gramos": 45
+        }
+      ],
+      "pasos": [
+        "Reparte una capa fina de avena tostada.",
+        "Procesa yogur, ricota, fresas y estevia; añade gelatina disuelta.",
+        "Vierte y refrigera 4 horas."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-postres-fit-28-cheesecake-frio-de-maracuya-en-vaso",
+      "recipeId": "postres-fit-28-cheesecake-frio-de-maracuya-en-vaso",
+      "nombre": "Cheesecake frío de maracuyá en vaso",
+      "descripcion": "Frío y sedoso, cheesecake frío de maracuyá en vaso reúne yogur griego, queso fresco cremoso bajo en sal, maracuyá; ofrece dulzor moderado y una porción claramente definida.",
+      "momento": "media_tarde",
+      "familiaProteica": "vegetal",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 108,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 155,
+        "proteina": 9,
+        "carbohidratos": 18,
+        "grasas": 5
+      },
+      "ingredientes": [
+        {
+          "texto": "250 g de yogur griego",
+          "gramos": 250
+        },
+        {
+          "texto": "200 g de queso fresco cremoso bajo en sal",
+          "gramos": 200
+        },
+        {
+          "texto": "100 g de maracuyá",
+          "gramos": 100
+        },
+        {
+          "texto": "70 g de avena tostada",
+          "gramos": 70
+        },
+        {
+          "texto": "20 g de mantequilla de maní",
+          "gramos": 20
+        },
+        {
+          "texto": "Estevia al gusto",
+          "gramos": null
+        },
+        {
+          "texto": "8 g de gelatina",
+          "gramos": 8
+        }
+      ],
+      "pasos": [
+        "Mezcla avena y mantequilla de maní y reparte una capa fina.",
+        "Procesa yogur, queso, maracuyá y estevia; incorpora gelatina disuelta.",
+        "Refrigera 3 horas."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-desayunos-10-pastel-de-calabaza",
+      "recipeId": "desayunos-10-pastel-de-calabaza",
+      "nombre": "Bizcochito de zapallo y avena al microondas",
+      "descripcion": "Bizcochito de zapallo y avena al microondas, húmedo y aromático.",
+      "momento": "media_tarde",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 398,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 382,
+        "proteina": 25.3,
+        "carbohidratos": 53.6,
+        "grasas": 10.3
+      },
+      "ingredientes": [
+        {
+          "texto": "Avena: ½ taza · 40 g",
+          "gramos": 40
+        },
+        {
+          "texto": "Zapallo: 1 taza de puré · 150 g",
+          "gramos": 150
+        },
+        {
+          "texto": "Huevo: 1 huevo · 50 g",
+          "gramos": 50
+        },
+        {
+          "texto": "Clara: aprox. 2 claras pequeñas · 50 g",
+          "gramos": 50
+        },
+        {
+          "texto": "Yogur: ½ taza · 100 g",
+          "gramos": 100
+        },
+        {
+          "texto": "Nueces: 1 cucharadita · 5 g",
+          "gramos": 5
+        },
+        {
+          "texto": "Canela: ¼ cucharadita · 1 g",
+          "gramos": 1
+        },
+        {
+          "texto": "Polvo de hornear: ½ cucharadita · 2 g",
+          "gramos": 2
+        }
+      ],
+      "pasos": [
+        "Mezcla el puré de zapallo con la avena, el huevo, las claras, la canela y el polvo de hornear hasta integrar.",
+        "Vierte en un recipiente individual apto para microondas y cocina de 3 a 4 minutos, hasta que el centro esté firme.",
+        "Deja reposar 1 minuto y sirve con el yogur y las nueces picadas."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-desayunos-1-torta-de-coco",
+      "recipeId": "desayunos-1-torta-de-coco",
+      "nombre": "Bizcochito de avena, coco y plátano",
+      "descripcion": "Bizcochito individual, húmedo y suavemente dulce, con avena, plátano y un toque de coco.",
+      "momento": "media_tarde",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 316,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 388,
+        "proteina": 24.9,
+        "carbohidratos": 53.3,
+        "grasas": 10.9
+      },
+      "ingredientes": [
+        {
+          "texto": "40 g — Avena (½ taza)",
+          "gramos": 40
+        },
+        {
+          "texto": "120 g — Yogur (½ taza)",
+          "gramos": 120
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo)",
+          "gramos": 50
+        },
+        {
+          "texto": "50 g — Clara (aprox. 2 claras pequeñas)",
+          "gramos": 50
+        },
+        {
+          "texto": "5 g — Coco (1 cucharada rasa)",
+          "gramos": 5
+        },
+        {
+          "texto": "50 g — Platano (½ plátano pequeño)",
+          "gramos": 50
+        },
+        {
+          "texto": "1 g — Canela (¼ cucharadita)",
+          "gramos": 1
+        }
+      ],
+      "pasos": [
+        "Mezcla avena, yogur, huevo, clara y plátano aplastado.",
+        "Añade coco, canela y polvo de hornear.",
+        "Hornea 18 minutos a 180 °C en molde individual."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-perdida-peso-1150-solterito-de-desayuno-con-huevo-sancochado",
+      "recipeId": "perdida-peso-1150-solterito-de-desayuno-con-huevo-sancochado",
+      "nombre": "Solterito de desayuno con huevo sancochado",
+      "descripcion": "Versión matinal del solterito peruano, con habas, choclo, huevo y queso fresco en una mezcla colorida.",
+      "momento": "media_tarde",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 395,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 379,
+        "proteina": 23,
+        "carbohidratos": 44.2,
+        "grasas": 14
+      },
+      "ingredientes": [
+        {
+          "texto": "75 g — Habas (½ taza de habas frescas peladas (≈ 75 g))",
+          "gramos": 75
+        },
+        {
+          "texto": "75 g — Choclo (½ taza de choclo desgranado sancochado (≈ 75 g))",
+          "gramos": 75
+        },
+        {
+          "texto": "120 g — Tomate (1 tomate en cubos (≈ 120 g))",
+          "gramos": 120
+        },
+        {
+          "texto": "30 g — Cebolla (¼ de cebolla roja en cubos pequeños (≈ 30 g))",
+          "gramos": 30
+        },
+        {
+          "texto": "40 g — Queso fresco (40 g de queso fresco en cubos (≈ 40 g))",
+          "gramos": 40
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo sancochado (≈ 50 g))",
+          "gramos": 50
+        },
+        {
+          "texto": "5 g — Aceite de oliva (1 cdta de aceite de oliva (≈ 5 g))",
+          "gramos": 5
+        }
+      ],
+      "pasos": [
+        "Sancocha las habas y el choclo hasta que estén tiernos; escurre y deja entibiar.",
+        "Enjuaga la cebolla en agua fría durante 5 minutos y escúrrela.",
+        "Mezcla habas, choclo, tomate, cebolla y queso fresco.",
+        "Aliña con limón, aceite, pimienta y perejil; sirve con el huevo sancochado."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-desayunos-25-papilla-de-microondas",
+      "recipeId": "desayunos-25-papilla-de-microondas",
+      "nombre": "Papilla proteica de avena, yogur y plátano",
+      "descripcion": "Papilla espesa de avena con yogur, plátano y una pequeña porción de linaza.",
+      "momento": "media_tarde",
+      "familiaProteica": "carne_roja",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 430,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 384,
+        "proteina": 21.4,
+        "carbohidratos": 71.2,
+        "grasas": 4.8
+      },
+      "ingredientes": [
+        {
+          "texto": "45 g — Avena (½ taza)",
+          "gramos": 45
+        },
+        {
+          "texto": "150 g — Leche (⅔ taza)",
+          "gramos": 150
+        },
+        {
+          "texto": "150 g — Yogur (⅔ taza)",
+          "gramos": 150
+        },
+        {
+          "texto": "80 g — Platano (¾ plátano)",
+          "gramos": 80
+        },
+        {
+          "texto": "5 g — Linaza (1 cucharadita)",
+          "gramos": 5
+        }
+      ],
+      "pasos": [
+        "Cocina avena y leche hasta espesar.",
+        "Retira del fuego y deja entibiar.",
+        "Añade yogur, plátano y linaza."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-desayunos-8-panqueques",
+      "recipeId": "desayunos-8-panqueques",
+      "nombre": "Panqueques de avena, plátano y yogur",
+      "descripcion": "Panqueques suaves de avena y plátano con yogur y fresas al servir.",
+      "momento": "media_tarde",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 350,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 369,
+        "proteina": 18.8,
+        "carbohidratos": 62.4,
+        "grasas": 7.8
+      },
+      "ingredientes": [
+        {
+          "texto": "40 g — Avena (½ taza)",
+          "gramos": 40
+        },
+        {
+          "texto": "80 g — Platano (¾ plátano)",
+          "gramos": 80
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo)",
+          "gramos": 50
+        },
+        {
+          "texto": "100 g — Yogur (½ taza)",
+          "gramos": 100
+        },
+        {
+          "texto": "80 g — Fresa (¾ taza)",
+          "gramos": 80
+        }
+      ],
+      "pasos": [
+        "Licúa avena, plátano, huevo y la mitad del yogur.",
+        "Cocina tres panqueques pequeños en sartén antiadherente.",
+        "Sirve con el yogur restante y fresas."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-desayunos-14-papilla-de-avena-y-coco",
+      "recipeId": "desayunos-14-papilla-de-avena-y-coco",
+      "nombre": "Papilla de avena, plátano y coco",
+      "descripcion": "Papilla cremosa de avena y plátano con coco añadido al final.",
+      "momento": "media_tarde",
+      "familiaProteica": "vegetal",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 430,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 380,
+        "proteina": 19.7,
+        "carbohidratos": 69.6,
+        "grasas": 5.9
+      },
+      "ingredientes": [
+        {
+          "texto": "Avena: ½ taza · 45 g",
+          "gramos": 45
+        },
+        {
+          "texto": "Leche: 1 taza · 200 g",
+          "gramos": 200
+        },
+        {
+          "texto": "Yogur: ½ taza · 100 g",
+          "gramos": 100
+        },
+        {
+          "texto": "Platano: ¾ plátano · 80 g",
+          "gramos": 80
+        },
+        {
+          "texto": "Coco: 1 cucharada rasa · 5 g",
+          "gramos": 5
+        }
+      ],
+      "pasos": [
+        "Cocina avena y leche a fuego bajo hasta espesar.",
+        "Retira del fuego e incorpora la mitad del plátano.",
+        "Sirve con yogur, plátano restante y coco."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/PAYLOAD_163_CORREGIDAS_PARA_SUPABASE_OCULTAS.json"
+    },
+    {
+      "id": "REC-desayunos-15-galletas-de-coco",
+      "recipeId": "desayunos-15-galletas-de-coco",
+      "nombre": "Galletas de avena y coco con yogur y fresas",
+      "descripcion": "Cuatro galletas blandas de avena y coco, servidas con yogur y fresas.",
+      "momento": "media_tarde",
+      "familiaProteica": "huevo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 413,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 445,
+        "proteina": 23,
+        "carbohidratos": 70.2,
+        "grasas": 11.5
+      },
+      "ingredientes": [
+        {
+          "texto": "48 g — Avena (½ taza colmada)",
+          "gramos": 48
+        },
+        {
+          "texto": "5 g — Coco (1 cucharada rasa)",
+          "gramos": 5
+        },
+        {
+          "texto": "60 g — Platano (½ plátano)",
+          "gramos": 60
+        },
+        {
+          "texto": "50 g — Huevo (1 huevo)",
+          "gramos": 50
+        },
+        {
+          "texto": "150 g — Yogur (⅔ taza)",
+          "gramos": 150
+        },
+        {
+          "texto": "100 g — Fresa (1 taza)",
+          "gramos": 100
+        }
+      ],
+      "pasos": [
+        "Mezcla avena, coco, plátano y huevo.",
+        "Forma cuatro galletas y hornea 15 minutos a 180 °C.",
+        "Sirve con yogur y fresas."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    },
+    {
+      "id": "REC-desayunos-13-desayuno-con-frutos-secos",
+      "recipeId": "desayunos-13-desayuno-con-frutos-secos",
+      "nombre": "Granola ligera de avena y frutos secos con yogur",
+      "descripcion": "Granola horneada sin aceite, servida con yogur natural y plátano.",
+      "momento": "media_tarde",
+      "familiaProteica": "lacteo",
+      "modoEscala": "PORCION_COMPLETA",
+      "gramosPorcionBase": 312,
+      "escalaMinima": 0.65,
+      "escalaMaxima": 1.75,
+      "nutricionBase": {
+        "kcal": 432,
+        "proteina": 19.6,
+        "carbohidratos": 65.4,
+        "grasas": 14
+      },
+      "ingredientes": [
+        {
+          "texto": "40 g — Avena (½ taza)",
+          "gramos": 40
+        },
+        {
+          "texto": "12 g — Nueces (1 cucharada colmada)",
+          "gramos": 12
+        },
+        {
+          "texto": "5 g — Linaza (1 cucharadita)",
+          "gramos": 5
+        },
+        {
+          "texto": "5 g — Coco (1 cucharada rasa)",
+          "gramos": 5
+        },
+        {
+          "texto": "170 g — Yogur (¾ taza)",
+          "gramos": 170
+        },
+        {
+          "texto": "80 g — Platano (¾ plátano)",
+          "gramos": 80
+        }
+      ],
+      "pasos": [
+        "Tuesta avena, nueces, linaza y coco en bandeja sin aceite.",
+        "Remueve a mitad de cocción y enfría.",
+        "Sirve la porción completa con yogur y plátano."
+      ],
+      "fuenteLocal": "outputs/recovery_2026-08-29/BACKUP_SUPABASE_RECIPES_ANTES_RECUPERACION.json"
+    }
+  ]
+}

@@ -1,0 +1,3369 @@
+{
+  "lote": 1,
+  "version": "1.0-local-plantillas",
+  "fuente": "NutriCook_Preparaciones_Lote1_PROPUESTA.xlsx",
+  "nota": "Las preparaciones son plantillas escalables. Las kcal base no son limites rigidos; el motor combina porciones discretas aprobadas.",
+  "toleranciaObjetivo": 0.1,
+  "preparaciones": [
+    {
+      "id": "DES-01",
+      "nombre": "Sandwich integral de huevo y palta",
+      "tipo": "Desayuno",
+      "formato": "sandwich",
+      "descripcion": "Pan integral con huevo sancochado en rodajas, palta pisada y tomate fresco.",
+      "momentosPermitidos": [
+        "desayuno"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "PRO-01",
+      "familiaProteica": "huevo",
+      "calidadCarbohidrato": "integral_fibra",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 sandwich (2 rebanadas) con 2 huevos",
+      "instrucciones": [
+        "1. Sancochar los huevos, pelar y cortar en rodajas.",
+        "2. Pisar la palta y untar en las rebanadas de pan integral.",
+        "3. Armar el sandwich con huevo y tomate en rodajas."
+      ],
+      "compatibilidades": "media_manana",
+      "exclusiones": "Sin mayonesa ni aderezos industriales",
+      "notasEditoriales": "Desayuno clasico saciante; el huevo aporta la proteina y la palta la grasa saludable.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "CHO-09",
+          "gramosBase": 60,
+          "medidaCasera": "2 rebanadas",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "PRO-01",
+          "gramosBase": 100,
+          "medidaCasera": "2 unidades",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "GRA-01",
+          "gramosBase": 30,
+          "medidaCasera": "porcion pequena",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "DES-02",
+      "nombre": "Omelette de espinaca y queso con pan integral",
+      "tipo": "Desayuno",
+      "formato": "omelette",
+      "descripcion": "Omelette de huevo con espinaca y queso fresco, acompanado de pan integral.",
+      "momentosPermitidos": [
+        "desayuno"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "PRO-02",
+      "familiaProteica": "huevo",
+      "calidadCarbohidrato": "integral_fibra",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 omelette (2 huevos) con 1 rebanada de pan",
+      "instrucciones": [
+        "1. Batir los huevos e incorporar la espinaca picada.",
+        "2. Cuajar el omelette a fuego suave y sumar el queso fresco.",
+        "3. Servir con la rebanada de pan integral."
+      ],
+      "compatibilidades": "cena",
+      "exclusiones": "—",
+      "notasEditoriales": "Doble proteina huevo+queso; espinaca cuajada dentro para evitar salteado con aceite.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO-02",
+          "gramosBase": 100,
+          "medidaCasera": "2 unidades",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-06",
+          "gramosBase": 60,
+          "medidaCasera": "1 taza",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "LAC-03",
+          "gramosBase": 40,
+          "medidaCasera": "1 tajada",
+          "funcion": "lacteo",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-09",
+          "gramosBase": 30,
+          "medidaCasera": "1 rebanada",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        }
+      ],
+      "estadoOperativo": "BLOQUEADA_DECISION_3"
+    },
+    {
+      "id": "DES-03",
+      "nombre": "Bowl de yogur griego con fresas y granola",
+      "tipo": "Desayuno",
+      "formato": "bowl",
+      "descripcion": "Yogur griego natural con fresas, granola de avena y semillas de chia.",
+      "momentosPermitidos": [
+        "desayuno"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "LAC-02",
+      "familiaProteica": "lacteo",
+      "calidadCarbohidrato": "mixto",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": false,
+      "contieneFrutaEntera": true,
+      "porcionBase": "1 pote de yogur (150 g) con fruta y granola",
+      "instrucciones": [
+        "1. Servir el yogur griego en un bowl.",
+        "2. Cortar las fresas y colocarlas encima.",
+        "3. Espolvorear granola y chia."
+      ],
+      "compatibilidades": "media_manana, media_tarde",
+      "exclusiones": "—",
+      "notasEditoriales": "El yogur griego eleva la proteina frente a un yogur comun; fruta entera + grano integral.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "LAC-02",
+          "gramosBase": 150,
+          "medidaCasera": "1 pote",
+          "funcion": "lacteo",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "FRU-06",
+          "gramosBase": 100,
+          "medidaCasera": "1 taza",
+          "funcion": "fruta",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "ESP-03",
+          "gramosBase": 30,
+          "medidaCasera": "3 cucharadas",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "GRA-04",
+          "gramosBase": 15,
+          "medidaCasera": "1 cucharada",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "DES-04",
+      "nombre": "Avena cocida con leche, platano y mani",
+      "tipo": "Desayuno",
+      "formato": "bowl",
+      "descripcion": "Avena cocida en leche descremada con platano en rodajas y mani tostado.",
+      "momentosPermitidos": [
+        "desayuno"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "LAC-05",
+      "familiaProteica": "lacteo",
+      "calidadCarbohidrato": "mixto",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": false,
+      "contieneFrutaEntera": true,
+      "porcionBase": "1 tazon de avena (40 g en seco) con leche y fruta",
+      "instrucciones": [
+        "1. Cocinar la avena en la leche hasta espesar.",
+        "2. Servir y coronar con el platano en rodajas.",
+        "3. Agregar el mani tostado."
+      ],
+      "compatibilidades": "media_manana",
+      "exclusiones": "Sin azucar anadida",
+      "notasEditoriales": "La leche aporta la proteina del desayuno; avena integral + fruta entera.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "CHO-03",
+          "gramosBase": 40,
+          "medidaCasera": "4 cucharadas en seco",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "LAC-05",
+          "gramosBase": 200,
+          "medidaCasera": "1 vaso",
+          "funcion": "lacteo",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "FRU-01",
+          "gramosBase": 100,
+          "medidaCasera": "1 unidad",
+          "funcion": "fruta",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "GRA-02",
+          "gramosBase": 15,
+          "medidaCasera": "1 punado pequeno",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "DES-05",
+      "nombre": "Tostadas integrales con queso fresco y palta",
+      "tipo": "Desayuno",
+      "formato": "tostada",
+      "descripcion": "Pan de molde integral tostado con queso fresco, palta y tomate.",
+      "momentosPermitidos": [
+        "desayuno"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "LAC-04",
+      "familiaProteica": "lacteo",
+      "calidadCarbohidrato": "integral_fibra",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "2 tostadas integrales con queso y palta",
+      "instrucciones": [
+        "1. Tostar las rebanadas de pan integral.",
+        "2. Untar la palta y colocar el queso fresco.",
+        "3. Terminar con el tomate en rodajas."
+      ],
+      "compatibilidades": "media_tarde",
+      "exclusiones": "—",
+      "notasEditoriales": "Queso fresco como fuente proteica; nunca pan+palta solos sin proteina.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "ESP-02",
+          "gramosBase": 50,
+          "medidaCasera": "2 rebanadas",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "LAC-04",
+          "gramosBase": 40,
+          "medidaCasera": "1 tajada",
+          "funcion": "lacteo",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "GRA-01",
+          "gramosBase": 30,
+          "medidaCasera": "porcion pequena",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "DES-06",
+      "nombre": "Pan frances con pollo deshilachado y tomate",
+      "tipo": "Desayuno",
+      "formato": "sandwich",
+      "descripcion": "Pan frances relleno de pollo deshilachado, lechuga y tomate.",
+      "momentosPermitidos": [
+        "desayuno"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "PRO-04",
+      "familiaProteica": "ave",
+      "calidadCarbohidrato": "refinado",
+      "contieneCarbohidratoRefinado": true,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 pan frances con pollo (80 g)",
+      "instrucciones": [
+        "1. Cocinar y deshilachar la pechuga de pollo.",
+        "2. Abrir el pan frances y colocar la lechuga.",
+        "3. Rellenar con el pollo y el tomate en rodajas."
+      ],
+      "compatibilidades": "media_manana",
+      "exclusiones": "—",
+      "notasEditoriales": "Pan refinado permitido porque va acompanado de proteina magra (pollo).",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "CHO-08",
+          "gramosBase": 55,
+          "medidaCasera": "1 unidad",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "PRO-04",
+          "gramosBase": 80,
+          "medidaCasera": "porcion pequena",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-02",
+          "gramosBase": 40,
+          "medidaCasera": "1 taza de hojas",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "DES-07",
+      "nombre": "Bowl de yogur natural, papaya y semillas",
+      "tipo": "Desayuno",
+      "formato": "bowl",
+      "descripcion": "Yogur natural descremado con papaya en cubos, kiwicha y chia.",
+      "momentosPermitidos": [
+        "desayuno"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "LAC-01",
+      "familiaProteica": "lacteo",
+      "calidadCarbohidrato": "mixto",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": false,
+      "contieneFrutaEntera": true,
+      "porcionBase": "1 vaso de yogur (200 g) con fruta y semillas",
+      "instrucciones": [
+        "1. Servir el yogur en un bowl.",
+        "2. Cortar la papaya en cubos y anadir.",
+        "3. Espolvorear la kiwicha y la chia."
+      ],
+      "compatibilidades": "media_manana, media_tarde",
+      "exclusiones": "—",
+      "notasEditoriales": "Alternativa liviana y digestiva; el yogur aporta la proteina.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "LAC-01",
+          "gramosBase": 200,
+          "medidaCasera": "1 vaso",
+          "funcion": "lacteo",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "FRU-03",
+          "gramosBase": 150,
+          "medidaCasera": "1 tajada",
+          "funcion": "fruta",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO2-11",
+          "gramosBase": 30,
+          "medidaCasera": "3 cucharadas en seco",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "GRA-04",
+          "gramosBase": 15,
+          "medidaCasera": "1 cucharada",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "DES-08",
+      "nombre": "Revuelto de huevo con atun y camote",
+      "tipo": "Desayuno",
+      "formato": "omelette",
+      "descripcion": "Huevo revuelto con atun desmenuzado, acompanado de camote sancochado y tomate.",
+      "momentosPermitidos": [
+        "desayuno"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "PRO-02",
+      "familiaProteica": "huevo",
+      "calidadCarbohidrato": "tuberculo",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 revuelto (2 huevos + 1/2 lata atun) con camote",
+      "instrucciones": [
+        "1. Escurrir el atun y desmenuzarlo.",
+        "2. Batir los huevos, cuajarlos suavemente e integrar el atun.",
+        "3. Servir con el camote sancochado en rodajas y el tomate."
+      ],
+      "compatibilidades": "cena",
+      "exclusiones": "—",
+      "notasEditoriales": "Doble proteina huevo+atun; camote como energia de bajo indice.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO-02",
+          "gramosBase": 100,
+          "medidaCasera": "2 unidades",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "PRO-07",
+          "gramosBase": 60,
+          "medidaCasera": "media lata",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-05",
+          "gramosBase": 100,
+          "medidaCasera": "porcion pequena",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "BLOQUEADA_DECISION_3"
+    },
+    {
+      "id": "DES-09",
+      "nombre": "Quinua con leche, manzana y almendras",
+      "tipo": "Desayuno",
+      "formato": "bowl",
+      "descripcion": "Quinua cocida en leche descremada con manzana en cubos y almendras.",
+      "momentosPermitidos": [
+        "desayuno"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "LAC-05",
+      "familiaProteica": "lacteo",
+      "calidadCarbohidrato": "mixto",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": false,
+      "contieneFrutaEntera": true,
+      "porcionBase": "1 tazon de quinua (120 g) con leche y fruta",
+      "instrucciones": [
+        "1. Cocinar la quinua y mezclarla con la leche caliente.",
+        "2. Anadir la manzana en cubos.",
+        "3. Terminar con las almendras picadas."
+      ],
+      "compatibilidades": "media_manana",
+      "exclusiones": "Sin azucar anadida",
+      "notasEditoriales": "Quinua como grano andino integral; leche aporta la proteina.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "CHO-02",
+          "gramosBase": 120,
+          "medidaCasera": "3/4 taza aprox.",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "LAC-05",
+          "gramosBase": 200,
+          "medidaCasera": "1 vaso",
+          "funcion": "lacteo",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "FRU-02",
+          "gramosBase": 130,
+          "medidaCasera": "1 unidad",
+          "funcion": "fruta",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "GRA-03",
+          "gramosBase": 15,
+          "medidaCasera": "~12 unidades",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "DES-10",
+      "nombre": "Sandwich integral de queso cottage y palta",
+      "tipo": "Desayuno",
+      "formato": "sandwich",
+      "descripcion": "Pan integral con queso cottage, palta y tomate fresco.",
+      "momentosPermitidos": [
+        "desayuno"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "PRO2-11",
+      "familiaProteica": "lacteo",
+      "calidadCarbohidrato": "integral_fibra",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 sandwich integral con cottage (100 g)",
+      "instrucciones": [
+        "1. Untar el queso cottage sobre el pan integral.",
+        "2. Agregar la palta pisada.",
+        "3. Cerrar con el tomate en rodajas."
+      ],
+      "compatibilidades": "media_manana",
+      "exclusiones": "—",
+      "notasEditoriales": "El cottage aporta proteina alta y baja en grasa; opcion fresca y saciante.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "CHO-09",
+          "gramosBase": 60,
+          "medidaCasera": "2 rebanadas",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "PRO2-11",
+          "gramosBase": 100,
+          "medidaCasera": "4 cucharadas",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "GRA-01",
+          "gramosBase": 30,
+          "medidaCasera": "porcion pequena",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "DES-11",
+      "nombre": "Choclo con queso fresco y tomate",
+      "tipo": "Desayuno",
+      "formato": "plato_principal",
+      "descripcion": "Choclo sancochado desgranado con queso fresco y tomate, estilo desayuno andino.",
+      "momentosPermitidos": [
+        "desayuno"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "LAC-03",
+      "familiaProteica": "lacteo",
+      "calidadCarbohidrato": "integral_fibra",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 taza de choclo con 2 tajadas de queso fresco",
+      "instrucciones": [
+        "1. Sancochar el choclo y desgranarlo.",
+        "2. Cortar el queso fresco en cubos.",
+        "3. Servir el choclo con queso y tomate."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "—",
+      "notasEditoriales": "Desayuno tradicional; queso fresco garantiza la proteina junto al choclo.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "CHO-07",
+          "gramosBase": 120,
+          "medidaCasera": "1 taza desgranado",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "LAC-03",
+          "gramosBase": 60,
+          "medidaCasera": "2 tajadas",
+          "funcion": "lacteo",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "DES-12",
+      "nombre": "Pan integral con huevo de codorniz y palta",
+      "tipo": "Desayuno",
+      "formato": "tostada",
+      "descripcion": "Pan integral tostado con palta, huevos de codorniz y tomate.",
+      "momentosPermitidos": [
+        "desayuno"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "PRO2-10",
+      "familiaProteica": "huevo",
+      "calidadCarbohidrato": "integral_fibra",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "2 tostadas con 5 huevos de codorniz",
+      "instrucciones": [
+        "1. Sancochar los huevos de codorniz y pelarlos.",
+        "2. Untar la palta sobre el pan tostado.",
+        "3. Colocar los huevos partidos y el tomate."
+      ],
+      "compatibilidades": "media_tarde",
+      "exclusiones": "—",
+      "notasEditoriales": "Presentacion tipo tostada; los huevos de codorniz aportan proteina y color.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "CHO-09",
+          "gramosBase": 60,
+          "medidaCasera": "2 rebanadas",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "PRO2-10",
+          "gramosBase": 50,
+          "medidaCasera": "5 unidades",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "GRA-01",
+          "gramosBase": 30,
+          "medidaCasera": "porcion pequena",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CDU-01",
+      "nombre": "Bowl de yogur griego con fresas y chia",
+      "tipo": "Colacion dulce",
+      "formato": "bowl",
+      "descripcion": "Yogur griego natural con fresas frescas y chia.",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "LAC-02",
+      "familiaProteica": "lacteo",
+      "calidadCarbohidrato": "fruta_entera",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": false,
+      "contieneFrutaEntera": true,
+      "porcionBase": "1 pote de yogur griego (150 g) con fruta",
+      "instrucciones": [
+        "1. Servir el yogur griego.",
+        "2. Anadir las fresas en trozos.",
+        "3. Espolvorear la chia."
+      ],
+      "compatibilidades": "desayuno",
+      "exclusiones": "No presentar solo fruta o frutos secos",
+      "notasEditoriales": "Colacion proteica: el yogur griego evita que sea solo fruta.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "LAC-02",
+          "gramosBase": 150,
+          "medidaCasera": "1 pote",
+          "funcion": "lacteo",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "FRU-06",
+          "gramosBase": 100,
+          "medidaCasera": "1 taza",
+          "funcion": "fruta",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "GRA-04",
+          "gramosBase": 15,
+          "medidaCasera": "1 cucharada",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CDU-02",
+      "nombre": "Yogur natural con mango y almendras",
+      "tipo": "Colacion dulce",
+      "formato": "bowl",
+      "descripcion": "Yogur natural descremado con mango en cubos y almendras.",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "LAC-01",
+      "familiaProteica": "lacteo",
+      "calidadCarbohidrato": "fruta_entera",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": false,
+      "contieneFrutaEntera": true,
+      "porcionBase": "1 vaso de yogur (200 g) con mango",
+      "instrucciones": [
+        "1. Servir el yogur en un vaso.",
+        "2. Anadir el mango en cubos.",
+        "3. Terminar con las almendras."
+      ],
+      "compatibilidades": "desayuno",
+      "exclusiones": "—",
+      "notasEditoriales": "Proteina lactea + fruta entera + grasa buena; nunca solo fruta.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "LAC-01",
+          "gramosBase": 200,
+          "medidaCasera": "1 vaso",
+          "funcion": "lacteo",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "FRU-05",
+          "gramosBase": 120,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "fruta",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "GRA-03",
+          "gramosBase": 15,
+          "medidaCasera": "~12 unidades",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CDU-03",
+      "nombre": "Queso cottage con pina y nueces",
+      "tipo": "Colacion dulce",
+      "formato": "bowl",
+      "descripcion": "Queso cottage con pina en cubos y nueces.",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "PRO2-11",
+      "familiaProteica": "lacteo",
+      "calidadCarbohidrato": "fruta_entera",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": false,
+      "contieneFrutaEntera": true,
+      "porcionBase": "4 cucharadas de cottage (100 g) con pina",
+      "instrucciones": [
+        "1. Servir el cottage en un bowl.",
+        "2. Anadir la pina en cubos.",
+        "3. Terminar con las nueces troceadas."
+      ],
+      "compatibilidades": "media_tarde",
+      "exclusiones": "—",
+      "notasEditoriales": "Cottage como proteina magra; contraste dulce-acido con la pina.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO2-11",
+          "gramosBase": 100,
+          "medidaCasera": "4 cucharadas",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "FRU-04",
+          "gramosBase": 120,
+          "medidaCasera": "1 rodaja",
+          "funcion": "fruta",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "GRA2-01",
+          "gramosBase": 15,
+          "medidaCasera": "~4 unidades",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CDU-04",
+      "nombre": "Yogur griego con manzana y mani",
+      "tipo": "Colacion dulce",
+      "formato": "bowl",
+      "descripcion": "Yogur griego con manzana en cubos y mani tostado.",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "LAC-02",
+      "familiaProteica": "lacteo",
+      "calidadCarbohidrato": "fruta_entera",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": false,
+      "contieneFrutaEntera": true,
+      "porcionBase": "1 pote de yogur griego (150 g) con manzana",
+      "instrucciones": [
+        "1. Servir el yogur griego.",
+        "2. Anadir la manzana en cubos.",
+        "3. Espolvorear el mani tostado."
+      ],
+      "compatibilidades": "desayuno",
+      "exclusiones": "—",
+      "notasEditoriales": "Snack saciante; proteina + fibra de la manzana.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "LAC-02",
+          "gramosBase": 150,
+          "medidaCasera": "1 pote",
+          "funcion": "lacteo",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "FRU-02",
+          "gramosBase": 130,
+          "medidaCasera": "1 unidad",
+          "funcion": "fruta",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "GRA-02",
+          "gramosBase": 15,
+          "medidaCasera": "1 punado pequeno",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CDU-05",
+      "nombre": "Ricotta con durazno y pecanas",
+      "tipo": "Colacion dulce",
+      "formato": "bowl",
+      "descripcion": "Queso ricotta con durazno en gajos y pecanas.",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "LAC2-05",
+      "familiaProteica": "lacteo",
+      "calidadCarbohidrato": "fruta_entera",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": false,
+      "contieneFrutaEntera": true,
+      "porcionBase": "1 porcion de ricotta (60 g) con durazno",
+      "instrucciones": [
+        "1. Servir la ricotta en un bowl.",
+        "2. Anadir el durazno en gajos.",
+        "3. Terminar con las pecanas."
+      ],
+      "compatibilidades": "media_manana",
+      "exclusiones": "—",
+      "notasEditoriales": "Ricotta aporta proteina cremosa; combinacion suave para la tarde.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "LAC2-05",
+          "gramosBase": 60,
+          "medidaCasera": "porción grande",
+          "funcion": "lacteo",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "FRU2-02",
+          "gramosBase": 120,
+          "medidaCasera": "1 unidad",
+          "funcion": "fruta",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "GRA2-02",
+          "gramosBase": 15,
+          "medidaCasera": "~6 unidades",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CDU-06",
+      "nombre": "Yogur frutado con granola y chia",
+      "tipo": "Colacion dulce",
+      "formato": "bowl",
+      "descripcion": "Yogur frutado descremado con granola de avena y chia.",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "LAC2-03",
+      "familiaProteica": "lacteo",
+      "calidadCarbohidrato": "mixto",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": false,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 vaso de yogur frutado (200 g) con granola",
+      "instrucciones": [
+        "1. Servir el yogur frutado.",
+        "2. Anadir la granola.",
+        "3. Espolvorear la chia."
+      ],
+      "compatibilidades": "desayuno",
+      "exclusiones": "—",
+      "notasEditoriales": "El yogur da la proteina; granola integral como crocante.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "LAC2-03",
+          "gramosBase": 200,
+          "medidaCasera": "1 vaso",
+          "funcion": "lacteo",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "ESP-03",
+          "gramosBase": 30,
+          "medidaCasera": "3 cucharadas",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "GRA-04",
+          "gramosBase": 15,
+          "medidaCasera": "1 cucharada",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CDU-07",
+      "nombre": "Bowl de yogur natural, uvas y girasol",
+      "tipo": "Colacion dulce",
+      "formato": "bowl",
+      "descripcion": "Yogur natural descremado con uvas partidas y semillas de girasol.",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "LAC-01",
+      "familiaProteica": "lacteo",
+      "calidadCarbohidrato": "fruta_entera",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": false,
+      "contieneFrutaEntera": true,
+      "porcionBase": "1 vaso de yogur (200 g) con uvas",
+      "instrucciones": [
+        "1. Servir el yogur.",
+        "2. Partir las uvas por la mitad y anadir.",
+        "3. Espolvorear las semillas de girasol."
+      ],
+      "compatibilidades": "media_manana",
+      "exclusiones": "—",
+      "notasEditoriales": "Colacion refrescante; el yogur mantiene la proteina de base.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "LAC-01",
+          "gramosBase": 200,
+          "medidaCasera": "1 vaso",
+          "funcion": "lacteo",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "FRU2-01",
+          "gramosBase": 100,
+          "medidaCasera": "~15 unidades",
+          "funcion": "fruta",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "GRA2-03",
+          "gramosBase": 15,
+          "medidaCasera": "1 cucharada",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CDU-08",
+      "nombre": "Queso cottage con papaya y chia",
+      "tipo": "Colacion dulce",
+      "formato": "bowl",
+      "descripcion": "Queso cottage con papaya en cubos y chia.",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "PRO2-11",
+      "familiaProteica": "lacteo",
+      "calidadCarbohidrato": "fruta_entera",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": false,
+      "contieneFrutaEntera": true,
+      "porcionBase": "4 cucharadas de cottage (100 g) con papaya",
+      "instrucciones": [
+        "1. Servir el cottage en un bowl.",
+        "2. Anadir la papaya en cubos.",
+        "3. Espolvorear la chia."
+      ],
+      "compatibilidades": "media_manana",
+      "exclusiones": "—",
+      "notasEditoriales": "Digestiva y proteica; ideal para media manana.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO2-11",
+          "gramosBase": 100,
+          "medidaCasera": "4 cucharadas",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "FRU-03",
+          "gramosBase": 150,
+          "medidaCasera": "1 tajada",
+          "funcion": "fruta",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "GRA-04",
+          "gramosBase": 15,
+          "medidaCasera": "1 cucharada",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CSA-01",
+      "nombre": "Mini sandwich integral de atun y tomate",
+      "tipo": "Colacion salada",
+      "formato": "sandwich",
+      "descripcion": "Medio pan integral con atun en agua, tomate y palta.",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "PRO-07",
+      "familiaProteica": "pescado_marisco",
+      "calidadCarbohidrato": "integral_fibra",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 mini sandwich (1 rebanada) con 1/2 lata de atun",
+      "instrucciones": [
+        "1. Escurrir el atun y mezclarlo con la palta pisada.",
+        "2. Colocar sobre la rebanada de pan integral.",
+        "3. Anadir el tomate en rodajas."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "No presentar solo pan con grasa",
+      "notasEditoriales": "Colacion salada proteica; el atun cumple la fuente proteica obligatoria.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "CHO-09",
+          "gramosBase": 30,
+          "medidaCasera": "1 rebanada",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "PRO-07",
+          "gramosBase": 60,
+          "medidaCasera": "media lata",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "GRA-01",
+          "gramosBase": 30,
+          "medidaCasera": "porcion pequena",
+          "funcion": "grasa",
+          "opcional": true,
+          "ajustable": true
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CSA-02",
+      "nombre": "Omelette pequeno de pollo y tomate",
+      "tipo": "Colacion salada",
+      "formato": "omelette",
+      "descripcion": "Omelette de un huevo con pollo deshilachado y tomate.",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "PRO-04",
+      "familiaProteica": "ave",
+      "calidadCarbohidrato": "no_aplica",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 omelette (1 huevo) con pollo (80 g)",
+      "instrucciones": [
+        "1. Deshilachar el pollo cocido.",
+        "2. Batir el huevo, cuajarlo y sumar el pollo.",
+        "3. Servir con el tomate fresco."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "—",
+      "notasEditoriales": "Colacion alta en proteina huevo+pollo, sin carbohidrato; saciante.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO-02",
+          "gramosBase": 50,
+          "medidaCasera": "1 unidad",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "PRO-04",
+          "gramosBase": 80,
+          "medidaCasera": "porcion pequena",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "BLOQUEADA_DECISION_3"
+    },
+    {
+      "id": "CSA-03",
+      "nombre": "Bowl salado de cottage, pepinillo y palta",
+      "tipo": "Colacion salada",
+      "formato": "bowl",
+      "descripcion": "Queso cottage con tomate, pepinillo y palta en cubos.",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "PRO2-11",
+      "familiaProteica": "lacteo",
+      "calidadCarbohidrato": "no_aplica",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 bowl de cottage (100 g) con verduras",
+      "instrucciones": [
+        "1. Cortar el tomate y el pepinillo en cubos.",
+        "2. Mezclar con el cottage.",
+        "3. Agregar la palta en cubos."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "—",
+      "notasEditoriales": "Bowl fresco y proteico; verduras crudas dentro de una preparacion, no aisladas.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO2-11",
+          "gramosBase": 100,
+          "medidaCasera": "4 cucharadas",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER2-08",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "GRA-01",
+          "gramosBase": 30,
+          "medidaCasera": "porcion pequena",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CSA-04",
+      "nombre": "Mini sandwich de queso fresco y palta",
+      "tipo": "Colacion salada",
+      "formato": "sandwich",
+      "descripcion": "Pan de molde integral con queso fresco, palta y tomate.",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "LAC-03",
+      "familiaProteica": "lacteo",
+      "calidadCarbohidrato": "integral_fibra",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 mini sandwich integral con queso fresco",
+      "instrucciones": [
+        "1. Untar la palta en el pan integral.",
+        "2. Colocar el queso fresco.",
+        "3. Cerrar con el tomate."
+      ],
+      "compatibilidades": "desayuno",
+      "exclusiones": "No presentar solo pan con grasa",
+      "notasEditoriales": "El queso fresco aporta la proteina; evita la combinacion carbohidrato+grasa sin proteina.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "ESP-02",
+          "gramosBase": 50,
+          "medidaCasera": "2 rebanadas",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "LAC-03",
+          "gramosBase": 40,
+          "medidaCasera": "1 tajada",
+          "funcion": "lacteo",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "GRA-01",
+          "gramosBase": 30,
+          "medidaCasera": "porcion pequena",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CSA-05",
+      "nombre": "Huevos de codorniz con palta y tomate",
+      "tipo": "Colacion salada",
+      "formato": "bowl",
+      "descripcion": "Huevos de codorniz sancochados con palta, tomate y una rebanada de pan integral.",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "PRO2-10",
+      "familiaProteica": "huevo",
+      "calidadCarbohidrato": "integral_fibra",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "5 huevos de codorniz con palta y tomate",
+      "instrucciones": [
+        "1. Sancochar y pelar los huevos de codorniz.",
+        "2. Cortar la palta y el tomate.",
+        "3. Servir juntos, con la rebanada de pan si se desea."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "—",
+      "notasEditoriales": "Colacion proteica y colorida; el pan es opcional.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO2-10",
+          "gramosBase": 50,
+          "medidaCasera": "5 unidades",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "GRA-01",
+          "gramosBase": 30,
+          "medidaCasera": "porcion pequena",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "CHO-09",
+          "gramosBase": 30,
+          "medidaCasera": "1 rebanada",
+          "funcion": "carbohidrato",
+          "opcional": true,
+          "ajustable": true
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CSA-06",
+      "nombre": "Tostada integral de caballa y tomate",
+      "tipo": "Colacion salada",
+      "formato": "tostada",
+      "descripcion": "Pan de molde integral con caballa en conserva, tomate y palta.",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "PRO2-08",
+      "familiaProteica": "pescado_marisco",
+      "calidadCarbohidrato": "integral_fibra",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 tostada integral con 1/2 lata de caballa",
+      "instrucciones": [
+        "1. Escurrir la caballa y desmenuzarla.",
+        "2. Untar la palta en el pan tostado.",
+        "3. Colocar la caballa y el tomate."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "—",
+      "notasEditoriales": "Pescado azul en conserva escurrida; rico en omega-3.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "ESP-02",
+          "gramosBase": 50,
+          "medidaCasera": "2 rebanadas",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "PRO2-08",
+          "gramosBase": 60,
+          "medidaCasera": "media lata",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "GRA-01",
+          "gramosBase": 30,
+          "medidaCasera": "porcion pequena",
+          "funcion": "grasa",
+          "opcional": true,
+          "ajustable": true
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CSA-07",
+      "nombre": "Bowl de pollo deshilachado con zanahoria",
+      "tipo": "Colacion salada",
+      "formato": "bowl",
+      "descripcion": "Pollo deshilachado con zanahoria rallada, tomate y palta.",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "PRO-04",
+      "familiaProteica": "ave",
+      "calidadCarbohidrato": "no_aplica",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 bowl de pollo (80 g) con verduras",
+      "instrucciones": [
+        "1. Deshilachar el pollo cocido.",
+        "2. Rallar la zanahoria y cortar el tomate.",
+        "3. Mezclar todo con la palta en cubos."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "—",
+      "notasEditoriales": "Colacion salada fresca; proteina magra con verduras crudas.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO-04",
+          "gramosBase": 80,
+          "medidaCasera": "porcion pequena",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-03",
+          "gramosBase": 60,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "GRA-01",
+          "gramosBase": 30,
+          "medidaCasera": "porcion pequena",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CSA-08",
+      "nombre": "Mini sandwich de pavo y tomate",
+      "tipo": "Colacion salada",
+      "formato": "sandwich",
+      "descripcion": "Pan integral con pavo cocido, tomate y pepinillo.",
+      "momentosPermitidos": [
+        "media_mañana",
+        "media_tarde"
+      ],
+      "momentosProhibidos": [
+        "almuerzo",
+        "cena"
+      ],
+      "fuenteProteicaPrincipal": "PRO-05",
+      "familiaProteica": "ave",
+      "calidadCarbohidrato": "integral_fibra",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 mini sandwich integral con pavo (70 g)",
+      "instrucciones": [
+        "1. Cortar el pavo cocido en laminas.",
+        "2. Armar el sandwich con el tomate.",
+        "3. Anadir el pepinillo en rodajas."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "—",
+      "notasEditoriales": "Colacion salada ligera; el pavo aporta proteina magra.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "CHO-09",
+          "gramosBase": 30,
+          "medidaCasera": "1 rebanada",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "PRO-05",
+          "gramosBase": 70,
+          "medidaCasera": "porcion pequena",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER2-08",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": true,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "ALM-01",
+      "nombre": "Pollo guisado con arroz y ensalada fresca",
+      "tipo": "Almuerzo",
+      "formato": "plato_principal",
+      "descripcion": "Pechuga de pollo guisada con arroz blanco y ensalada de lechuga, tomate y zanahoria.",
+      "momentosPermitidos": [
+        "almuerzo"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO-04",
+      "familiaProteica": "ave",
+      "calidadCarbohidrato": "refinado",
+      "contieneCarbohidratoRefinado": true,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 plato: pollo (100 g) + arroz (3/4 taza) + ensalada",
+      "instrucciones": [
+        "1. Guisar la pechuga de pollo con cebolla y tomate.",
+        "2. Servir con el arroz cocido.",
+        "3. Acompanar con la ensalada fresca."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "Sin pan de guarnicion",
+      "notasEditoriales": "Plato base equilibrado; el arroz refinado se acompana de proteina y verduras.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO-04",
+          "gramosBase": 100,
+          "medidaCasera": "porcion mediana",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-01",
+          "gramosBase": 150,
+          "medidaCasera": "3/4 taza aprox.",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-02",
+          "gramosBase": 40,
+          "medidaCasera": "1 taza de hojas",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-03",
+          "gramosBase": 60,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "ALM-02",
+      "nombre": "Trucha al vapor con mote y verduras",
+      "tipo": "Almuerzo",
+      "formato": "plato_principal",
+      "descripcion": "Filete de trucha al vapor con mote de maiz y verduras al vapor.",
+      "momentosPermitidos": [
+        "almuerzo"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO2-04",
+      "familiaProteica": "pescado_marisco",
+      "calidadCarbohidrato": "integral_fibra",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 plato: trucha (120 g) + mote (3/4 taza) + verduras",
+      "instrucciones": [
+        "1. Cocinar la trucha al vapor con hierbas.",
+        "2. Sancochar el mote de maiz.",
+        "3. Cocer al vapor el brocoli y la zanahoria y servir."
+      ],
+      "compatibilidades": "cena",
+      "exclusiones": "Sin pan de guarnicion",
+      "notasEditoriales": "Proteina de pescado con energia andina; verduras al vapor sin aceite anadido.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO2-04",
+          "gramosBase": 120,
+          "medidaCasera": "1 filete",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO2-05",
+          "gramosBase": 120,
+          "medidaCasera": "3/4 taza",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-04",
+          "gramosBase": 80,
+          "medidaCasera": "1 taza",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-03",
+          "gramosBase": 60,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "ALM-03",
+      "nombre": "Pavo guisado con yuca y ensalada criolla",
+      "tipo": "Almuerzo",
+      "formato": "plato_principal",
+      "descripcion": "Pavo guisado con yuca sancochada y ensalada de lechuga, tomate y cebolla.",
+      "momentosPermitidos": [
+        "almuerzo"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO-05",
+      "familiaProteica": "ave",
+      "calidadCarbohidrato": "tuberculo",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 plato: pavo (90 g) + yuca (1 trozo) + ensalada",
+      "instrucciones": [
+        "1. Guisar el pavo con tomate y cebolla.",
+        "2. Sancochar la yuca.",
+        "3. Preparar la ensalada criolla y servir."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "Sin pan de guarnicion",
+      "notasEditoriales": "Alternativa a la papa; la yuca aporta energia de tuberculo.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO-05",
+          "gramosBase": 90,
+          "medidaCasera": "porcion mediana",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-06",
+          "gramosBase": 120,
+          "medidaCasera": "1 trozo mediano",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-02",
+          "gramosBase": 40,
+          "medidaCasera": "1 taza de hojas",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER2-02",
+          "gramosBase": 40,
+          "medidaCasera": "1/4 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "ALM-04",
+      "nombre": "Lentejas guisadas con arroz y pollo",
+      "tipo": "Almuerzo",
+      "formato": "plato_principal",
+      "descripcion": "Lentejas guisadas con arroz blanco y pollo deshilachado, con zanahoria.",
+      "momentosPermitidos": [
+        "almuerzo"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO-04",
+      "familiaProteica": "ave",
+      "calidadCarbohidrato": "mixto",
+      "contieneCarbohidratoRefinado": true,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 plato: lentejas (1 cucharon) + arroz (1/2 taza) + pollo",
+      "instrucciones": [
+        "1. Guisar las lentejas con zanahoria, cebolla y tomate.",
+        "2. Cocer el arroz.",
+        "3. Servir las lentejas sobre el arroz con el pollo."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "Sin pan de guarnicion",
+      "notasEditoriales": "Clasico peruano; menestra + arroz complementan proteina vegetal y animal.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "CHO-10",
+          "gramosBase": 150,
+          "medidaCasera": "1 cucharon",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-01",
+          "gramosBase": 100,
+          "medidaCasera": "1/2 taza",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "PRO-04",
+          "gramosBase": 100,
+          "medidaCasera": "porcion mediana",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-03",
+          "gramosBase": 60,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "ALM-05",
+      "nombre": "Bonito a la plancha con quinua y verduras",
+      "tipo": "Almuerzo",
+      "formato": "plato_principal",
+      "descripcion": "Bonito a la plancha con quinua cocida y zapallo italiano al vapor con tomate.",
+      "momentosPermitidos": [
+        "almuerzo"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO-09",
+      "familiaProteica": "pescado_marisco",
+      "calidadCarbohidrato": "integral_fibra",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 plato: bonito (100 g) + quinua (3/4 taza) + verduras",
+      "instrucciones": [
+        "1. Asar el bonito a la plancha.",
+        "2. Cocer la quinua.",
+        "3. Cocer al vapor el zapallo italiano y servir con el tomate."
+      ],
+      "compatibilidades": "cena",
+      "exclusiones": "Sin pan de guarnicion",
+      "notasEditoriales": "Pescado azul con quinua integral; plato de alto valor nutricional.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO-09",
+          "gramosBase": 100,
+          "medidaCasera": "porcion mediana",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-02",
+          "gramosBase": 120,
+          "medidaCasera": "3/4 taza aprox.",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-07",
+          "gramosBase": 100,
+          "medidaCasera": "1 taza",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "ALM-06",
+      "nombre": "Res guisada con papa y ensalada",
+      "tipo": "Almuerzo",
+      "formato": "plato_principal",
+      "descripcion": "Pulpa de res magra guisada con papa amarilla sancochada y ensalada.",
+      "momentosPermitidos": [
+        "almuerzo"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO-06",
+      "familiaProteica": "carne_roja",
+      "calidadCarbohidrato": "tuberculo",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 plato: res (100 g) + papa (1 unidad) + ensalada",
+      "instrucciones": [
+        "1. Guisar la res con cebolla y tomate.",
+        "2. Sancochar la papa amarilla.",
+        "3. Servir con la ensalada fresca."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "Sin pan de guarnicion",
+      "notasEditoriales": "Aporte de hierro de la carne roja magra; papa como energia de tuberculo.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO-06",
+          "gramosBase": 100,
+          "medidaCasera": "porcion mediana",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-04",
+          "gramosBase": 150,
+          "medidaCasera": "1 unidad mediana",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-02",
+          "gramosBase": 40,
+          "medidaCasera": "1 taza de hojas",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER2-02",
+          "gramosBase": 40,
+          "medidaCasera": "1/4 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "ALM-07",
+      "nombre": "Tallarin con res guisada y verduras",
+      "tipo": "Almuerzo",
+      "formato": "plato_principal",
+      "descripcion": "Tallarin cocido con res guisada, tomate, cebolla y pimiento.",
+      "momentosPermitidos": [
+        "almuerzo"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO-06",
+      "familiaProteica": "carne_roja",
+      "calidadCarbohidrato": "refinado",
+      "contieneCarbohidratoRefinado": true,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 plato: tallarin (3/4 taza) + res (100 g) + verduras",
+      "instrucciones": [
+        "1. Cocer el tallarin al dente.",
+        "2. Guisar la res con tomate, cebolla y pimiento.",
+        "3. Mezclar la salsa con el tallarin y servir."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "Sin pan de guarnicion",
+      "notasEditoriales": "Pasta convencional (refinada) acompanada de proteina y verduras.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "CHO2-04",
+          "gramosBase": 150,
+          "medidaCasera": "3/4 taza cocida",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "PRO-06",
+          "gramosBase": 100,
+          "medidaCasera": "porcion mediana",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER2-02",
+          "gramosBase": 40,
+          "medidaCasera": "1/4 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER2-01",
+          "gramosBase": 60,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "ALM-08",
+      "nombre": "Garbanzos guisados con pavo y ensalada",
+      "tipo": "Almuerzo",
+      "formato": "plato_principal",
+      "descripcion": "Garbanzos guisados con pavo, zanahoria y ensalada de tomate y cebolla.",
+      "momentosPermitidos": [
+        "almuerzo"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO-05",
+      "familiaProteica": "ave",
+      "calidadCarbohidrato": "menestra",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 plato: garbanzos (1 cucharon) + pavo (90 g) + ensalada",
+      "instrucciones": [
+        "1. Guisar los garbanzos con zanahoria, cebolla y tomate.",
+        "2. Incorporar el pavo cocido en trozos.",
+        "3. Servir con la ensalada."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "Sin pan de guarnicion",
+      "notasEditoriales": "Menestra + ave; combinacion saciante y rica en fibra.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "CHO2-08",
+          "gramosBase": 150,
+          "medidaCasera": "1 cucharón",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "PRO-05",
+          "gramosBase": 90,
+          "medidaCasera": "porcion mediana",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-03",
+          "gramosBase": 60,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER2-02",
+          "gramosBase": 40,
+          "medidaCasera": "1/4 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "ALM-09",
+      "nombre": "Cojinova sudada con yuca y ensalada criolla",
+      "tipo": "Almuerzo",
+      "formato": "plato_principal",
+      "descripcion": "Cojinova sudada con yuca sancochada y ensalada de lechuga, tomate y cebolla.",
+      "momentosPermitidos": [
+        "almuerzo"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO2-05",
+      "familiaProteica": "pescado_marisco",
+      "calidadCarbohidrato": "tuberculo",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 plato: cojinova (120 g) + yuca (1 trozo) + ensalada",
+      "instrucciones": [
+        "1. Sudar la cojinova con tomate y cebolla.",
+        "2. Sancochar la yuca.",
+        "3. Servir con la ensalada criolla."
+      ],
+      "compatibilidades": "cena",
+      "exclusiones": "Sin pan de guarnicion",
+      "notasEditoriales": "Pescado blanco magro; la sudada no requiere aceite anadido.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO2-05",
+          "gramosBase": 120,
+          "medidaCasera": "1 filete",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-06",
+          "gramosBase": 120,
+          "medidaCasera": "1 trozo mediano",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-02",
+          "gramosBase": 40,
+          "medidaCasera": "1 taza de hojas",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER2-02",
+          "gramosBase": 40,
+          "medidaCasera": "1/4 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "ALM-10",
+      "nombre": "Atun fresco a la plancha con arroz y ensalada",
+      "tipo": "Almuerzo",
+      "formato": "plato_principal",
+      "descripcion": "Atun fresco a la plancha con arroz blanco y ensalada de lechuga, tomate y betarraga.",
+      "momentosPermitidos": [
+        "almuerzo"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO-08",
+      "familiaProteica": "pescado_marisco",
+      "calidadCarbohidrato": "refinado",
+      "contieneCarbohidratoRefinado": true,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 plato: atun (100 g) + arroz (3/4 taza) + ensalada",
+      "instrucciones": [
+        "1. Sellar el atun a la plancha.",
+        "2. Cocer el arroz.",
+        "3. Servir con la ensalada de lechuga, tomate y betarraga."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "Sin pan de guarnicion",
+      "notasEditoriales": "Atun fresco de alto valor proteico; ensalada con betarraga aporta color y fibra.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO-08",
+          "gramosBase": 100,
+          "medidaCasera": "porcion mediana",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-01",
+          "gramosBase": 150,
+          "medidaCasera": "3/4 taza aprox.",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-02",
+          "gramosBase": 40,
+          "medidaCasera": "1 taza de hojas",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-08",
+          "gramosBase": 60,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "ALM-11",
+      "nombre": "Sangrecita guisada con arroz y verduras",
+      "tipo": "Almuerzo",
+      "formato": "plato_principal",
+      "descripcion": "Sangrecita de pollo guisada con arroz blanco, zanahoria, cebolla y tomate.",
+      "momentosPermitidos": [
+        "almuerzo"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO2-03",
+      "familiaProteica": "ave",
+      "calidadCarbohidrato": "refinado",
+      "contieneCarbohidratoRefinado": true,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 plato: sangrecita (100 g) + arroz (3/4 taza) + verduras",
+      "instrucciones": [
+        "1. Guisar la sangrecita con cebolla, tomate y zanahoria.",
+        "2. Cocer el arroz.",
+        "3. Servir la sangrecita sobre el arroz."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "Sin pan de guarnicion",
+      "notasEditoriales": "Plato de alto contenido en hierro; util para prevenir anemia.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO2-03",
+          "gramosBase": 100,
+          "medidaCasera": "1 porción",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-01",
+          "gramosBase": 150,
+          "medidaCasera": "3/4 taza aprox.",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-03",
+          "gramosBase": 60,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER2-02",
+          "gramosBase": 40,
+          "medidaCasera": "1/4 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CEN-01",
+      "nombre": "Tortilla al horno de espinaca y queso con camote",
+      "tipo": "Cena",
+      "formato": "omelette",
+      "descripcion": "Tortilla de huevo al horno con espinaca y queso fresco, acompanada de camote y tomate.",
+      "momentosPermitidos": [
+        "cena"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO-02",
+      "familiaProteica": "huevo",
+      "calidadCarbohidrato": "tuberculo",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 tortilla (2 huevos) + camote (1 unidad)",
+      "instrucciones": [
+        "1. Batir los huevos con la espinaca y el queso.",
+        "2. Hornear la tortilla en molde hasta cuajar.",
+        "3. Servir con el camote sancochado y el tomate."
+      ],
+      "compatibilidades": "desayuno",
+      "exclusiones": "—",
+      "notasEditoriales": "Cena liviana horneada (sin fritura); camote de bajo indice glucemico.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO-02",
+          "gramosBase": 100,
+          "medidaCasera": "2 unidades",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-06",
+          "gramosBase": 60,
+          "medidaCasera": "1 taza",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "LAC-03",
+          "gramosBase": 40,
+          "medidaCasera": "1 tajada",
+          "funcion": "lacteo",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-05",
+          "gramosBase": 100,
+          "medidaCasera": "porcion pequena",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": true,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "BLOQUEADA_DECISION_3"
+    },
+    {
+      "id": "CEN-02",
+      "nombre": "Pollo deshilachado guisado con quinua y verduras",
+      "tipo": "Cena",
+      "formato": "plato_principal",
+      "descripcion": "Pollo deshilachado guisado con quinua y zapallo italiano al vapor con zanahoria y tomate.",
+      "momentosPermitidos": [
+        "cena"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO-04",
+      "familiaProteica": "ave",
+      "calidadCarbohidrato": "integral_fibra",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 plato: pollo (100 g) + quinua (3/4 taza) + verduras",
+      "instrucciones": [
+        "1. Guisar el pollo deshilachado con tomate.",
+        "2. Cocer la quinua.",
+        "3. Cocer al vapor el zapallo italiano con zanahoria y servir."
+      ],
+      "compatibilidades": "almuerzo",
+      "exclusiones": "—",
+      "notasEditoriales": "Cena equilibrada con grano integral; distinta del almuerzo de pollo+arroz.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO-04",
+          "gramosBase": 100,
+          "medidaCasera": "porcion mediana",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-02",
+          "gramosBase": 120,
+          "medidaCasera": "3/4 taza aprox.",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-07",
+          "gramosBase": 100,
+          "medidaCasera": "1 taza",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-03",
+          "gramosBase": 60,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": true,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CEN-03",
+      "nombre": "Ensalada completa de huevo, queso fresco y palta",
+      "tipo": "Cena",
+      "formato": "ensalada_completa",
+      "descripcion": "Ensalada de lechuga, tomate y betarraga con huevo sancochado, queso fresco y palta.",
+      "momentosPermitidos": [
+        "cena"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO-01",
+      "familiaProteica": "huevo",
+      "calidadCarbohidrato": "no_aplica",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 ensalada completa con 2 huevos y queso fresco",
+      "instrucciones": [
+        "1. Sancochar el huevo y la betarraga.",
+        "2. Cortar la lechuga, el tomate, el queso y la palta.",
+        "3. Montar la ensalada completa y servir."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "—",
+      "notasEditoriales": "Cena baja en carbohidrato; proteina de huevo y queso con abundante verdura.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO-01",
+          "gramosBase": 100,
+          "medidaCasera": "2 unidades",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "LAC-03",
+          "gramosBase": 40,
+          "medidaCasera": "1 tajada",
+          "funcion": "lacteo",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "GRA-01",
+          "gramosBase": 50,
+          "medidaCasera": "1/4 unidad",
+          "funcion": "grasa",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-02",
+          "gramosBase": 40,
+          "medidaCasera": "1 taza de hojas",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-08",
+          "gramosBase": 60,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CEN-04",
+      "nombre": "Guiso de caballa con papa y verduras",
+      "tipo": "Cena",
+      "formato": "plato_principal",
+      "descripcion": "Caballa en conserva guisada con papa amarilla, vainita al vapor, tomate y cebolla.",
+      "momentosPermitidos": [
+        "cena"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO2-08",
+      "familiaProteica": "pescado_marisco",
+      "calidadCarbohidrato": "tuberculo",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 plato: caballa (1 lata) + papa (1 pequena) + verduras",
+      "instrucciones": [
+        "1. Escurrir la caballa.",
+        "2. Guisar con tomate y cebolla e incorporar la caballa.",
+        "3. Servir con la papa sancochada y la vainita al vapor."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "—",
+      "notasEditoriales": "Pescado azul economico rico en omega-3; cena completa y saciante.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO2-08",
+          "gramosBase": 120,
+          "medidaCasera": "1 lata",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-04",
+          "gramosBase": 100,
+          "medidaCasera": "1 unidad pequena",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-05",
+          "gramosBase": 80,
+          "medidaCasera": "1 taza",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER2-02",
+          "gramosBase": 40,
+          "medidaCasera": "1/4 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CEN-05",
+      "nombre": "Pavo guisado con camote y ensalada",
+      "tipo": "Cena",
+      "formato": "plato_principal",
+      "descripcion": "Pavo guisado con camote sancochado y ensalada de lechuga, tomate y zanahoria.",
+      "momentosPermitidos": [
+        "cena"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO-05",
+      "familiaProteica": "ave",
+      "calidadCarbohidrato": "tuberculo",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 plato: pavo (90 g) + camote (1 unidad) + ensalada",
+      "instrucciones": [
+        "1. Guisar el pavo con tomate.",
+        "2. Sancochar el camote.",
+        "3. Servir con la ensalada fresca."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "—",
+      "notasEditoriales": "Distinta del almuerzo de pavo+yuca; camote de bajo indice para la noche.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO-05",
+          "gramosBase": 90,
+          "medidaCasera": "porcion mediana",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-05",
+          "gramosBase": 100,
+          "medidaCasera": "porcion pequena",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-02",
+          "gramosBase": 40,
+          "medidaCasera": "1 taza de hojas",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-03",
+          "gramosBase": 60,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CEN-06",
+      "nombre": "Trucha al vapor con papa y ensalada",
+      "tipo": "Cena",
+      "formato": "plato_principal",
+      "descripcion": "Filete de trucha al vapor con papa amarilla y ensalada de brocoli al vapor y tomate.",
+      "momentosPermitidos": [
+        "cena"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO2-04",
+      "familiaProteica": "pescado_marisco",
+      "calidadCarbohidrato": "tuberculo",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 plato: trucha (100 g) + papa (1 pequena) + verduras",
+      "instrucciones": [
+        "1. Cocinar la trucha al vapor.",
+        "2. Sancochar la papa.",
+        "3. Cocer al vapor el brocoli y servir con el tomate."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "—",
+      "notasEditoriales": "Cena ligera de pescado; distinta del almuerzo de trucha+mote.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO2-04",
+          "gramosBase": 100,
+          "medidaCasera": "porción mediana",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-04",
+          "gramosBase": 100,
+          "medidaCasera": "1 unidad pequena",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-04",
+          "gramosBase": 80,
+          "medidaCasera": "1 taza",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CEN-07",
+      "nombre": "Cojinova sudada con choclo y ensalada",
+      "tipo": "Cena",
+      "formato": "plato_principal",
+      "descripcion": "Cojinova sudada con choclo desgranado y ensalada de lechuga, tomate y cebolla.",
+      "momentosPermitidos": [
+        "cena"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO2-05",
+      "familiaProteica": "pescado_marisco",
+      "calidadCarbohidrato": "integral_fibra",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 plato: cojinova (100 g) + choclo (1 taza) + ensalada",
+      "instrucciones": [
+        "1. Sudar la cojinova con tomate y cebolla.",
+        "2. Sancochar el choclo y desgranarlo.",
+        "3. Servir con la ensalada fresca."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "—",
+      "notasEditoriales": "Cena de pescado blanco con choclo; distinta del almuerzo con yuca.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO2-05",
+          "gramosBase": 100,
+          "medidaCasera": "porción mediana",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-07",
+          "gramosBase": 120,
+          "medidaCasera": "1 taza desgranado",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-02",
+          "gramosBase": 40,
+          "medidaCasera": "1 taza de hojas",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER2-02",
+          "gramosBase": 40,
+          "medidaCasera": "1/4 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CEN-08",
+      "nombre": "Ensalada templada de atun con papa y verduras",
+      "tipo": "Cena",
+      "formato": "ensalada_completa",
+      "descripcion": "Atun en agua con papa sancochada, vainita al vapor, tomate, lechuga y aceitunas.",
+      "momentosPermitidos": [
+        "cena"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO-07",
+      "familiaProteica": "pescado_marisco",
+      "calidadCarbohidrato": "tuberculo",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 ensalada templada: atun (1 lata) + papa + verduras",
+      "instrucciones": [
+        "1. Sancochar la papa y la vainita.",
+        "2. Escurrir el atun.",
+        "3. Montar la ensalada templada con tomate, lechuga y aceitunas."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "—",
+      "notasEditoriales": "Estilo salada nortena ligera; atun en agua como proteina magra.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO-07",
+          "gramosBase": 120,
+          "medidaCasera": "1 lata",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-04",
+          "gramosBase": 100,
+          "medidaCasera": "1 unidad pequena",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-05",
+          "gramosBase": 80,
+          "medidaCasera": "1 taza",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-02",
+          "gramosBase": 40,
+          "medidaCasera": "1 taza de hojas",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "GRA-05",
+          "gramosBase": 20,
+          "medidaCasera": "~4 unidades",
+          "funcion": "grasa",
+          "opcional": true,
+          "ajustable": true
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CEN-09",
+      "nombre": "Res magra guisada con zapallo italiano y quinua",
+      "tipo": "Cena",
+      "formato": "plato_principal",
+      "descripcion": "Pulpa de res magra guisada con quinua y zapallo italiano al vapor con tomate.",
+      "momentosPermitidos": [
+        "cena"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO-06",
+      "familiaProteica": "carne_roja",
+      "calidadCarbohidrato": "integral_fibra",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 plato: res (100 g) + quinua (3/4 taza) + zapallo",
+      "instrucciones": [
+        "1. Guisar la res con tomate.",
+        "2. Cocer la quinua.",
+        "3. Cocer al vapor el zapallo italiano y servir."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "—",
+      "notasEditoriales": "Cena con hierro; grano integral y verdura ligera. Distinta del almuerzo de res+papa.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO-06",
+          "gramosBase": 100,
+          "medidaCasera": "porcion mediana",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-02",
+          "gramosBase": 120,
+          "medidaCasera": "3/4 taza aprox.",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-07",
+          "gramosBase": 100,
+          "medidaCasera": "1 taza",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CEN-10",
+      "nombre": "Sardina guisada con camote y ensalada",
+      "tipo": "Cena",
+      "formato": "plato_principal",
+      "descripcion": "Sardina en salsa de tomate con camote sancochado y ensalada de lechuga, tomate y cebolla.",
+      "momentosPermitidos": [
+        "cena"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO2-09",
+      "familiaProteica": "pescado_marisco",
+      "calidadCarbohidrato": "tuberculo",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 plato: sardina (1 lata) + camote (1 unidad) + ensalada",
+      "instrucciones": [
+        "1. Calentar la sardina en su salsa de tomate.",
+        "2. Sancochar el camote.",
+        "3. Servir con la ensalada fresca."
+      ],
+      "compatibilidades": "—",
+      "exclusiones": "—",
+      "notasEditoriales": "Pescado azul en conserva; cena rica en omega-3 y practica.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO2-09",
+          "gramosBase": 120,
+          "medidaCasera": "1 lata",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-05",
+          "gramosBase": 100,
+          "medidaCasera": "porcion pequena",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-02",
+          "gramosBase": 40,
+          "medidaCasera": "1 taza de hojas",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-01",
+          "gramosBase": 80,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER2-02",
+          "gramosBase": 40,
+          "medidaCasera": "1/4 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    },
+    {
+      "id": "CEN-11",
+      "nombre": "Tofu guisado con quinua y verduras",
+      "tipo": "Cena",
+      "formato": "plato_principal",
+      "descripcion": "Tofu guisado con quinua y verduras (zapallo italiano, zanahoria y pimiento) al vapor.",
+      "momentosPermitidos": [
+        "cena"
+      ],
+      "momentosProhibidos": [
+        "media_mañana",
+        "media_tarde",
+        "desayuno"
+      ],
+      "fuenteProteicaPrincipal": "PRO2-12",
+      "familiaProteica": "vegetal",
+      "calidadCarbohidrato": "integral_fibra",
+      "contieneCarbohidratoRefinado": false,
+      "contieneVerdura": true,
+      "contieneFrutaEntera": false,
+      "porcionBase": "1 plato: tofu (100 g) + quinua (3/4 taza) + verduras",
+      "instrucciones": [
+        "1. Dorar el tofu en trozos sin aceite (plancha antiadherente) o guisarlo con tomate.",
+        "2. Cocer la quinua.",
+        "3. Cocer al vapor las verduras y servir."
+      ],
+      "compatibilidades": "almuerzo",
+      "exclusiones": "—",
+      "notasEditoriales": "Opcion vegetariana; tofu + quinua complementan proteina vegetal.",
+      "estadoRevision": "REVISAR",
+      "ingredientes": [
+        {
+          "componentId": "PRO2-12",
+          "gramosBase": 100,
+          "medidaCasera": "1 porción (1/2 taza)",
+          "funcion": "proteina",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "CHO-02",
+          "gramosBase": 120,
+          "medidaCasera": "3/4 taza aprox.",
+          "funcion": "carbohidrato",
+          "opcional": false,
+          "ajustable": true
+        },
+        {
+          "componentId": "VER-07",
+          "gramosBase": 100,
+          "medidaCasera": "1 taza",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER-03",
+          "gramosBase": 60,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        },
+        {
+          "componentId": "VER2-01",
+          "gramosBase": 60,
+          "medidaCasera": "1/2 unidad",
+          "funcion": "verdura",
+          "opcional": false,
+          "ajustable": false
+        }
+      ],
+      "estadoOperativo": "ACTIVA_LOCAL"
+    }
+  ]
+}

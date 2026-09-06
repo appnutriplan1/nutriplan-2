@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "cookbook": {
+    "title": "Recetario semanal",
+    "week_start": "2026-08-17",
+    "week_end": "2026-08-23",
+    "notes": "Recetas correspondientes al plan clínico semanal."
+  },
+  "recipes": [
+    {
+      "external_id": "desayuno-01",
+      "title": "Panqueques de avena y arándanos",
+      "description": "Desayuno con avena, huevo y fruta fresca.",
+      "category": "Desayunos",
+      "meal_type": "Desayuno",
+      "days": ["Lunes", "Miércoles"],
+      "image_file": "desayuno-01.webp",
+      "time_minutes": 20,
+      "servings": 1,
+      "difficulty": "Fácil",
+      "tags": ["sin azúcar añadida"],
+      "ingredients": [
+        { "name": "Avena", "quantity": 40, "unit": "g", "notes": null },
+        { "name": "Huevo", "quantity": 1, "unit": "unidad", "notes": null },
+        { "name": "Arándanos", "quantity": 60, "unit": "g", "notes": null }
+      ],
+      "steps": [
+        { "order": 1, "instruction": "Licuar la avena con el huevo." },
+        { "order": 2, "instruction": "Incorporar los arándanos." },
+        { "order": 3, "instruction": "Cocinar en una sartén antiadherente." }
+      ],
+      "nutrition_per_serving": {
+        "kcal": 285,
+        "protein_g": 14,
+        "carbs_g": 36,
+        "fiber_g": 6,
+        "fat_g": 9
+      },
+      "nutrition_note": "Información correspondiente a la porción prescrita.",
+      "conservation": "Conservar refrigerado hasta 24 horas.",
+      "clinical_note": "No modificar las cantidades sin consultar al nutricionista."
+    }
+  ]
+}

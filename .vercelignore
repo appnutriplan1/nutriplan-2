@@ -1,0 +1,15 @@
+01. RECETARIO LOW CARB/
+Biblioteca Nutricional/
+Documentos internos/
+scripts/
+tmp/
+.claude/
+.agents/
+apps-script/
+supabase/
+outputs/
+work/
+test-results/
+tests/
+tools/
+*.xlsx

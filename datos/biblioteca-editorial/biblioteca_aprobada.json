@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "aprobadoPor": "Joel Flores",
+  "fechaAprobacion": "2026-08-30",
+  "lotes": [
+    {
+      "lote": 1,
+      "archivo": "lote1_componentes.json",
+      "componentes": 50
+    },
+    {
+      "lote": 2,
+      "archivo": "lote2_componentes_corregido.json",
+      "componentes": 50
+    }
+  ],
+  "nota": "Biblioteca editorial aprobada. Las filas PENDIENTE_DECISION y las tres decisiones abiertas permanecen bloqueadas para el motor de sugerencias."
+}
